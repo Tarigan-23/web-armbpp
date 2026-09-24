@@ -27,7 +27,7 @@ import AdminDonasiPage from './pages/ngurus-aron/donasi/DonasiPage';
 import AdminProgramPage from './pages/ngurus-aron/program/ProgramPage';
 import AdminPengurusPage from './pages/ngurus-aron/struktur-organisasi/PengurusPage';
 import AnggotaBaruPage from './pages/ngurus-aron/new-member/AnggotaBaruPage';
-import TentangPage from './pages/ngurus-aron/Tentang/TentangPage';
+import TentangPage from './pages/ngurus-aron/tentang/TentangPage';
 import YoutubeAdminPage from './pages/ngurus-aron/youtube/YoutubePage';
 import SambutanPage from './pages/ngurus-aron/sambutan/SambutanPage';
 import SponsorPage from './pages/ngurus-aron/sponsor/SponsorPage';
