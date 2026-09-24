@@ -91,7 +91,26 @@ function extractRoutes(appJsxPath) {
 }
 
 function findReactFiles(dir) {
-	return fs.readdirSync(dir).map(item => path.join(dir, item));
+	let results = [];
+	if (!fs.existsSync(dir)) return results;
+
+	const list = fs.readdirSync(dir);
+	list.forEach(file => {
+		const filePath = path.join(dir, file);
+		const stat = fs.statSync(filePath);
+
+		if (stat && stat.isDirectory()) {
+			// Jelajahi subfolder secara rekursif (aman dari error direktori)
+			results = results.concat(findReactFiles(filePath));
+		} else {
+			// Hanya ambil file dengan ekstensi .jsx atau .js
+			if (filePath.endsWith('.jsx') || filePath.endsWith('.js')) {
+				results.push(filePath);
+			}
+		}
+	});
+
+	return results;
 }
 
 function extractHelmetData(content, filePath, routes) {
@@ -160,7 +179,7 @@ function main() {
 	let pages = [];
 
 	if (!fs.existsSync(pagesDir)) {
-		pages.push(processPageFile(appJsxPath, new Map()))
+		pages.push(processPageFile(appJsxPath, new Map()));
 		pages = pages.filter(Boolean);
 	} else {
 		const routes = extractRoutes(appJsxPath);
@@ -175,7 +194,6 @@ function main() {
 		console.error('❌ No pages with Helmet components found!');
 		process.exit(1);
 	}
-
 
 	const llmsTxtContent = generateLlmsTxt(pages);
 	const outputPath = path.join(process.cwd(), 'public', 'llms.txt');
