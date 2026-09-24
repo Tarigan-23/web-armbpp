@@ -8,9 +8,13 @@ import sitePagesPlugin from './plugins/vite-plugin-site-pages.js';
 import pocketbaseAuthPlugin from './plugins/vite-plugin-pocketbase-auth.js';
 import sessionJournalPlugin from './plugins/session-journal/vite-plugin-session-journal.js';
 
+import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
 
-const pkg = JSON.parse(readFileSync('./package.json', 'utf-8'));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const pkg = JSON.parse(readFileSync(path.resolve(__dirname, 'package.json'), 'utf-8'));
 const allDeps = Object.keys(pkg.dependencies || {});
 
 const isDev = process.env.NODE_ENV !== 'production';
