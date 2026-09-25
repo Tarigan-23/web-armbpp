@@ -122,6 +122,7 @@ export default function PengurusAdminPage() {
                     <div>
                         <label className="block text-xs font-semibold text-gray-700 mb-1">Jabatan</label>
                         <select name="jabatan" value={form.jabatan} onChange={handleChange} className="w-full rounded-xl border px-4 py-2.5 text-sm bg-white">
+                            <option value="Ketua PRM">Ketua PRM</option>
                             <option value="Dewan Pembina">Dewan Pembina</option>
                             <option value="Ketua Umum">Ketua Umum</option>
                             <option value="Wakil Ketua I">Wakil Ketua I</option>
@@ -129,12 +130,18 @@ export default function PengurusAdminPage() {
                             <option value="Sekretaris Umum I">Sekretaris Umum I</option>
                             <option value="Sekretaris Umum II">Sekretaris Umum II</option>
                             <option value="Bendahara Umum">Bendahara Umum</option>
-                            <option value="Koordinator Divisi Seni & Budaya">Koordinator Divisi Seni & Budaya</option>
-                            <option value="Koordinator Divisi Sosial & Kerohanian">Koordinator Divisi Sosial & Kerohanian</option>
-                            <option value="Koordinator Divisi Pendidikan & Beasiswa">Koordinator Divisi Pendidikan & Beasiswa</option>
-                            <option value="Koordinator Divisi Humas & Antar Lembaga">Koordinator Divisi Humas & Antar Lembaga</option>
-                            <option value="Koordinator Divisi Pemuda & Olahraga">Koordinator Divisi Pemuda & Olahraga</option>
-                            <option value="Koordinator Divisi Ekonomi & Koperasi">Koordinator Divisi Ekonomi & Koperasi</option>
+                            <option value="Koordinator Divisi Seni">Koordinator Divisi Seni</option>
+                            <option value="Anggota Divisi Seni">Anggota Divisi Seni</option>
+                            <option value="Koordinator Divisi Sosial">Koordinator Divisi Sosial</option>
+                            <option value="Anggota Divisi Sosial">Anggota Divisi Sosial</option>
+                            <option value="Koordinator Divisi Budaya">Koordinator Divisi Budaya</option>
+                            <option value="Anggota Divisi Budaya">Anggota Divisi Budaya</option>
+                            <option value="Koordinator Divisi Humas">Koordinator Divisi Humas</option>
+                            <option value="Anggota Divisi Humas">Anggota Divisi Humas</option>
+                            <option value="Koordinator Divisi Olahraga">Koordinator Divisi Olahraga</option>
+                            <option value="Anggota Divisi Olahraga">Anggota Divisi Olahraga</option>
+                            <option value="Koordinator Divisi Keuangan">Koordinator Divisi Keuangan</option>
+                            <option value="Anggota Divisi Keuangan">Anggota Divisi Keuangan</option>
                         </select>
                     </div>
                     <div>

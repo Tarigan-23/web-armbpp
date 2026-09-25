@@ -4,6 +4,7 @@ import { supabase } from '@/lib/supabase';
 import Reveal from '@/components/Reveal';
 import Navbar from '@/components/Navbar';
 import { SectionHeading } from '@/components/KaroPattern';
+import { Users, User } from 'lucide-react';
 
 export default function PengurusPage() {
     const [prmList, setPrmList] = useState([]);
@@ -12,7 +13,7 @@ export default function PengurusPage() {
     const [wakilList, setWakilList] = useState([]);
     const [sekretarisList, setSekretarisList] = useState([]);
     const [bendaharaList, setBendaharaList] = useState([]);
-    const [divisiList, setDivisiList] = useState([]);
+    const [semuaPengurus, setSemuaPengurus] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -23,19 +24,30 @@ export default function PengurusPage() {
         setLoading(true);
         const { data, error } = await supabase.from('organization_structure').select('*').order('urutan', { ascending: true });
         if (!error && data) {
+            setSemuaPengurus(data);
             setPrmList(data.filter(i => i.jabatan.toLowerCase().includes('prm') || i.jabatan.toLowerCase().includes('ketua prm')));
             setPembinaList(data.filter(i => i.kategori === 'pembina' || i.jabatan.toLowerCase().includes('pembina')));
             setKetuaList(data.filter(i => i.jabatan.includes('Ketua Umum') || i.jabatan === 'Ketua'));
             setWakilList(data.filter(i => i.jabatan.includes('Wakil Ketua')));
             setSekretarisList(data.filter(i => i.jabatan.includes('Sekretaris')));
             setBendaharaList(data.filter(i => i.jabatan.includes('Bendahara')));
-
-            // Filter divisi sesuai 6 nama yang diminta
-            const targetDivisi = ['SOSIAL', 'BUDAYA', 'KEUANGAN', 'MENFO', 'HUMAS', 'OLAHRAGA'];
-            const divs = data.filter(i => i.kategori === 'divisi' || targetDivisi.some(d => i.jabatan.toUpperCase().includes(d)));
-            setDivisiList(divs);
         }
         setLoading(false);
+    };
+
+    // Daftar 6 Divisi sesuai struktur
+    const daftarDivisi = [
+        { namaDivisi: 'Divisi Sosial', keyword: 'Sosial', warna: 'border-emerald-600 bg-emerald-50 text-emerald-900', headerBg: 'bg-emerald-700 text-white' },
+        { namaDivisi: 'Divisi Budaya', keyword: 'Budaya', warna: 'border-emerald-600 bg-emerald-50 text-emerald-900', headerBg: 'bg-emerald-700 text-white' },
+        { namaDivisi: 'Divisi Keuangan', keyword: 'Keuangan', warna: 'border-purple-600 bg-purple-50 text-purple-900', headerBg: 'bg-purple-700 text-white' },
+        { namaDivisi: 'Divisi Menfo', keyword: 'Menfo', warna: 'border-rose-600 bg-rose-50 text-rose-900', headerBg: 'bg-rose-700 text-white' },
+        { namaDivisi: 'Divisi Humas', keyword: 'Humas', warna: 'border-blue-600 bg-blue-50 text-blue-900', headerBg: 'bg-blue-700 text-white' },
+        { namaDivisi: 'Divisi Olahraga', keyword: 'Olahraga', warna: 'border-teal-600 bg-teal-50 text-teal-900', headerBg: 'bg-teal-700 text-white' },
+    ];
+
+    // Helper untuk mencari anggota berdasarkan divisi
+    const getAnggotaDivisi = (keyword) => {
+        return semuaPengurus.filter(i => i.jabatan.toLowerCase().includes(keyword.toLowerCase()));
     };
 
     return (
@@ -59,7 +71,7 @@ export default function PengurusPage() {
                     ) : (
                         <div className="mt-16 space-y-12">
 
-                            {/* 1. LEVEL ATAS: KETUA PRM & DEWAN PEMBINA (Berdampingan) */}
+                            {/* 1. LEVEL ATAS: KETUA PRM & DEWAN PEMBINA */}
                             <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
                                 {/* Ketua PRM */}
                                 <div className="text-center">
@@ -124,65 +136,87 @@ export default function PengurusPage() {
                             {/* GARIS PENGHUBUNG */}
                             <div className="flex justify-center"><div className="w-0.5 h-10 bg-karo-gold/60" /></div>
 
-                            {/* 3. SEKRETARIS & BENDAHARA */}
-                            <div className="grid gap-8 sm:grid-cols-2 max-w-3xl mx-auto">
-                                <div className="space-y-4">
-                                    <h4 className="text-center font-bold text-sm text-karo-maroon uppercase">Sekretariat</h4>
+                            {/* 3. WAKIL KETUA, SEKRETARIS & BENDAHARA */}
+                            <div className="grid gap-8 lg:grid-cols-2 max-w-4xl mx-auto">
+                                {/* Waka 1 & Sekretaris */}
+                                <div className="space-y-6">
+                                    {wakilList[0] && (
+                                        <div className="flex items-center gap-4 bg-karo-black p-4 rounded-2xl text-karo-ivory shadow-lg">
+                                            <img src={wakilList[0].foto_url || 'https://via.placeholder.com/150'} alt={wakilList[0].nama} className="h-16 w-16 rounded-xl object-cover border border-karo-gold" />
+                                            <div>
+                                                <p className="text-xs font-bold text-karo-gold uppercase tracking-wider">{wakilList[0].jabatan}</p>
+                                                <h4 className="font-display text-base font-bold mt-0.5">{wakilList[0].nama}</h4>
+                                            </div>
+                                        </div>
+                                    )}
                                     <div className="grid gap-4 sm:grid-cols-2">
                                         {sekretarisList.map(item => (
-                                            <div key={item.id} className="rounded-2xl bg-karo-black p-3 text-center shadow-md">
+                                            <div key={item.id} className="rounded-2xl bg-amber-500/10 border border-amber-500/30 p-3 text-center shadow-md">
                                                 <img src={item.foto_url || 'https://via.placeholder.com/200'} alt={item.nama} className="aspect-square w-full object-cover rounded-xl" />
-                                                <p className="text-[10px] text-karo-gold mt-2 font-semibold">{item.jabatan}</p>
-                                                <h5 className="font-bold text-xs text-karo-ivory">{item.nama}</h5>
+                                                <p className="text-[10px] text-amber-700 mt-2 font-semibold">{item.jabatan}</p>
+                                                <h5 className="font-bold text-xs text-gray-900">{item.nama}</h5>
                                             </div>
                                         ))}
                                     </div>
                                 </div>
-                                <div className="space-y-4">
-                                    <h4 className="text-center font-bold text-sm text-karo-maroon uppercase">Bendahara</h4>
-                                    <div className="grid gap-4 sm:grid-cols-1 max-w-[200px] mx-auto">
+
+                                {/* Waka 2 & Bendahara */}
+                                <div className="space-y-6">
+                                    {wakilList[1] && (
+                                        <div className="flex items-center gap-4 bg-karo-black p-4 rounded-2xl text-karo-ivory shadow-lg">
+                                            <img src={wakilList[1].foto_url || 'https://via.placeholder.com/150'} alt={wakilList[1].nama} className="h-16 w-16 rounded-xl object-cover border border-karo-gold" />
+                                            <div>
+                                                <p className="text-xs font-bold text-karo-gold uppercase tracking-wider">{wakilList[1].jabatan}</p>
+                                                <h4 className="font-display text-base font-bold mt-0.5">{wakilList[1].nama}</h4>
+                                            </div>
+                                        </div>
+                                    )}
+                                    <div className="grid gap-4 sm:grid-cols-1 max-w-[220px] mx-auto">
                                         {bendaharaList.map(item => (
-                                            <div key={item.id} className="rounded-2xl bg-karo-black p-3 text-center shadow-md">
+                                            <div key={item.id} className="rounded-2xl bg-purple-500/10 border border-purple-500/30 p-3 text-center shadow-md">
                                                 <img src={item.foto_url || 'https://via.placeholder.com/200'} alt={item.nama} className="aspect-square w-full object-cover rounded-xl" />
-                                                <p className="text-[10px] text-karo-gold mt-2 font-semibold">{item.jabatan}</p>
-                                                <h5 className="font-bold text-xs text-karo-ivory">{item.nama}</h5>
+                                                <p className="text-[10px] text-purple-700 mt-2 font-semibold">{item.jabatan}</p>
+                                                <h5 className="font-bold text-xs text-gray-900">{item.nama}</h5>
                                             </div>
                                         ))}
                                     </div>
                                 </div>
                             </div>
 
-                            {/* GARIS PENGHUBUNG */}
+                            {/* GARIS PENGHUBUNG KE DIVISI */}
                             <div className="flex justify-center"><div className="w-0.5 h-10 bg-karo-gold/60" /></div>
 
-                            {/* 4. WAKIL KETUA & DIVISI-DIVISI */}
-                            <div className="grid gap-12 lg:grid-cols-2">
-                                {wakilList.map((wakil, idx) => (
-                                    <div key={wakil.id} className="rounded-3xl border-2 border-karo-gold/40 bg-white p-6 shadow-xl relative">
-                                        {/* Kartu Wakil Ketua */}
-                                        <div className="flex items-center gap-4 bg-karo-black p-4 rounded-2xl text-karo-ivory mb-6">
-                                            <img src={wakil.foto_url || 'https://via.placeholder.com/150'} alt={wakil.nama} className="h-16 w-16 rounded-xl object-cover border border-karo-gold" />
+                            {/* 4. 6 KOTAK DIVISI (Sesuai Diagram) */}
+                            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+                                {daftarDivisi.map((div, idx) => {
+                                    const anggotaDivisi = getAnggotaDivisi(div.keyword);
+                                    return (
+                                        <div key={idx} className={`rounded-2xl border-2 ${div.warna} p-4 shadow-lg flex flex-col justify-between`}>
                                             <div>
-                                                <p className="text-xs font-bold text-karo-gold uppercase tracking-wider">{wakil.jabatan}</p>
-                                                <h4 className="font-display text-base font-bold mt-0.5">{wakil.nama}</h4>
-                                            </div>
-                                        </div>
+                                                <div className={`flex items-center gap-2 p-3 rounded-xl ${div.headerBg} mb-4 shadow`}>
+                                                    <Users className="h-5 w-5 shrink-0" />
+                                                    <h4 className="font-display text-sm font-bold tracking-wider uppercase">{div.namaDivisi}</h4>
+                                                </div>
 
-                                        {/* 3 Divisi di bawah masing-masing Wakil Ketua */}
-                                        <div className="space-y-4">
-                                            <p className="text-xs font-bold text-gray-500 uppercase tracking-widest text-center mb-4">Menaungi 3 Divisi Kerja</p>
-                                            <div className="grid gap-4 sm:grid-cols-3">
-                                                {divisiList.slice(idx * 3, (idx + 1) * 3).map(div => (
-                                                    <div key={div.id} className="rounded-xl border border-gray-200 bg-gray-50 p-3 text-center shadow-sm">
-                                                        <img src={div.foto_url || 'https://via.placeholder.com/150'} alt={div.nama} className="aspect-square w-full object-cover rounded-lg mb-2" />
-                                                        <p className="text-[9px] font-bold text-karo-maroon leading-tight uppercase">{div.jabatan}</p>
-                                                        <h5 className="font-semibold text-xs text-gray-900 mt-1">{div.nama}</h5>
-                                                    </div>
-                                                ))}
+                                                <div className="space-y-2.5">
+                                                    {anggotaDivisi.length > 0 ? (
+                                                        anggotaDivisi.map(member => (
+                                                            <div key={member.id} className="flex items-center gap-3 bg-white/80 p-2.5 rounded-xl border border-black/5 shadow-sm">
+                                                                <img src={member.foto_url || 'https://via.placeholder.com/100'} alt={member.nama} className="h-10 w-10 rounded-lg object-cover border" />
+                                                                <div className="min-w-0 flex-1">
+                                                                    <p className="text-[10px] font-bold text-karo-maroon uppercase leading-none">{member.jabatan}</p>
+                                                                    <p className="font-semibold text-xs text-gray-900 mt-0.5 truncate">{member.nama}</p>
+                                                                </div>
+                                                            </div>
+                                                        ))
+                                                    ) : (
+                                                        <p className="text-xs text-gray-500 text-center py-4 italic">Belum ada data anggota untuk divisi ini.</p>
+                                                    )}
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                ))}
+                                    );
+                                })}
                             </div>
 
                         </div>
