@@ -36,14 +36,14 @@ export default function PengurusPage() {
         setLoading(false);
     };
 
-    // Daftar 6 Divisi sesuai diagram
+    // Daftar 6 Divisi sesuai urutan dan nama yang kamu minta
     const daftarDivisi = [
-        { id: 1, namaDivisi: 'Divisi Sosial', keyword: 'Divisi Sosial', warna: 'border-emerald-600 bg-emerald-50 text-emerald-900', headerBg: 'bg-emerald-700 text-white' },
-        { id: 2, namaDivisi: 'Divisi Budaya', keyword: 'Divisi Budaya', warna: 'border-teal-600 bg-teal-50 text-teal-900', headerBg: 'bg-teal-700 text-white' },
-        { id: 3, namaDivisi: 'Divisi Keuangan', keyword: 'Divisi Keuangan', warna: 'border-purple-600 bg-purple-50 text-purple-900', headerBg: 'bg-purple-700 text-white' },
-        { id: 4, namaDivisi: 'Divisi Menfo', keyword: 'Divisi Menfo', warna: 'border-rose-600 bg-rose-50 text-rose-900', headerBg: 'bg-rose-700 text-white' },
-        { id: 5, namaDivisi: 'Divisi Olahraga', keyword: 'Divisi Olahraga', warna: 'border-blue-600 bg-blue-50 text-blue-900', headerBg: 'bg-blue-700 text-white' },
-        { id: 6, namaDivisi: 'Divisi Humas', keyword: 'Divisi Humas', warna: 'border-cyan-600 bg-cyan-50 text-cyan-900', headerBg: 'bg-cyan-700 text-white' },
+        { id: 1, namaDivisi: 'SOSIAL', keyword: 'Sosial', warna: 'border-emerald-600 bg-emerald-50 text-emerald-900', headerBg: 'bg-emerald-700 text-white' },
+        { id: 2, namaDivisi: 'BUDAYA', keyword: 'Budaya', warna: 'border-teal-600 bg-teal-50 text-teal-900', headerBg: 'bg-teal-700 text-white' },
+        { id: 3, namaDivisi: 'HUMAS', keyword: 'Humas', warna: 'border-blue-600 bg-blue-50 text-blue-900', headerBg: 'bg-blue-700 text-white' },
+        { id: 4, namaDivisi: 'KEUANGAN', keyword: 'Keuangan', warna: 'border-purple-600 bg-purple-50 text-purple-900', headerBg: 'bg-purple-700 text-white' },
+        { id: 5, namaDivisi: 'MENFO', keyword: 'Menfo', warna: 'border-rose-600 bg-rose-50 text-rose-900', headerBg: 'bg-rose-700 text-white' },
+        { id: 6, namaDivisi: 'OLAHRAGA', keyword: 'Olahraga', warna: 'border-cyan-600 bg-cyan-50 text-cyan-900', headerBg: 'bg-cyan-700 text-white' },
     ];
 
     const getAnggotaDivisi = (keyword) => {
@@ -152,10 +152,10 @@ export default function PengurusPage() {
                             {/* GARIS PENGHUBUNG TEGAS */}
                             <div className="flex justify-center"><div className="w-1 h-12 bg-karo-gold" /></div>
 
-                            {/* 4. SEKSI 1, SEKSI 2 & BENDAHARA */}
+                            {/* 4. SEKRETARIS I, SEKRETARIS II & BENDAHARA */}
                             <div className="grid gap-8 sm:grid-cols-3 max-w-4xl mx-auto">
                                 <div className="space-y-4">
-                                    <h4 className="text-center font-bold text-sm text-karo-maroon uppercase">Seksi 1 / Sekretaris I</h4>
+                                    <h4 className="text-center font-bold text-sm text-karo-maroon uppercase">Sekretaris I</h4>
                                     {seksiList.slice(0, 1).map(item => (
                                         <div key={item.id} className="rounded-2xl bg-amber-500/10 border-2 border-amber-500 p-3 text-center shadow-md">
                                             <img src={item.foto_url || 'https://via.placeholder.com/200'} alt={item.nama} className="aspect-square w-full object-cover rounded-xl" />
@@ -165,7 +165,7 @@ export default function PengurusPage() {
                                     ))}
                                 </div>
                                 <div className="space-y-4">
-                                    <h4 className="text-center font-bold text-sm text-karo-maroon uppercase">Seksi 2 / Sekretaris II</h4>
+                                    <h4 className="text-center font-bold text-sm text-karo-maroon uppercase">Sekretaris II</h4>
                                     {seksiList.slice(1, 2).map(item => (
                                         <div key={item.id} className="rounded-2xl bg-amber-500/10 border-2 border-amber-500 p-3 text-center shadow-md">
                                             <img src={item.foto_url || 'https://via.placeholder.com/200'} alt={item.nama} className="aspect-square w-full object-cover rounded-xl" />
@@ -189,7 +189,7 @@ export default function PengurusPage() {
                             {/* GARIS PENGHUBUNG TEGAS KE DIVISI */}
                             <div className="flex justify-center"><div className="w-1 h-12 bg-karo-gold" /></div>
 
-                            {/* 5. 6 KOTAK DIVISI (Terbagi 2 Kolom Kiri & Kanan Sesuai Diagram) */}
+                            {/* 5. 6 KOTAK DIVISI (Terbagi 2 Kolom Kiri & Kanan Sesuai Urutan Permintaan) */}
                             <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
                                 {daftarDivisi.map((div) => {
                                     const anggotaDivisi = getAnggotaDivisi(div.keyword);
@@ -198,7 +198,7 @@ export default function PengurusPage() {
                                             <div>
                                                 <div className={`flex items-center gap-2 p-3 rounded-xl ${div.headerBg} mb-4 shadow`}>
                                                     <Users className="h-5 w-5 shrink-0" />
-                                                    <h4 className="font-display text-sm font-bold tracking-wider uppercase">Divisi {div.id}</h4>
+                                                    <h4 className="font-display text-sm font-bold tracking-wider uppercase">{div.namaDivisi}</h4>
                                                 </div>
 
                                                 <div className="space-y-2.5">
