@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Outlet, useNavigate, Link, useLocation } from 'react-router-dom';
 import { supabase } from '@/lib/supabase';
-import { Home, Newspaper, Images, MapPin, Landmark, Users, Phone, DollarSign, Calendar, Shield, UserPlus, LogOut, Info, Play, MessageSquare, Store } from 'lucide-react';
+import {
+    Home, Newspaper, Images, MapPin, Landmark, Users,
+    Phone, DollarSign, Calendar, Shield, UserPlus, LogOut,
+    Info, Play, MessageSquare, Store, Menu, X, ChevronRight
+} from 'lucide-react';
 
 export default function DashboardLayout() {
     const [loading, setLoading] = useState(true);
     const [userEmail, setUserEmail] = useState('');
+    const [sidebarOpen, setSidebarOpen] = useState(false);
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -22,6 +27,21 @@ export default function DashboardLayout() {
         checkSession();
     }, [navigate]);
 
+    // Tutup sidebar saat navigasi berubah (mobile)
+    useEffect(() => {
+        setSidebarOpen(false);
+    }, [location.pathname]);
+
+    // Kunci scroll body saat sidebar terbuka di mobile
+    useEffect(() => {
+        if (sidebarOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+        return () => { document.body.style.overflow = ''; };
+    }, [sidebarOpen]);
+
     const handleLogout = async () => {
         await supabase.auth.signOut();
         navigate('/ngurus-aron/login');
@@ -30,7 +50,9 @@ export default function DashboardLayout() {
     if (loading) {
         return (
             <div className="flex h-screen items-center justify-center bg-karo-black text-karo-gold">
-                <p className="animate-pulse text-sm font-semibold tracking-widest uppercase">Memeriksa Keamanan Sesi...</p>
+                <p className="animate-pulse text-sm font-semibold tracking-widest uppercase">
+                    Memeriksa Keamanan Sesi...
+                </p>
             </div>
         );
     }
@@ -54,60 +76,124 @@ export default function DashboardLayout() {
 
     return (
         <div className="flex h-screen bg-gray-100 font-sans">
-            {/* Sidebar */}
-            <aside className="w-72 bg-karo-black text-karo-ivory p-6 flex flex-col justify-between shadow-xl overflow-y-auto">
-                <div>
-                    <div className="mb-8">
-                        <span className="rounded-full bg-karo-gold/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-karo-gold">
+            {/* ===== OVERLAY (Mobile Only) ===== */}
+            {sidebarOpen && (
+                <div
+                    className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm lg:hidden"
+                    onClick={() => setSidebarOpen(false)}
+                />
+            )}
+
+            {/* ===== SIDEBAR ===== */}
+            <aside
+                className={`
+          fixed inset-y-0 left-0 z-50 w-72 bg-karo-black text-karo-ivory
+          flex flex-col shadow-2xl transition-transform duration-300 ease-in-out
+          lg:static lg:translate-x-0 lg:shadow-xl
+          ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
+        `}
+            >
+                {/* Sidebar Header */}
+                <div className="flex items-center justify-between p-5 pb-4 border-b border-karo-ivory/10">
+                    <div className="flex-1 min-w-0">
+                        <span className="inline-block rounded-full bg-karo-gold/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-widest text-karo-gold">
                             Panel Pengurus Aron
                         </span>
-                        <h1 className="mt-2 font-display text-lg font-bold text-karo-ivory">Aron Rudang Mayang Balikpapan</h1>
-                        <p className="mt-1 text-[11px] text-karo-ivory/50 truncate">Login: {userEmail}</p>
+                        <h1 className="mt-2 font-display text-base font-bold text-karo-ivory leading-tight">
+                            Aron Rudang Mayang<br />Balikpapan
+                        </h1>
+                        <p className="mt-1 text-[10px] text-karo-ivory/40 truncate" title={userEmail}>
+                            {userEmail}
+                        </p>
                     </div>
-
-                    <nav className="space-y-1.5">
-                        {menuItems.map((item) => {
-                            const Icon = item.icon;
-                            const isActive = location.pathname === item.path;
-                            return (
-                                <Link
-                                    key={item.path}
-                                    to={item.path}
-                                    className={`flex items-center gap-3 rounded-xl px-4 py-2.5 text-xs font-medium transition-colors ${isActive ? 'bg-karo-gold text-karo-black font-semibold' : 'hover:bg-karo-ivory/10 text-karo-ivory/80'
-                                        }`}
-                                >
-                                    {Icon && <Icon className="h-4 w-4 shrink-0" />} {item.name}
-                                </Link>
-                            );
-                        })}
-                    </nav>
+                    {/* Tombol Close (Mobile) */}
+                    <button
+                        onClick={() => setSidebarOpen(false)}
+                        className="lg:hidden ml-3 rounded-lg p-2 text-karo-ivory/60 hover:bg-karo-ivory/10 hover:text-karo-ivory transition-colors"
+                        aria-label="Tutup menu"
+                    >
+                        <X className="h-5 w-5" />
+                    </button>
                 </div>
 
-                <div className="pt-6 mt-6 border-t border-karo-ivory/10">
+                {/* Navigation */}
+                <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-1 scrollbar-thin">
+                    {menuItems.map((item) => {
+                        const Icon = item.icon;
+                        const isActive = location.pathname === item.path;
+                        return (
+                            <Link
+                                key={item.path}
+                                to={item.path}
+                                className={`
+                  flex items-center gap-3 rounded-xl px-3.5 py-2.5
+                  text-sm font-medium transition-all duration-200
+                  ${isActive
+                                        ? 'bg-karo-gold text-karo-black font-semibold shadow-lg shadow-karo-gold/20'
+                                        : 'text-karo-ivory/70 hover:bg-karo-ivory/10 hover:text-karo-ivory'
+                                    }
+                `}
+                            >
+                                {Icon && <Icon className="h-4.5 w-4.5 shrink-0" />}
+                                <span className="truncate">{item.name}</span>
+                                {isActive && (
+                                    <ChevronRight className="h-4 w-4 ml-auto shrink-0" />
+                                )}
+                            </Link>
+                        );
+                    })}
+                </nav>
+
+                {/* Logout Button */}
+                <div className="p-4 border-t border-karo-ivory/10">
                     <button
                         onClick={handleLogout}
-                        className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-xs font-medium text-red-400 transition-colors hover:bg-red-500/10"
+                        className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium text-red-400 transition-colors hover:bg-red-500/10"
                     >
-                        <LogOut className="h-4 w-4 shrink-0" /> Ndarat
+                        <LogOut className="h-4.5 w-4.5 shrink-0" />
+                        <span>Ndarat</span>
                     </button>
                 </div>
             </aside>
 
-            {/* Main Content Area */}
-            <main className="flex-1 flex flex-col overflow-y-auto">
-                <header className="bg-white shadow-sm p-6 flex justify-between items-center border-b border-gray-200">
-                    <h2 className="text-lg font-bold text-gray-800">
-                        Dashboard Manajemen Pengurus
-                    </h2>
-                    <span className="text-xs bg-karo-gold/20 text-karo-maroon font-semibold px-3 py-1 rounded-full">
-                        Sistem Terproteksi
-                    </span>
+            {/* ===== MAIN CONTENT ===== */}
+            <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
+                {/* Top Header Bar */}
+                <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-30">
+                    <div className="flex items-center justify-between px-4 py-3 lg:px-6 lg:py-4">
+                        {/* Hamburger + Title */}
+                        <div className="flex items-center gap-3">
+                            <button
+                                onClick={() => setSidebarOpen(true)}
+                                className="lg:hidden rounded-lg p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition-colors"
+                                aria-label="Buka menu"
+                            >
+                                <Menu className="h-5 w-5" />
+                            </button>
+                            <div>
+                                <h2 className="text-base lg:text-lg font-bold text-gray-800 leading-tight">
+                                    Dashboard Manajemen Pengurus
+                                </h2>
+                                <p className="text-[11px] text-gray-400 hidden sm:block">
+                                    Aron Rudang Mayang Balikpapan
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Badge */}
+                        <span className="text-[10px] lg:text-xs bg-karo-gold/20 text-karo-maroon font-semibold px-2.5 py-1 rounded-full whitespace-nowrap">
+                            Sistem Terproteksi
+                        </span>
+                    </div>
                 </header>
 
-                <div className="p-8">
-                    <Outlet />
-                </div>
-            </main>
+                {/* Page Content */}
+                <main className="flex-1 overflow-y-auto">
+                    <div className="p-4 sm:p-6 lg:p-8">
+                        <Outlet />
+                    </div>
+                </main>
+            </div>
         </div>
     );
 }
