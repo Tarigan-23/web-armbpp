@@ -9,13 +9,16 @@ export default function AnggotaPage() {
     const [importing, setImporting] = useState(false);
     const [msg, setMsg] = useState({ type: '', text: '' });
 
-    // State form disesuaikan persis dengan kolom asli database Supabase kamu
+    // State form lengkap dengan semua kolom yang kamu mau
     const [form, setForm] = useState({
         name: '',
-        phone: '',
+        bebere: '',
+        asal_kota: '',
         address: '',
+        phone: '',
+        email: '',
+        tanggal_lahir: '',
         status_aktif: true,
-        join_date: new Date().toISOString().split('T')[0],
         'gol-dar': 'O'
     });
 
@@ -48,10 +51,13 @@ export default function AnggotaPage() {
 
         const payload = {
             name: form.name,
-            phone: form.phone,
+            bebere: form.bebere,
+            asal_kota: form.asal_kota,
             address: form.address,
+            phone: form.phone,
+            email: form.email,
+            tanggal_lahir: form.tanggal_lahir,
             status_aktif: form.status_aktif,
-            join_date: form.join_date,
             'gol-dar': form['gol-dar']
         };
 
@@ -62,10 +68,13 @@ export default function AnggotaPage() {
             setMsg({ type: 'success', text: 'Anggota baru berhasil ditambahkan!' });
             setForm({
                 name: '',
-                phone: '',
+                bebere: '',
+                asal_kota: '',
                 address: '',
+                phone: '',
+                email: '',
+                tanggal_lahir: '',
                 status_aktif: true,
-                join_date: new Date().toISOString().split('T')[0],
                 'gol-dar': 'O'
             });
             fetchAnggota();
@@ -86,11 +95,14 @@ export default function AnggotaPage() {
     const downloadTemplate = () => {
         const templateData = [
             {
-                name: 'Yegar Tarigan',
-                phone: '081234567890',
+                name: 'Brando Ginting',
+                bebere: 'Sembiring',
+                asal_kota: 'Kabanjahe',
                 address: 'Balikpapan Selatan',
+                phone: '081234567890',
+                email: 'brando@email.com',
+                tanggal_lahir: '13 November',
                 status_aktif: true,
-                join_date: '2026-01-01',
                 'gol-dar': 'O'
             }
         ];
@@ -124,10 +136,13 @@ export default function AnggotaPage() {
 
                 const formattedData = data.map((row) => ({
                     name: row.name || row.nama || '',
-                    phone: String(row.phone || row.no_hp || row.nowa || ''),
+                    bebere: row.bebere || '',
+                    asal_kota: row.asal_kota || row.asalkuta || '',
                     address: row.address || row.domisili || row.alamat || '',
+                    phone: String(row.phone || row.no_hp || row.nowa || ''),
+                    email: row.email || '',
+                    tanggal_lahir: row.tanggal_lahir || row.ulangtahun || '',
                     status_aktif: row.status_aktif !== undefined ? row.status_aktif : true,
-                    join_date: row.join_date || new Date().toISOString().split('T')[0],
                     'gol-dar': row['gol-dar'] || row.gol_dar || row.goldar || 'O'
                 }));
 
@@ -155,7 +170,7 @@ export default function AnggotaPage() {
                         <FileSpreadsheet className="h-5 w-5 text-green-600" /> Import Data Anggota dari Excel
                     </h3>
                     <p className="text-xs text-gray-500 mt-1">
-                        Unggah file Excel (.xlsx / .csv) sesuai struktur database Supabase.
+                        Unggah file Excel (.xlsx / .csv) untuk memasukkan data anggota secara massal.
                     </p>
                 </div>
                 <div className="flex items-center gap-3 w-full sm:w-auto">
@@ -188,12 +203,12 @@ export default function AnggotaPage() {
                 </h3>
                 <form onSubmit={handleAddManual} className="grid gap-4 sm:grid-cols-3">
                     <input type="text" name="name" placeholder="Nama Lengkap" value={form.name} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
+                    <input type="text" name="bebere" placeholder="Bebere (Marga Ibu)" value={form.bebere} onChange={handleChange} className="rounded-xl border px-4 py-2.5 text-sm" />
+                    <input type="text" name="asal_kota" placeholder="Asal Kota / Kampung" value={form.asal_kota} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
+                    <input type="text" name="address" placeholder="Domisili di Balikpapan" value={form.address} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
                     <input type="tel" name="phone" placeholder="No WhatsApp / Telepon" value={form.phone} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
-                    <input type="text" name="address" placeholder="Alamat / Domisili" value={form.address} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
-                    <div>
-                        <label className="block text-[10px] font-semibold text-gray-500 mb-1">Tanggal Bergabung</label>
-                        <input type="date" name="join_date" value={form.join_date} onChange={handleChange} required className="w-full rounded-xl border px-4 py-2 text-sm bg-white" />
-                    </div>
+                    <input type="email" name="email" placeholder="Email Aktif" value={form.email} onChange={handleChange} className="rounded-xl border px-4 py-2.5 text-sm" />
+                    <input type="text" name="tanggal_lahir" placeholder="Ulang Tahun (Cth: 13 November)" value={form.tanggal_lahir} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
                     <select name="gol-dar" value={form['gol-dar']} onChange={handleChange} className="rounded-xl border px-4 py-2.5 text-sm bg-white">
                         <option value="O">Gol. Darah: O</option>
                         <option value="A">Gol. Darah: A</option>
@@ -234,12 +249,17 @@ export default function AnggotaPage() {
                                             <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${item.status_aktif ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
                                                 {item.status_aktif ? 'Aktif' : 'Tidak Aktif'}
                                             </span>
+                                            {item.bebere && (
+                                                <span className="text-[10px] bg-amber-100 text-amber-800 font-semibold px-2 py-0.5 rounded-full">
+                                                    Bebere {item.bebere}
+                                                </span>
+                                            )}
                                         </div>
                                         <p className="text-xs text-gray-500 mt-1">
-                                            Alamat: {item.address || '-'} | Gol. Darah: <strong className="text-amber-700">{item['gol-dar'] || '-'}</strong> | Gabung: {item.join_date || '-'}
+                                            Asal: {item.asal_kota || '-'} | Domisili: {item.address || '-'} | 🎂 Ulang Tahun: <strong className="text-amber-700">{item.tanggal_lahir || '-'}</strong>
                                         </p>
                                         <p className="text-xs text-gray-400 mt-0.5">
-                                            📞 {item.phone || '-'}
+                                            📞 {item.phone || '-'} {item.email ? `• ✉️ ${item.email}` : ''} | Gol. Darah: <strong className="text-amber-700">{item['gol-dar'] || '-'}</strong>
                                         </p>
                                     </div>
                                 </div>
