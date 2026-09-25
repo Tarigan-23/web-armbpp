@@ -86,7 +86,7 @@ export default function AnggotaPage() {
     const downloadTemplate = () => {
         const templateData = [
             {
-                name: 'Brando Ginting',
+                name: 'Yegar Tarigan',
                 phone: '081234567890',
                 address: 'Balikpapan Selatan',
                 status_aktif: true,
