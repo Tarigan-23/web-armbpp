@@ -147,6 +147,7 @@ export default function PengurusAdminPage() {
                     <div>
                         <label className="block text-xs font-semibold text-gray-700 mb-1">Kategori Bagian</label>
                         <select name="kategori" value={form.kategori} onChange={handleChange} className="w-full rounded-xl border px-4 py-2.5 text-sm bg-white">
+                            <option value="prm">Ketua PRM</option>
                             <option value="pembina">Pembina</option>
                             <option value="inti">Pengurus Inti</option>
                             <option value="divisi">Divisi</option>
