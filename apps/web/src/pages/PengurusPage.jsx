@@ -75,7 +75,7 @@ export default function PengurusPage() {
                             <div className="grid gap-8 lg:grid-cols-2 max-w-5xl mx-auto items-start">
                                 {/* Ketua PRM */}
                                 <div className="text-center">
-                                    <h3 className="font-display text-sm font-bold text-karo-maroon mb-3 uppercase tracking-wider">Ketua PRM (Organisasi Penaung)</h3>
+                                    <h3 className="font-display text-sm font-bold text-karo-maroon mb-3 uppercase tracking-wider">Ketua PRM (Perpulungen Rudang Mayang)</h3>
                                     {prmList.length > 0 ? (
                                         prmList.map(item => (
                                             <article key={item.id} className="overflow-hidden rounded-2xl bg-karo-black shadow-lg max-w-xs mx-auto border-2 border-karo-gold">
@@ -136,14 +136,14 @@ export default function PengurusPage() {
                             {/* GARIS PENGHUBUNG TEGAS */}
                             <div className="flex justify-center"><div className="w-1 h-12 bg-karo-gold" /></div>
 
-                            {/* 3. WAKIL KETUA (Ukuran disamakan dengan Ketua) */}
+                            {/* 3. WAKIL KETUA (Ukuran diperkecil proporsional) */}
                             <div className="grid gap-8 md:grid-cols-2 max-w-3xl mx-auto">
                                 {wakilList.map(wakil => (
-                                    <div key={wakil.id} className="overflow-hidden rounded-3xl bg-karo-black shadow-xl text-center border-2 border-blue-500/50">
-                                        <img src={wakil.foto_url || 'https://via.placeholder.com/300'} alt={wakil.nama} className="aspect-[3/4] w-full object-cover" />
-                                        <div className="p-5 border-t-2 border-blue-400">
-                                            <p className="text-xs font-bold uppercase tracking-widest text-blue-400">{wakil.jabatan}</p>
-                                            <h3 className="font-display text-lg font-bold text-karo-ivory mt-1">{wakil.nama}</h3>
+                                    <div key={wakil.id} className="overflow-hidden rounded-3xl bg-karo-black shadow-xl text-center border-2 border-blue-500/50 max-w-[260px] mx-auto w-full">
+                                        <img src={wakil.foto_url || 'https://via.placeholder.com/300'} alt={wakil.nama} className="aspect-[4/3] w-full object-cover" />
+                                        <div className="p-4 border-t-2 border-blue-400">
+                                            <p className="text-[10px] font-bold uppercase tracking-widest text-blue-400">{wakil.jabatan}</p>
+                                            <h3 className="font-display text-sm font-bold text-karo-ivory mt-1">{wakil.nama}</h3>
                                         </div>
                                     </div>
                                 ))}

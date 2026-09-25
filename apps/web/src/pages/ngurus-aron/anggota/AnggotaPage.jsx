@@ -37,10 +37,9 @@ export default function AnggotaPage() {
 
         for (const [namaBulan, angka] of Object.entries(bulanObj)) {
             if (lower.includes(namaBulan)) {
-                // Ambil angka tanggalnya juga untuk penyortiran presisi (misal: "13 November" -> bulan 11, tanggal 13)
                 const matchAngka = str.match(/\d+/);
                 const tanggal = matchAngka ? parseInt(matchAngka[0], 10) : 1;
-                return angka * 100 + tanggal; // Kombinasi bulan * 100 + tanggal
+                return angka * 100 + tanggal;
             }
         }
         return 999;
@@ -52,13 +51,17 @@ export default function AnggotaPage() {
             .select('*');
 
         if (!error && data) {
-            // Urutkan anggota berdasarkan urutan bulan & tanggal lahir
+            // Urutkan anggota berdasarkan urutan bulan & tanggal lahir (mendukung berbagai nama kolom dari database)
             const sortedData = data.sort((a, b) => {
-                const valA = parseUlangTahunToMonthNumber(a.tanggal_lahir);
-                const valB = parseUlangTahunToMonthNumber(b.tanggal_lahir);
+                const tglA = a.tanggal_lahir || a.ulang_tahun || a.ttl || '';
+                const tglB = b.tanggal_lahir || b.ulang_tahun || b.ttl || '';
+                const valA = parseUlangTahunToMonthNumber(tglA);
+                const valB = parseUlangTahunToMonthNumber(tglB);
                 return valA - valB;
             });
             setAnggotaList(sortedData);
+        } else if (error) {
+            console.error('Error fetching members:', error.message);
         }
     };
 
@@ -72,7 +75,20 @@ export default function AnggotaPage() {
         setLoading(true);
         setMsg({ type: '', text: '' });
 
-        const { error } = await supabase.from('members').insert([form]);
+        // Kirim data sesuai struktur field umum tabel members
+        const payload = {
+            name: form.name,
+            bebere: form.bebere,
+            asal_kota: form.asal_kota,
+            address: form.address,
+            tanggal_lahir: form.tanggal_lahir,
+            status_aktivitas: form.status_aktivitas,
+            golongan_darah: form.golongan_darah,
+            phone: form.phone,
+            email: form.email
+        };
+
+        const { error } = await supabase.from('members').insert([payload]);
         setLoading(false);
 
         if (!error) {
@@ -84,7 +100,7 @@ export default function AnggotaPage() {
             });
             fetchAnggota();
         } else {
-            setMsg({ type: 'error', text: error.message });
+            setMsg({ type: 'error', text: 'Gagal menyimpan: ' + error.message });
         }
     };
 
@@ -102,9 +118,9 @@ export default function AnggotaPage() {
             {
                 nama: 'Brando Ginting',
                 bebere: 'Sembiring',
-                asalkuta: 'Kabanjahe',
+                asal_kota: 'Kabanjahe',
                 domisili: 'Balikpapan Selatan',
-                ulangtahun: '13 November',
+                tanggal_lahir: '13 November',
                 status: 'Bekerja',
                 goldar: 'O',
                 nowa: '081234567890',
@@ -140,14 +156,14 @@ export default function AnggotaPage() {
                 }
 
                 const formattedData = data.map((row) => ({
-                    name: row.nama || row.Name || '',
+                    name: row.nama || row.Name || row.nama_lengkap || '',
                     bebere: row.bebere || row.Bebere || '',
-                    asal_kota: row.asalkuta || row.asal_kota || '',
-                    address: row.domisili || row.address || '',
-                    tanggal_lahir: row.ulangtahun || row.tanggal_lahir || '',
+                    asal_kota: row.asal_kota || row.asalkuta || row.asal || '',
+                    address: row.domisili || row.address || row.alamat || '',
+                    tanggal_lahir: row.tanggal_lahir || row.ulangtahun || row.ttl || '',
                     status_aktivitas: row.status || row.status_aktivitas || 'Bekerja',
                     golongan_darah: row.goldar || row.golongan_darah || 'O',
-                    phone: String(row.nowa || row.phone || ''),
+                    phone: String(row.nowa || row.phone || row.telepon || ''),
                     email: row.email || ''
                 }));
 
@@ -195,8 +211,7 @@ export default function AnggotaPage() {
 
             {/* Pesan Status */}
             {msg.text && (
-                <div className={`flex items-center gap-2 rounded-xl p-4 text-xs font-medium ${msg.type === 'success' ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'
-                    }`}>
+                <div className={`flex items-center gap-2 rounded-xl p-4 text-xs font-medium ${msg.type === 'success' ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'}`}>
                     {msg.type === 'success' ? <CheckCircle2 className="h-4 w-4 shrink-0" /> : <AlertCircle className="h-4 w-4 shrink-0" />}
                     <span>{msg.text}</span>
                 </div>
@@ -245,32 +260,39 @@ export default function AnggotaPage() {
                     <p className="text-sm text-gray-400 py-6 text-center">Belum ada data anggota tersimpan.</p>
                 ) : (
                     <div className="space-y-3">
-                        {anggotaList.map((item, idx) => (
-                            <div key={item.id} className="flex justify-between items-center p-4 rounded-xl border bg-gray-50/60">
-                                <div className="flex items-center gap-4">
-                                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-amber-100 text-xs font-bold text-amber-800">
-                                        {idx + 1}
-                                    </span>
-                                    <div>
-                                        <div className="flex items-center gap-2">
-                                            <h4 className="font-semibold text-sm text-gray-900">{item.name}</h4>
-                                            <span className="text-[10px] bg-amber-100 text-amber-800 font-semibold px-2 py-0.5 rounded-full">
-                                                {item.status_aktivitas || 'Anggota'} {item.bebere ? `• Bebere ${item.bebere}` : ''}
-                                            </span>
+                        {anggotaList.map((item, idx) => {
+                            // Mengambil data ulang tahun dengan pengecekan berbagai kemungkinan nama kolom di database
+                            const tglUlangTahun = item.tanggal_lahir || item.ulang_tahun || item.ttl || '-';
+                            const kotaAsal = item.asal_kota || item.asal_kuta || '-';
+                            const domisili = item.address || '-';
+
+                            return (
+                                <div key={item.id} className="flex justify-between items-center p-4 rounded-xl border bg-gray-50/60">
+                                    <div className="flex items-center gap-4">
+                                        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-amber-100 text-xs font-bold text-amber-800">
+                                            {idx + 1}
+                                        </span>
+                                        <div>
+                                            <div className="flex items-center gap-2">
+                                                <h4 className="font-semibold text-sm text-gray-900">{item.name}</h4>
+                                                <span className="text-[10px] bg-amber-100 text-amber-800 font-semibold px-2 py-0.5 rounded-full">
+                                                    {item.status_aktivitas || 'Anggota'} {item.bebere ? `• Bebere ${item.bebere}` : ''}
+                                                </span>
+                                            </div>
+                                            <p className="text-xs text-gray-500 mt-1">
+                                                Asal: {kotaAsal} | Domisili: {domisili} | <strong className="text-amber-700">🎂 Ulang Tahun: {tglUlangTahun}</strong>
+                                            </p>
+                                            <p className="text-xs text-gray-400 mt-0.5">
+                                                📞 {item.phone || '-'} {item.email ? `• ✉️ ${item.email}` : ''}
+                                            </p>
                                         </div>
-                                        <p className="text-xs text-gray-500 mt-1">
-                                            Asal: {item.asal_kota || '-'} | Domisili: {item.address} | <strong className="text-amber-700">🎂 Ulang Tahun: {item.tanggal_lahir || '-'}</strong>
-                                        </p>
-                                        <p className="text-xs text-gray-400 mt-0.5">
-                                            📞 {item.phone} {item.email ? `• ✉️ ${item.email}` : ''}
-                                        </p>
                                     </div>
+                                    <button onClick={() => handleDelete(item.id)} className="text-red-500 p-2 hover:bg-red-50 rounded-lg transition-colors" title="Hapus Anggota">
+                                        <Trash2 className="h-4 w-4" />
+                                    </button>
                                 </div>
-                                <button onClick={() => handleDelete(item.id)} className="text-red-500 p-2 hover:bg-red-50 rounded-lg transition-colors" title="Hapus Anggota">
-                                    <Trash2 className="h-4 w-4" />
-                                </button>
-                            </div>
-                        ))}
+                            );
+                        })}
                     </div>
                 )}
             </div>

@@ -62,7 +62,7 @@ export default function AnggotaBaruPage() {
             if (openWa) {
                 // Format pesan otomatis ke nomor HP pendaftar atau arahkan ke grup
                 const cleanPhone = member.no_hp.startsWith('0') ? '62' + member.no_hp.slice(1) : member.no_hp;
-                const welcomeMessage = encodeURIComponent(`Shalom / Horas ${member.nama}, selamat bergabung di keluarga besar Aron Rudang Mayang Balikpapan! Silakan bergabung ke grup WhatsApp komunitas melalui tautan berikut: ${WHATSAPP_GROUP_LINK}`);
+                const welcomeMessage = encodeURIComponent(`Mejuah-juah ${member.nama}, selamat bergabung di keluarga besar Aron Rudang Mayang Balikpapan! Silakan bergabung ke grup WhatsApp ARON melalui tautan berikut: ${WHATSAPP_GROUP_LINK}`);
 
                 // Membuka chat WhatsApp langsung ke nomor pendaftar
                 window.open(`https://wa.me/${cleanPhone}?text=${welcomeMessage}`, '_blank');
