@@ -88,31 +88,31 @@ export default function Navbar() {
                         aria-expanded={open}
                         className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-karo-charcoal/20 text-karo-charcoal transition-colors hover:border-karo-maroon hover:text-karo-maroon xl:hidden"
                     >
-                        {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+                        {open ? <X className="h-5 w-5 text-karo-ivory" /> : <Menu className="h-5 w-5" />}
                     </button>
                 </div>
             </div>
 
-            {/* Mobile menu */}
+            {/* Mobile menu - disesuaikan background dan warna teksnya */}
             <div
                 className={cn(
-                    'overflow-hidden transition-[max-height] duration-300 ease-out xl:hidden bg-karo-ivory border-b border-karo-gold/20',
-                    open ? 'max-h-[480px]' : 'max-h-0'
+                    'overflow-hidden transition-[max-height] duration-300 ease-out xl:hidden bg-karo-black/95 border-b border-karo-gold/25 backdrop-blur-md',
+                    open ? 'max-h-[500px]' : 'max-h-0'
                 )}
             >
-                <nav className="space-y-1 px-4 pb-6 pt-2" aria-label="Navigasi seluler">
+                <nav className="space-y-1.5 px-4 pb-6 pt-2" aria-label="Navigasi seluler">
                     {LINKS.map((link) => (
                         <Link
                             key={link.href}
                             to={link.href}
                             onClick={() => setOpen(false)}
-                            className="block rounded-lg px-4 py-3 text-sm font-medium text-karo-charcoal transition-colors hover:bg-karo-gold/15 hover:text-karo-maroon"
+                            className="block rounded-lg px-4 py-3 text-sm font-medium text-karo-ivory/90 transition-colors hover:bg-karo-gold/15 hover:text-karo-gold"
                         >
                             {link.label}
                         </Link>
                     ))}
                     <Link
-                        to="/kontak"
+                        to="/gabung"
                         onClick={() => setOpen(false)}
                         className="mt-3 block rounded-full bg-karo-maroon px-4 py-3.5 text-center text-sm font-semibold text-karo-gold transition-transform active:scale-[0.98]"
                     >
