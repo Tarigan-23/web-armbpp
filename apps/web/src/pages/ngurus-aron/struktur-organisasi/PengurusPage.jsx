@@ -130,8 +130,6 @@ export default function PengurusAdminPage() {
                             <option value="Sekretaris Umum I">Sekretaris Umum I</option>
                             <option value="Sekretaris Umum II">Sekretaris Umum II</option>
                             <option value="Bendahara Umum">Bendahara Umum</option>
-                            <option value="Koordinator Divisi Seni">Koordinator Divisi Seni</option>
-                            <option value="Anggota Divisi Seni">Anggota Divisi Seni</option>
                             <option value="Koordinator Divisi Sosial">Koordinator Divisi Sosial</option>
                             <option value="Anggota Divisi Sosial">Anggota Divisi Sosial</option>
                             <option value="Koordinator Divisi Budaya">Koordinator Divisi Budaya</option>
@@ -142,6 +140,8 @@ export default function PengurusAdminPage() {
                             <option value="Anggota Divisi Olahraga">Anggota Divisi Olahraga</option>
                             <option value="Koordinator Divisi Keuangan">Koordinator Divisi Keuangan</option>
                             <option value="Anggota Divisi Keuangan">Anggota Divisi Keuangan</option>
+                            <option value="Koordinator Divisi Menfo">Koordinator Divisi Menfo</option>
+                            <option value="Anggota Divisi Menfo">Anggota Divisi Menfo</option>
                         </select>
                     </div>
                     <div>
@@ -150,7 +150,8 @@ export default function PengurusAdminPage() {
                             <option value="prm">Ketua PRM</option>
                             <option value="pembina">Pembina</option>
                             <option value="inti">Pengurus Inti</option>
-                            <option value="divisi">Divisi</option>
+                            <option value="koordinator divisi">koordinator divisi</option>
+                            <option value="anggota divisi">anggota divisi</option>
                         </select>
                     </div>
                     <div>
