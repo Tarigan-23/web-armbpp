@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
-import { Plus, Trash2, Users, FileSpreadsheet, Download, AlertCircle, CheckCircle2, Calendar } from 'lucide-react';
+import { Plus, Trash2, Users, FileSpreadsheet, Download, AlertCircle, CheckCircle2, Calendar, Phone, MessageCircle, ShieldCheck } from 'lucide-react';
 import * as XLSX from 'xlsx';
 
 export default function AnggotaPage() {
@@ -9,7 +9,6 @@ export default function AnggotaPage() {
     const [importing, setImporting] = useState(false);
     const [msg, setMsg] = useState({ type: '', text: '' });
 
-    // State form lengkap dengan semua kolom yang kamu mau
     const [form, setForm] = useState({
         name: '',
         bebere: '',
@@ -19,7 +18,11 @@ export default function AnggotaPage() {
         email: '',
         tanggal_lahir: '',
         status_aktif: true,
-        'gol-dar': 'O'
+        'gol-dar': 'O',
+        sosmed: '',
+        kontak_darurat_nama: '',
+        kontak_darurat_hubungan: 'Keluarga',
+        kontak_darurat_no_hp: ''
     });
 
     useEffect(() => {
@@ -27,15 +30,9 @@ export default function AnggotaPage() {
     }, []);
 
     const fetchAnggota = async () => {
-        const { data, error } = await supabase
-            .from('members')
-            .select('*');
-
-        if (!error && data) {
-            setAnggotaList(data);
-        } else if (error) {
-            console.error('Error fetching members:', error.message);
-        }
+        const { data, error } = await supabase.from('members').select('*');
+        if (!error && data) setAnggotaList(data);
+        else if (error) console.error('Error fetching members:', error.message);
     };
 
     const handleChange = (e) => {
@@ -43,7 +40,6 @@ export default function AnggotaPage() {
         setForm({ ...form, [e.target.name]: value });
     };
 
-    // Tambah Anggota Manual
     const handleAddManual = async (e) => {
         e.preventDefault();
         setLoading(true);
@@ -58,7 +54,11 @@ export default function AnggotaPage() {
             email: form.email,
             tanggal_lahir: form.tanggal_lahir,
             status_aktif: form.status_aktif,
-            'gol-dar': form['gol-dar']
+            'gol-dar': form['gol-dar'],
+            sosmed: form.sosmed,
+            kontak_darurat_nama: form.kontak_darurat_nama,
+            kontak_darurat_hubungan: form.kontak_darurat_hubungan,
+            kontak_darurat_no_hp: form.kontak_darurat_no_hp
         };
 
         const { error } = await supabase.from('members').insert([payload]);
@@ -67,15 +67,9 @@ export default function AnggotaPage() {
         if (!error) {
             setMsg({ type: 'success', text: 'Anggota baru berhasil ditambahkan!' });
             setForm({
-                name: '',
-                bebere: '',
-                asal_kota: '',
-                address: '',
-                phone: '',
-                email: '',
-                tanggal_lahir: '',
-                status_aktif: true,
-                'gol-dar': 'O'
+                name: '', bebere: '', asal_kota: '', address: '', phone: '',
+                email: '', tanggal_lahir: '', status_aktif: true, 'gol-dar': 'O',
+                sosmed: '', kontak_darurat_nama: '', kontak_darurat_hubungan: 'Keluarga', kontak_darurat_no_hp: ''
             });
             fetchAnggota();
         } else {
@@ -83,7 +77,6 @@ export default function AnggotaPage() {
         }
     };
 
-    // Hapus Anggota
     const handleDelete = async (id) => {
         if (confirm('Yakin ingin menghapus data anggota ini?')) {
             await supabase.from('members').delete().eq('id', id);
@@ -91,7 +84,6 @@ export default function AnggotaPage() {
         }
     };
 
-    // Download Template Excel
     const downloadTemplate = () => {
         const templateData = [
             {
@@ -103,17 +95,19 @@ export default function AnggotaPage() {
                 email: 'brando@email.com',
                 tanggal_lahir: '13 November',
                 status_aktif: true,
-                'gol-dar': 'O'
+                'gol-dar': 'O',
+                sosmed: 'IG: @brando',
+                kontak_darurat_nama: 'Budi Ginting',
+                kontak_darurat_hubungan: 'Ayah',
+                kontak_darurat_no_hp: '081234567890'
             }
         ];
-
         const worksheet = XLSX.utils.json_to_sheet(templateData);
         const workbook = XLSX.utils.book_new();
         XLSX.utils.book_append_sheet(workbook, worksheet, "Template Anggota");
         XLSX.writeFile(workbook, "Template_Import_Anggota_Aron.xlsx");
     };
 
-    // Import Excel
     const handleFileUpload = (e) => {
         const file = e.target.files[0];
         if (!file) return;
@@ -130,9 +124,7 @@ export default function AnggotaPage() {
                 const ws = workbook.Sheets[wsname];
                 const data = XLSX.utils.sheet_to_json(ws);
 
-                if (data.length === 0) {
-                    throw new Error('File Excel kosong atau format tidak sesuai.');
-                }
+                if (data.length === 0) throw new Error('File Excel kosong atau format tidak sesuai.');
 
                 const formattedData = data.map((row) => ({
                     name: row.name || row.nama || '',
@@ -143,7 +135,11 @@ export default function AnggotaPage() {
                     email: row.email || '',
                     tanggal_lahir: row.tanggal_lahir || row.ulangtahun || '',
                     status_aktif: row.status_aktif !== undefined ? row.status_aktif : true,
-                    'gol-dar': row['gol-dar'] || row.gol_dar || row.goldar || 'O'
+                    'gol-dar': row['gol-dar'] || row.gol_dar || row.goldar || 'O',
+                    sosmed: row.sosmed || '',
+                    kontak_darurat_nama: row.kontak_darurat_nama || '',
+                    kontak_darurat_hubungan: row.kontak_darurat_hubungan || 'Keluarga',
+                    kontak_darurat_no_hp: row.kontak_darurat_no_hp || ''
                 }));
 
                 const { error } = await supabase.from('members').insert(formattedData);
@@ -163,21 +159,15 @@ export default function AnggotaPage() {
 
     return (
         <div className="space-y-6">
-            {/* Box Import Excel & Download Template */}
             <div className="rounded-2xl bg-white p-6 shadow-sm border border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <div>
                     <h3 className="text-md font-bold text-gray-800 flex items-center gap-2">
                         <FileSpreadsheet className="h-5 w-5 text-green-600" /> Import Data Anggota dari Excel
                     </h3>
-                    <p className="text-xs text-gray-500 mt-1">
-                        Unggah file Excel (.xlsx / .csv) untuk memasukkan data anggota secara massal.
-                    </p>
+                    <p className="text-xs text-gray-500 mt-1">Unggah file Excel (.xlsx / .csv) untuk memasukkan data anggota secara massal.</p>
                 </div>
                 <div className="flex items-center gap-3 w-full sm:w-auto">
-                    <button
-                        onClick={downloadTemplate}
-                        className="flex-1 sm:flex-none flex items-center justify-center gap-2 rounded-xl border border-gray-300 bg-gray-50 px-4 py-2.5 text-xs font-semibold text-gray-700 hover:bg-gray-100 transition-colors"
-                    >
+                    <button onClick={downloadTemplate} className="flex-1 sm:flex-none flex items-center justify-center gap-2 rounded-xl border border-gray-300 bg-gray-50 px-4 py-2.5 text-xs font-semibold text-gray-700 hover:bg-gray-100 transition-colors">
                         <Download className="h-4 w-4" /> Unduh Template
                     </button>
                     <label className="flex-1 sm:flex-none flex items-center justify-center gap-2 rounded-xl bg-green-600 px-4 py-2.5 text-xs font-semibold text-white cursor-pointer hover:bg-green-700 transition-colors shadow-sm">
@@ -188,7 +178,6 @@ export default function AnggotaPage() {
                 </div>
             </div>
 
-            {/* Pesan Status */}
             {msg.text && (
                 <div className={`flex items-center gap-2 rounded-xl p-4 text-xs font-medium ${msg.type === 'success' ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'}`}>
                     {msg.type === 'success' ? <CheckCircle2 className="h-4 w-4 shrink-0" /> : <AlertCircle className="h-4 w-4 shrink-0" />}
@@ -196,7 +185,6 @@ export default function AnggotaPage() {
                 </div>
             )}
 
-            {/* Form Tambah Manual */}
             <div className="rounded-2xl bg-white p-6 shadow-sm border border-gray-200">
                 <h3 className="text-md font-bold text-gray-800 mb-4 flex items-center gap-2">
                     <Plus className="h-5 w-5 text-amber-500" /> Tambah Anggota Manual
@@ -220,13 +208,30 @@ export default function AnggotaPage() {
                         <input type="checkbox" name="status_aktif" id="status_aktif" checked={form.status_aktif} onChange={handleChange} className="h-4 w-4 rounded border-gray-300 text-amber-600" />
                         <label htmlFor="status_aktif" className="text-xs font-semibold text-gray-700">Status Aktif</label>
                     </div>
+
+                    {/* --- FITUR BARU: FORM TAMBAHAN --- */}
+                    <div className="sm:col-span-3 mt-2 border-t border-gray-200 pt-4">
+                        <p className="text-xs font-semibold text-gray-700 mb-3 flex items-center gap-2">
+                            <ShieldCheck className="h-4 w-4 text-red-500" /> Informasi Tambahan & Kontak Darurat
+                        </p>
+                    </div>
+                    <input type="text" name="sosmed" placeholder="Akun Sosmed (Opsional)" value={form.sosmed} onChange={handleChange} className="rounded-xl border px-4 py-2.5 text-sm sm:col-span-3" />
+                    <input type="text" name="kontak_darurat_nama" placeholder="Nama Kontak Darurat" value={form.kontak_darurat_nama} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
+                    <select name="kontak_darurat_hubungan" value={form.kontak_darurat_hubungan} onChange={handleChange} className="rounded-xl border px-4 py-2.5 text-sm bg-white">
+                        <option value="Keluarga">Keluarga (Ortu/Saudara)</option>
+                        <option value="Teman Dekat">Teman Dekat</option>
+                        <option value="Pasangan">Pasangan</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
+                    <input type="tel" name="kontak_darurat_no_hp" placeholder="No HP Kontak Darurat" value={form.kontak_darurat_no_hp} onChange={handleChange} required className="rounded-xl border px-4 py-2.5 text-sm" />
+                    {/* ----------------------------------- */}
+
                     <button type="submit" disabled={loading} className="sm:col-span-3 rounded-full bg-black py-3 text-sm font-semibold text-white">
                         {loading ? 'Menyimpan...' : 'Simpan Anggota Baru'}
                     </button>
                 </form>
             </div>
 
-            {/* Daftar Direktori Anggota */}
             <div className="rounded-2xl bg-white p-6 shadow-sm border border-gray-200">
                 <div className="flex justify-between items-center mb-4">
                     <h3 className="text-md font-bold text-gray-800 flex items-center gap-2">
@@ -238,13 +243,13 @@ export default function AnggotaPage() {
                 ) : (
                     <div className="space-y-3">
                         {anggotaList.map((item, idx) => (
-                            <div key={item.id} className="flex justify-between items-center p-4 rounded-xl border bg-gray-50/60">
-                                <div className="flex items-center gap-4">
+                            <div key={item.id} className="flex justify-between items-start sm:items-center p-4 rounded-xl border bg-gray-50/60 flex-col sm:flex-row gap-4">
+                                <div className="flex items-start sm:items-center gap-4 w-full">
                                     <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-amber-100 text-xs font-bold text-amber-800">
                                         {idx + 1}
                                     </span>
-                                    <div>
-                                        <div className="flex items-center gap-2">
+                                    <div className="w-full">
+                                        <div className="flex flex-wrap items-center gap-2">
                                             <h4 className="font-semibold text-sm text-gray-900">{item.name}</h4>
                                             <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${item.status_aktif ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
                                                 {item.status_aktif ? 'Aktif' : 'Tidak Aktif'}
@@ -261,9 +266,21 @@ export default function AnggotaPage() {
                                         <p className="text-xs text-gray-400 mt-0.5">
                                             📞 {item.phone || '-'} {item.email ? `• ✉️ ${item.email}` : ''} | Gol. Darah: <strong className="text-amber-700">{item['gol-dar'] || '-'}</strong>
                                         </p>
+
+                                        {/* Tampilan Data Baru di List */}
+                                        {item.sosmed && (
+                                            <p className="text-xs text-gray-400 mt-0.5 flex items-center gap-1">
+                                                <MessageCircle className="h-3 w-3" /> Sosmed: {item.sosmed}
+                                            </p>
+                                        )}
+                                        {item.kontak_darurat_nama && (
+                                            <p className="text-xs text-red-600 mt-0.5 font-medium flex items-center gap-1">
+                                                <ShieldCheck className="h-3 w-3" /> Kontak Darurat: {item.kontak_darurat_nama} ({item.kontak_darurat_hubungan}) - {item.kontak_darurat_no_hp}
+                                            </p>
+                                        )}
                                     </div>
                                 </div>
-                                <button onClick={() => handleDelete(item.id)} className="text-red-500 p-2 hover:bg-red-50 rounded-lg transition-colors" title="Hapus Anggota">
+                                <button onClick={() => handleDelete(item.id)} className="text-red-500 p-2 hover:bg-red-50 rounded-lg transition-colors self-end sm:self-center" title="Hapus Anggota">
                                     <Trash2 className="h-4 w-4" />
                                 </button>
                             </div>

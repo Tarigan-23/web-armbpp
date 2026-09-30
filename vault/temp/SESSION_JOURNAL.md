@@ -5960,3 +5960,93 @@ rror
         at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
         at http://localhost:3000/src/lib/supabase.js:6:25
 
+## 2026-09-30 08:17:48.696Z load
+- url: http://localhost:3000/
+
+## 2026-09-30 08:17:48.984Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-09-30 08:17:53.441Z load
+- url: http://localhost:3000/
+
+## 2026-09-30 08:17:53.496Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-09-30 08:17:54.993Z load
+- url: http://localhost:3000/
+
+## 2026-09-30 08:17:55.137Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-09-30 08:18:10.880Z load
+- url: http://169.254.148.127:3000/
+
+## 2026-09-30 08:18:11.031Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://169.254.148.127:3000/src/lib/supabase.js:6:25
+
+## 2026-09-30 08:18:13.628Z load
+- url: http://169.254.148.127:3000/
+
+## 2026-09-30 08:18:13.760Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://169.254.148.127:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://169.254.148.127:3000/src/lib/supabase.js:6:25
+
+## 2026-09-30 08:18:38.363Z load
+- url: http://localhost:3000/
+
+## 2026-09-30 08:18:38.418Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+

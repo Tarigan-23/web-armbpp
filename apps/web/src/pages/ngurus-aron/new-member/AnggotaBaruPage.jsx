@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
-import { Users, Trash2, CheckCircle, Mail, Phone, MapPin, Gift, MessageCircle } from 'lucide-react';
+import { Users, Trash2, CheckCircle, Mail, Phone, MapPin, Gift, MessageCircle, ShieldCheck } from 'lucide-react';
 
 export default function AnggotaBaruPage() {
     const [pendaftarList, setPendaftarList] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    // Ganti tautan di bawah ini dengan Link Grup WhatsApp resmi Aron Rudang Mayang Anda
     const WHATSAPP_GROUP_LINK = 'https://chat.whatsapp.com/LCb9AF73mLSBdnvL7UWB0o';
 
     useEffect(() => {
@@ -28,43 +27,42 @@ export default function AnggotaBaruPage() {
 
     const handleDelete = async (id) => {
         if (!window.confirm('Yakin ingin menghapus data pendaftar ini?')) return;
-
         const { error } = await supabase.from('new_members').delete().eq('id', id);
-        if (!error) {
-            fetchPendaftar();
-        } else {
-            alert('Gagal menghapus data.');
-        }
+        if (!error) fetchPendaftar();
+        else alert('Gagal menghapus data.');
     };
 
     const handleApprove = async (member) => {
         if (!window.confirm(`Terima ${member.nama} sebagai anggota resmi Aron Rudang Mayang?`)) return;
 
         try {
-            // 1. Pindahkan data ke tabel members utama
             const { error: insertError } = await supabase.from('members').insert([{
                 name: member.nama,
                 phone: member.no_hp,
                 address: `${member.domisili} (Asal: ${member.asal_kota})`,
-                status_aktif: true
+                status_aktif: true,
+                bebere: member.bebere,
+                asal_kota: member.asal_kota,
+                email: member.email,
+                tanggal_lahir: member.tanggal_lahir,
+                'gol-dar': member.golongan_darah,
+                sosmed: member.sosmed || '',
+                kontak_darurat_nama: member.kontak_darurat_nama || '',
+                kontak_darurat_hubungan: member.kontak_darurat_hubungan || '',
+                kontak_darurat_no_hp: member.kontak_darurat_no_hp || ''
             }]);
 
             if (insertError) throw insertError;
 
-            // 2. Hapus dari tabel new_members
             await supabase.from('new_members').delete().eq('id', member.id);
 
-            // 3. Berikan opsi untuk langsung membuka WhatsApp Group atau chat ke nomor pendaftar
             const openWa = window.confirm(
-                `Berhasil! ${member.nama} telah diterima dan masuk ke Daftar Anggota.\n\nKlik OK untuk membuka tautan Grup WhatsApp atau menyapa anggota via WhatsApp.`
+                `Berhasil! ${member.nama} telah diterima.\n\nKlik OK untuk membuka tautan Grup WhatsApp atau menyapa anggota via WhatsApp.`
             );
 
             if (openWa) {
-                // Format pesan otomatis ke nomor HP pendaftar atau arahkan ke grup
                 const cleanPhone = member.no_hp.startsWith('0') ? '62' + member.no_hp.slice(1) : member.no_hp;
                 const welcomeMessage = encodeURIComponent(`Mejuah-juah ${member.nama}, selamat bergabung di keluarga besar Aron Rudang Mayang Balikpapan! Silakan bergabung ke grup WhatsApp ARON melalui tautan berikut: ${WHATSAPP_GROUP_LINK}`);
-
-                // Membuka chat WhatsApp langsung ke nomor pendaftar
                 window.open(`https://wa.me/${cleanPhone}?text=${welcomeMessage}`, '_blank');
             }
 
@@ -93,7 +91,6 @@ export default function AnggotaBaruPage() {
                     <div className="text-center py-12">
                         <Users className="mx-auto h-12 w-12 text-gray-300" />
                         <p className="mt-2 text-sm font-semibold text-gray-600">Belum ada pendaftar baru.</p>
-                        <p className="text-xs text-gray-400">Calon anggota yang mendaftar di web publik akan muncul di sini.</p>
                     </div>
                 ) : (
                     <div className="grid gap-4 sm:grid-cols-2">
@@ -111,7 +108,6 @@ export default function AnggotaBaruPage() {
                                     </div>
 
                                     <div className="mt-4 space-y-1.5 text-xs text-gray-600 border-t border-gray-200/60 pt-3">
-                                        {/* Menampilkan Ulang Tahun */}
                                         {item.tanggal_lahir && (
                                             <p className="flex items-center gap-2 font-semibold text-amber-700">
                                                 <Gift className="h-3.5 w-3.5 text-amber-500" /> Ulang Tahun: {item.tanggal_lahir}
@@ -120,20 +116,28 @@ export default function AnggotaBaruPage() {
                                         <p className="flex items-center gap-2"><MapPin className="h-3.5 w-3.5 text-gray-400" /> Asal: {item.asal_kota} | Domisili: {item.domisili}</p>
                                         <p className="flex items-center gap-2"><Phone className="h-3.5 w-3.5 text-gray-400" /> {item.no_hp}</p>
                                         <p className="flex items-center gap-2"><Mail className="h-3.5 w-3.5 text-gray-400" /> {item.email}</p>
+
+                                        {/* Tampilan Data Baru */}
+                                        {item.sosmed && (
+                                            <p className="flex items-center gap-2"><MessageCircle className="h-3.5 w-3.5 text-gray-400" /> Sosmed: {item.sosmed}</p>
+                                        )}
+                                        {item.kontak_darurat_nama && (
+                                            <div className="mt-3 pt-3 border-t border-dashed border-gray-200">
+                                                <p className="font-semibold text-gray-700 text-[10px] uppercase tracking-wider mb-1.5 flex items-center gap-1">
+                                                    <ShieldCheck className="h-3 w-3 text-red-500" /> Kontak Darurat
+                                                </p>
+                                                <p className="flex items-center gap-2"><Users className="h-3.5 w-3.5 text-gray-400" /> {item.kontak_darurat_nama} <span className="text-gray-400">({item.kontak_darurat_hubungan})</span></p>
+                                                <p className="flex items-center gap-2"><Phone className="h-3.5 w-3.5 text-gray-400" /> {item.kontak_darurat_no_hp}</p>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
 
                                 <div className="flex items-center justify-end gap-2 pt-2 border-t border-gray-200/60">
-                                    <button
-                                        onClick={() => handleDelete(item.id)}
-                                        className="flex items-center gap-1 rounded-xl px-3 py-2 text-xs font-semibold text-red-600 bg-red-50 hover:bg-red-100 transition-colors"
-                                    >
+                                    <button onClick={() => handleDelete(item.id)} className="flex items-center gap-1 rounded-xl px-3 py-2 text-xs font-semibold text-red-600 bg-red-50 hover:bg-red-100 transition-colors">
                                         <Trash2 className="h-3.5 w-3.5" /> Tolak
                                     </button>
-                                    <button
-                                        onClick={() => handleApprove(item)}
-                                        className="flex items-center gap-1 rounded-xl px-4 py-2 text-xs font-semibold text-white bg-green-600 hover:bg-green-700 transition-colors shadow-sm"
-                                    >
+                                    <button onClick={() => handleApprove(item)} className="flex items-center gap-1 rounded-xl px-4 py-2 text-xs font-semibold text-white bg-green-600 hover:bg-green-700 transition-colors shadow-sm">
                                         <CheckCircle className="h-3.5 w-3.5" /> Terima & Sambut WA
                                     </button>
                                 </div>
