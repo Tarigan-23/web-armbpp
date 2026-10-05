@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import { Drum, HeartHandshake, GraduationCap } from 'lucide-react';
+import { Drum, HeartHandshake } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import Reveal from '@/components/Reveal';
 import Navbar from '@/components/Navbar';
@@ -21,11 +21,6 @@ export default function TentangKamiPage() {
             icon: HeartHandshake,
             title: 'Sosial',
             text: 'Hadir untuk anggota dalam suka dan duka melalui semangat aron — gotong royong khas Karo.',
-        },
-        {
-            icon: GraduationCap,
-            title: 'Pendidikan',
-            text: 'Beasiswa dan pendampingan bagi generasi muda Karo di Balikpapan untuk meraih masa depan.',
         },
     ];
 
