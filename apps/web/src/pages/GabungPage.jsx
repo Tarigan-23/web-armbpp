@@ -7,7 +7,7 @@ import { UserPlus, CheckCircle2, AlertCircle, ShieldCheck, Calendar, Heart, User
 
 export default function GabungPage() {
     const [formData, setFormData] = useState({
-        nama: 'Yegar Tarigan',
+        nama: '',
         jenis_kelamin: 'Laki-laki',
         bebere: '',
         asal_kota: '',
@@ -17,7 +17,7 @@ export default function GabungPage() {
         status_aktivitas: 'Bekerja',
         golongan_darah: 'O',
         tanggal_lahir: '',
-        sosmed: 'ig:sianu fb:sianu',
+        sosmed: '',
         kontak_darurat_nama: '',
         kontak_darurat_hubungan: 'Keluarga',
         kontak_darurat_no_hp: ''
@@ -133,7 +133,7 @@ export default function GabungPage() {
                             <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                                 <div className="sm:col-span-2">
                                     <label className="block text-xs font-semibold text-karo-gold">Nama Lengkap</label>
-                                    <input type="text" name="nama" required value={formData.nama} onChange={handleChange} placeholder="Contoh: Brando Ginting" className="mt-1 w-full rounded-xl border border-karo-ivory/20 bg-karo-ivory/5 px-4 py-3 text-sm text-karo-ivory outline-none focus:border-karo-gold" />
+                                    <input type="text" name="nama" required value={formData.nama} onChange={handleChange} placeholder="Contoh: Yegar Tarigan" className="mt-1 w-full rounded-xl border border-karo-ivory/20 bg-karo-ivory/5 px-4 py-3 text-sm text-karo-ivory outline-none focus:border-karo-gold" />
                                 </div>
 
                                 <div>
@@ -146,7 +146,7 @@ export default function GabungPage() {
 
                                 <div>
                                     <label className="block text-xs font-semibold text-karo-gold">Ulang Tahun (Tanggal & Bulan)</label>
-                                    <input type="text" name="tanggal_lahir" required value={formData.tanggal_lahir} onChange={handleChange} placeholder="Contoh: 13 November" className="mt-1 w-full rounded-xl border border-karo-ivory/20 bg-karo-ivory/5 px-4 py-3 text-sm text-karo-ivory outline-none focus:border-karo-gold" />
+                                    <input type="text" name="tanggal_lahir" required value={formData.tanggal_lahir} onChange={handleChange} placeholder="Contoh: 13 November 2003" className="mt-1 w-full rounded-xl border border-karo-ivory/20 bg-karo-ivory/5 px-4 py-3 text-sm text-karo-ivory outline-none focus:border-karo-gold" />
                                 </div>
 
                                 <div>
@@ -161,7 +161,7 @@ export default function GabungPage() {
 
                                 <div>
                                     <label className="block text-xs font-semibold text-karo-gold">Domisili di Balikpapan</label>
-                                    <input type="text" name="domisili" required value={formData.domisili} onChange={handleChange} placeholder="Contoh: Balikpapan Selatan" className="mt-1 w-full rounded-xl border border-karo-ivory/20 bg-karo-ivory/5 px-4 py-3 text-sm text-karo-ivory outline-none focus:border-karo-gold" />
+                                    <input type="text" name="domisili" required value={formData.domisili} onChange={handleChange} placeholder="Contoh: Sepinggan" className="mt-1 w-full rounded-xl border border-karo-ivory/20 bg-karo-ivory/5 px-4 py-3 text-sm text-karo-ivory outline-none focus:border-karo-gold" />
                                 </div>
 
                                 <div>
