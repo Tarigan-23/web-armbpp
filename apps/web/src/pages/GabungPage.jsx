@@ -7,7 +7,7 @@ import { UserPlus, CheckCircle2, AlertCircle, ShieldCheck, Calendar, Heart, User
 
 export default function GabungPage() {
     const [formData, setFormData] = useState({
-        nama: '',
+        nama: 'Yegar Tarigan',
         jenis_kelamin: 'Laki-laki',
         bebere: '',
         asal_kota: '',
@@ -17,7 +17,7 @@ export default function GabungPage() {
         status_aktivitas: 'Bekerja',
         golongan_darah: 'O',
         tanggal_lahir: '',
-        sosmed: '',
+        sosmed: 'ig:sianu fb:sianu',
         kontak_darurat_nama: '',
         kontak_darurat_hubungan: 'Keluarga',
         kontak_darurat_no_hp: ''
