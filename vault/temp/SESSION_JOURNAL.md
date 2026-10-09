@@ -1,3472 +1,6 @@
 # SESSION_JOURNAL.md (rotated - earlier entries trimmed)
 
-rror
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/galleries?columns=%22title%22%2C%22category%22%2C%22image_url%22%2C%22span_class%22
-- status: 400
-- requestBody: {"0":{"title":"tim tari","category":"Budaya","image_url":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/galeri_1790159669719.png","span_class":"sm:col-span-1 sm:row-span-1"}}
-- response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'category' column of 'galleries' in the schema cache"}
-- durationMs: 645
-
-## 2026-09-23 10:35:32.511Z console.error
-- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/galleries?columns=%22title%22%2C%22category%22%2C%22image_url%22%2C%22span_class%22: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'category' column of 'galleries' in the schema cache"}
-
-## 2026-09-23 10:36:33.194Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan ke Galeri Publik"}
-
-## 2026-09-23 10:36:33.196Z submit
-- action: http://localhost:3000/ngurus-aron/galeri
-- fields: [{"label":"Judul / Keterangan Foto","type":"text","value":"tim tari","length":8,"redacted":false},{"label":"[select]","type":"select-one","value":"Budaya","length":6,"redacted":false},{"label":"[select]","type":"select-one","value":"sm:col-span-1 sm:row-span-1","length":27,"redacted":false},{"label":"Unggah Foto","type":"file","value":"C:\\fakepath\\1.png","length":17,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:36:33.538Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/galleries?columns=%22title%22%2C%22category%22%2C%22image_url%22%2C%22span_class%22
-- status: 400
-- requestBody: {"0":{"title":"tim tari","category":"Budaya","image_url":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/galeri_1790159669719.png","span_class":"sm:col-span-1 sm:row-span-1"}}
-- response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'title' column of 'galleries' in the schema cache"}
-- durationMs: 340
-
-## 2026-09-23 10:36:33.538Z console.error
-- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/galleries?columns=%22title%22%2C%22category%22%2C%22image_url%22%2C%22span_class%22: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'title' column of 'galleries' in the schema cache"}
-
-## 2026-09-23 10:36:39.378Z load
-- url: http://localhost:3000/ngurus-aron/galeri
-
-## 2026-09-23 10:36:42.534Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Judul / Keterangan Foto","label":"Judul / Keterangan Foto","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:36:42.536Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Judul / Keterangan Foto","label":"Judul / Keterangan Foto","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:36:49.974Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Judul / Keterangan Foto","label":"Judul / Keterangan Foto","value":"tim tari","valueLength":8,"text":""}
-
-## 2026-09-23 10:36:49.974Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Judul / Keterangan Foto","label":"Judul / Keterangan Foto","value":"tim tari","valueLength":8,"text":""}
-
-## 2026-09-23 10:36:49.975Z focus
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-1 sm:row-span-1","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:49.986Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-1 sm:row-span-1","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:52.614Z change
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-2 sm:row-span-2","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:52.616Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-2 sm:row-span-2","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:53.702Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-2 sm:row-span-2","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:56.079Z change
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-2 sm:row-span-1","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:56.082Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-2 sm:row-span-1","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:57.272Z blur
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"sm:col-span-2 sm:row-span-1","valueLength":27,"text":"Ukuran Standar (1 x 1)Ukuran Besar / Kotak Lebar (2 x 2)Ukuran Melebar ke Samping (2 x 1)"}
-
-## 2026-09-23 10:36:57.273Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Unggah Foto"}
-
-## 2026-09-23 10:36:57.274Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"file","id":null,"placeholder":null,"label":"Unggah Foto","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:37:09.499Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan ke Galeri Publik"}
-
-## 2026-09-23 10:37:09.501Z submit
-- action: http://localhost:3000/ngurus-aron/galeri
-- fields: [{"label":"Judul / Keterangan Foto","type":"text","value":"tim tari","length":8,"redacted":false},{"label":"[select]","type":"select-one","value":"Budaya","length":6,"redacted":false},{"label":"[select]","type":"select-one","value":"sm:col-span-2 sm:row-span-1","length":27,"redacted":false},{"label":"Unggah Foto","type":"file","value":"C:\\fakepath\\1.png","length":17,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:37:09.783Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/galleries?columns=%22title%22%2C%22category%22%2C%22image_url%22%2C%22span_class%22
-- status: 400
-- requestBody: {"0":{"title":"tim tari","category":"Budaya","image_url":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/galeri_1790159819378.png","span_class":"sm:col-span-2 sm:row-span-1"}}
-- response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'title' column of 'galleries' in the schema cache"}
-- durationMs: 279
-
-## 2026-09-23 10:37:09.784Z console.error
-- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/galleries?columns=%22title%22%2C%22category%22%2C%22image_url%22%2C%22span_class%22: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'title' column of 'galleries' in the schema cache"}
-
-## 2026-09-23 10:38:42.264Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan ke Galeri Publik"}
-
-## 2026-09-23 10:38:42.265Z submit
-- action: http://localhost:3000/ngurus-aron/galeri
-- fields: [{"label":"Judul / Keterangan Foto","type":"text","value":"tim tari","length":8,"redacted":false},{"label":"[select]","type":"select-one","value":"Budaya","length":6,"redacted":false},{"label":"[select]","type":"select-one","value":"sm:col-span-2 sm:row-span-1","length":27,"redacted":false},{"label":"Unggah Foto","type":"file","value":"C:\\fakepath\\1.png","length":17,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:38:47.052Z load
-- url: http://localhost:3000/galeri
-
-## 2026-09-23 10:38:53.564Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Budaya"}
-
-## 2026-09-23 10:38:54.472Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Semua"}
-
-## 2026-09-23 10:39:02.775Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hapus Foto"}
-
-## 2026-09-23 10:39:17.795Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Keuangan"}
-
-## 2026-09-23 10:39:17.797Z navigate
-- url: http://localhost:3000/ngurus-aron/keuangan
-- via: pushState
-
-## 2026-09-23 10:39:19.532Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Keuangan"}
-
-## 2026-09-23 10:39:19.533Z navigate
-- url: http://localhost:3000/ngurus-aron/keuangan
-- via: replaceState
-
-## 2026-09-23 10:39:21.686Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Galeri"}
-
-## 2026-09-23 10:39:21.687Z navigate
-- url: http://localhost:3000/ngurus-aron/galeri
-- via: pushState
-
-## 2026-09-23 10:39:22.761Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Keuangan"}
-
-## 2026-09-23 10:39:22.762Z navigate
-- url: http://localhost:3000/ngurus-aron/keuangan
-- via: pushState
-
-## 2026-09-23 10:39:38.687Z load
-- url: http://localhost:3000/galeri
-
-## 2026-09-23 10:39:48.697Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi"}
-
-## 2026-09-23 10:39:48.699Z navigate
-- url: http://localhost:3000/donasi
-- via: pushState
-
-## 2026-09-23 10:39:49.704Z click
-- element: {"tag":"nav","role":null,"ariaLabel":"Navigasi utama","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"BerandaTentang KamiPengurusProgramBeritaGaleriDonasiKontak"}
-
-## 2026-09-23 10:39:50.322Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Galeri"}
-
-## 2026-09-23 10:39:50.323Z navigate
-- url: http://localhost:3000/galeri
-- via: pushState
-
-## 2026-09-23 10:39:51.103Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi"}
-
-## 2026-09-23 10:39:51.104Z navigate
-- url: http://localhost:3000/donasi
-- via: pushState
-
-## 2026-09-23 10:40:44.467Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Galeri"}
-
-## 2026-09-23 10:40:44.468Z navigate
-- url: http://localhost:3000/galeri
-- via: pushState
-
-## 2026-09-23 10:40:46.894Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi"}
-
-## 2026-09-23 10:40:46.895Z navigate
-- url: http://localhost:3000/donasi
-- via: pushState
-
-## 2026-09-23 10:44:24.933Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Donasi"}
-
-## 2026-09-23 10:44:24.935Z navigate
-- url: http://localhost:3000/ngurus-aron/donasi
-- via: pushState
-
-## 2026-09-23 10:44:26.566Z load
-- url: http://localhost:3000/ngurus-aron/donasi
-
-## 2026-09-23 10:44:28.633Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bank_name","type":"text","id":null,"placeholder":null,"label":"bank_name","value":"BRI","valueLength":3,"text":""}
-
-## 2026-09-23 10:44:28.845Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bank_name","type":"text","id":null,"placeholder":null,"label":"bank_name","value":"BRI","valueLength":3,"text":""}
-
-## 2026-09-23 10:44:29.774Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bank_name","type":"text","id":null,"placeholder":null,"label":"bank_name","value":"BRI","valueLength":3,"text":""}
-
-## 2026-09-23 10:44:31.149Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bank_name","type":"text","id":null,"placeholder":null,"label":"bank_name","value":"BRI","valueLength":3,"text":""}
-
-## 2026-09-23 10:44:31.150Z focus
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":"description","type":null,"id":null,"placeholder":null,"label":"description","value":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial.","valueLength":107,"text":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial."}
-
-## 2026-09-23 10:44:31.365Z click
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":"description","type":null,"id":null,"placeholder":null,"label":"description","value":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial.","valueLength":107,"text":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial."}
-
-## 2026-09-23 10:44:34.947Z click
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":"description","type":null,"id":null,"placeholder":null,"label":"description","value":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial.","valueLength":107,"text":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial."}
-
-## 2026-09-23 10:44:48.183Z click
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":"description","type":null,"id":null,"placeholder":null,"label":"description","value":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial.","valueLength":107,"text":"Donasi Anda disalurkan untuk beasiswa pendidikan, kegiatan sanggar seni, festival budaya, dan bakti sosial."}
-
-## 2026-09-23 10:45:16.766Z change
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":"description","type":null,"id":null,"placeholder":null,"label":"description","value":"Donasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial.","valueLength":89,"text":"Donasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial."}
-
-## 2026-09-23 10:45:16.766Z blur
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":"description","type":null,"id":null,"placeholder":null,"label":"description","value":"Donasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial.","valueLength":89,"text":"Donasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial."}
-
-## 2026-09-23 10:45:16.766Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"contact_name","type":"text","id":null,"placeholder":null,"label":"contact_name","value":"Meilani br Karo-karo","valueLength":20,"text":""}
-
-## 2026-09-23 10:45:16.975Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"contact_name","type":"text","id":null,"placeholder":null,"label":"contact_name","value":"Meilani br Karo-karo","valueLength":20,"text":""}
-
-## 2026-09-23 10:45:24.424Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"contact_name","type":"text","id":null,"placeholder":null,"label":"contact_name","value":"Meilin ","valueLength":7,"text":""}
-
-## 2026-09-23 10:45:24.424Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"contact_name","type":"text","id":null,"placeholder":null,"label":"contact_name","value":"Meilin ","valueLength":7,"text":""}
-
-## 2026-09-23 10:45:37.461Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"contact_name","type":"text","id":null,"placeholder":null,"label":"contact_name","value":"Meilin ","valueLength":7,"text":""}
-
-## 2026-09-23 10:45:49.970Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"contact_name","type":"text","id":null,"placeholder":null,"label":"contact_name","value":"Meilin Sembiring","valueLength":16,"text":""}
-
-## 2026-09-23 10:45:49.971Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"contact_name","type":"text","id":null,"placeholder":null,"label":"contact_name","value":"Meilin Sembiring","valueLength":16,"text":""}
-
-## 2026-09-23 10:45:50.180Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Informasi Donasi"}
-
-## 2026-09-23 10:45:50.181Z submit
-- action: http://localhost:3000/ngurus-aron/donasi
-- fields: [{"label":"bank_name","type":"text","value":"BRI","length":3,"redacted":false},{"label":"account_number","type":"text","value":"1234 5678 9012","length":14,"redacted":false},{"label":"account_holder","type":"text","value":"Aron Rudang Mayang Balikpapan","length":29,"redacted":false},{"label":"wa_number","type":"text","value":"6282154321098","length":13,"redacted":false},{"label":"contact_name","type":"text","value":"Meilin Sembiring","length":16,"redacted":false},{"label":"description","type":"textarea","value":"Donasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial.","length":89,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:46:02.561Z load
-- url: http://localhost:3000/donasi
-
-## 2026-09-23 10:46:13.950Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi Sekarang"}
-
-## 2026-09-23 10:46:50.219Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"1234 5678 9012","valueLength":14,"text":""}
-
-## 2026-09-23 10:46:50.386Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"1234 5678 9012","valueLength":14,"text":""}
-
-## 2026-09-23 10:46:50.601Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"1234 5678 9012","valueLength":14,"text":""}
-
-## 2026-09-23 10:46:59.197Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"+62 858-2534-5148","valueLength":17,"text":""}
-
-## 2026-09-23 10:47:12.494Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"0858-2534-5148","valueLength":14,"text":""}
-
-## 2026-09-23 10:47:12.495Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"0858-2534-5148","valueLength":14,"text":""}
-
-## 2026-09-23 10:47:12.495Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_holder","type":"text","id":null,"placeholder":null,"label":"account_holder","value":"Aron Rudang Mayang Balikpapan","valueLength":29,"text":""}
-
-## 2026-09-23 10:47:12.714Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_holder","type":"text","id":null,"placeholder":null,"label":"account_holder","value":"Aron Rudang Mayang Balikpapan","valueLength":29,"text":""}
-
-## 2026-09-23 10:47:14.017Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_holder","type":"text","id":null,"placeholder":null,"label":"account_holder","value":"Aron Rudang Mayang Balikpapan","valueLength":29,"text":""}
-
-## 2026-09-23 10:47:14.239Z click
-- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nama Bank (Cth: BRI / BCA)Nomor RekeningAtas Nama RekeningNo WhatsApp Konfirmasi (Format: 628...)Nama Kontak / BendaharaDeskripsi / Pengantar DonasiDonasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial.Simpan Informasi Donasi"}
-
-## 2026-09-23 10:47:15.553Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_holder","type":"text","id":null,"placeholder":null,"label":"account_holder","value":"Aron Rudang Mayang Balikpapan","valueLength":29,"text":""}
-
-## 2026-09-23 10:47:15.781Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_holder","type":"text","id":null,"placeholder":null,"label":"account_holder","value":"Aron Rudang Mayang Balikpapan","valueLength":29,"text":""}
-
-## 2026-09-23 10:47:17.758Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_holder","type":"text","id":null,"placeholder":null,"label":"account_holder","value":"Aron Rudang Mayang Balikpapan","valueLength":29,"text":""}
-
-## 2026-09-23 10:47:17.988Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Atas Nama Rekening"}
-
-## 2026-09-23 10:47:22.358Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"0858-2534-5148","valueLength":14,"text":""}
-
-## 2026-09-23 10:47:22.580Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"0858-2534-5148","valueLength":14,"text":""}
-
-## 2026-09-23 10:47:25.369Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"account_number","type":"text","id":null,"placeholder":null,"label":"account_number","value":"0858-2534-5148","valueLength":14,"text":""}
-
-## 2026-09-23 10:47:25.369Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6282154321098","valueLength":13,"text":""}
-
-## 2026-09-23 10:47:25.541Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6282154321098","valueLength":13,"text":""}
-
-## 2026-09-23 10:47:25.765Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6282154321098","valueLength":13,"text":""}
-
-## 2026-09-23 10:47:34.311Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:47:34.312Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:47:41.260Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:47:45.844Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:47:46.059Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Informasi Donasi"}
-
-## 2026-09-23 10:47:46.060Z submit
-- action: http://localhost:3000/ngurus-aron/donasi
-- fields: [{"label":"bank_name","type":"text","value":"BRI","length":3,"redacted":false},{"label":"account_number","type":"text","value":"0858-2534-5148","length":14,"redacted":false},{"label":"account_holder","type":"text","value":"Aron Rudang Mayang Balikpapan","length":29,"redacted":false},{"label":"wa_number","type":"text","value":"6285825345148","length":13,"redacted":false},{"label":"contact_name","type":"text","value":"Meilin Sembiring","length":16,"redacted":false},{"label":"description","type":"textarea","value":"Donasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial.","length":89,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:47:49.854Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi Sekarang"}
-
-## 2026-09-23 10:48:07.387Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi Sekarang"}
-
-## 2026-09-23 10:49:17.325Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:49:17.471Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:49:17.689Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:49:18.601Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:49:30.194Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:49:31.604Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"wa_number","type":"text","id":null,"placeholder":null,"label":"wa_number","value":"6285825345148","valueLength":13,"text":""}
-
-## 2026-09-23 10:49:31.815Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Atas Nama Rekening"}
-
-## 2026-09-23 10:49:33.056Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Informasi Donasi"}
-
-## 2026-09-23 10:49:33.057Z submit
-- action: http://localhost:3000/ngurus-aron/donasi
-- fields: [{"label":"bank_name","type":"text","value":"BRI","length":3,"redacted":false},{"label":"account_number","type":"text","value":"0858-2534-5148","length":14,"redacted":false},{"label":"account_holder","type":"text","value":"Aron Rudang Mayang Balikpapan","length":29,"redacted":false},{"label":"wa_number","type":"text","value":"6285825345148","length":13,"redacted":false},{"label":"contact_name","type":"text","value":"Meilin Sembiring","length":16,"redacted":false},{"label":"description","type":"textarea","value":"Donasi Anda disalurkan untuk kas aron, kegiatan rutin, festival budaya, dan bakti sosial.","length":89,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:49:38.782Z load
-- url: http://localhost:3000/donasi
-
-## 2026-09-23 10:49:45.886Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi Sekarang"}
-
-## 2026-09-23 10:50:45.177Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 10:50:45.179Z navigate
-- url: http://localhost:3000/kontak
-- via: pushState
-
-## 2026-09-23 10:50:49.154Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"nama","placeholder":"Nama Anda","label":"Nama Lengkap","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:50:49.377Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"nama","placeholder":"Nama Anda","label":"Nama Lengkap","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:50:51.636Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"nama","placeholder":"Nama Anda","label":"Nama Lengkap","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:50:52.621Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"kontak","placeholder":"contoh: 0812-xxxx-xxxx","label":"Email / Nomor WhatsApp","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:50:52.828Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"kontak","placeholder":"contoh: 0812-xxxx-xxxx","label":"Email / Nomor WhatsApp","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:50:53.972Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Pesan"}
-
-## 2026-09-23 10:51:12.351Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Email / Nomor WhatsApp"}
-
-## 2026-09-23 10:51:12.353Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"kontak","placeholder":"contoh: 0812-xxxx-xxxx","label":"Email / Nomor WhatsApp","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:51:12.354Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"kontak","placeholder":"contoh: 0812-xxxx-xxxx","label":"Email / Nomor WhatsApp","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:51:13.670Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"nama","placeholder":"Nama Anda","label":"Nama Lengkap","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:51:13.879Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"nama","placeholder":"Nama Anda","label":"Nama Lengkap","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:51:16.452Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"nama","placeholder":"Nama Anda","label":"Nama Lengkap","value":"yegar","valueLength":5,"text":""}
-
-## 2026-09-23 10:51:16.452Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"nama","placeholder":"Nama Anda","label":"Nama Lengkap","value":"yegar","valueLength":5,"text":""}
-
-## 2026-09-23 10:51:16.454Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"kontak","placeholder":"contoh: 0812-xxxx-xxxx","label":"Email / Nomor WhatsApp","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:51:24.112Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"kontak","placeholder":"contoh: 0812-xxxx-xxxx","label":"Email / Nomor WhatsApp","value":"083877734668","valueLength":12,"text":""}
-
-## 2026-09-23 10:51:24.112Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":null,"id":"kontak","placeholder":"contoh: 0812-xxxx-xxxx","label":"Email / Nomor WhatsApp","value":"083877734668","valueLength":12,"text":""}
-
-## 2026-09-23 10:51:24.116Z focus
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":null,"type":null,"id":"pesan","placeholder":"Tulis pesan Anda di sini...","label":"Pesan","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 10:51:35.028Z change
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":null,"type":null,"id":"pesan","placeholder":"Tulis pesan Anda di sini...","label":"Pesan","value":"aku mau ngajuin jadi tim tari","valueLength":29,"text":"aku mau ngajuin jadi tim tari"}
-
-## 2026-09-23 10:51:35.028Z blur
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":null,"type":null,"id":"pesan","placeholder":"Tulis pesan Anda di sini...","label":"Pesan","value":"aku mau ngajuin jadi tim tari","valueLength":29,"text":"aku mau ngajuin jadi tim tari"}
-
-## 2026-09-23 10:51:35.248Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pesan"}
-
-## 2026-09-23 10:51:35.250Z submit
-- action: http://localhost:3000/kontak
-- fields: [{"label":"Nama Lengkap","type":"text","value":"yegar","length":5,"redacted":false},{"label":"Email / Nomor WhatsApp","type":"text","value":"083877734668","length":12,"redacted":false},{"label":"Pesan","type":"textarea","value":"aku mau ngajuin jadi tim tari","length":29,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:53:17.348Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pesan"}
-
-## 2026-09-23 10:53:17.350Z submit
-- action: http://localhost:3000/kontak
-- fields: [{"label":"Nama Lengkap","type":"text","value":"yegar","length":5,"redacted":false},{"label":"Email / Nomor WhatsApp","type":"text","value":"083877734668","length":12,"redacted":false},{"label":"Pesan","type":"textarea","value":"aku mau ngajuin jadi tim tari","length":29,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:54:28.430Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pesan"}
-
-## 2026-09-23 10:54:28.431Z submit
-- action: http://localhost:3000/kontak
-- fields: [{"label":"Nama Lengkap","type":"text","value":"yegar","length":5,"redacted":false},{"label":"Email / Nomor WhatsApp","type":"text","value":"083877734668","length":12,"redacted":false},{"label":"Pesan","type":"textarea","value":"aku mau ngajuin jadi tim tari","length":29,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-23 10:55:22.143Z console.error
-- text: [vite] Failed to reload /src/pages/KontakPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 10:55:22.159Z console.error
-- text: [vite] Failed to reload /src/pages/KontakPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 10:55:43.495Z console.error
-- text: [vite] Failed to reload /src/pages/ngurus-aron/kontak/KontakPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 10:55:43.585Z console.error
-- text: [vite] Failed to reload /src/pages/ngurus-aron/kontak/KontakPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 11:00:42.736Z window.error
-- message: Uncaught ReferenceError: AdminKontakPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161242325
-- line: 167
-- col: 87
-- stack: 
-    ReferenceError: AdminKontakPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:00:42.742Z window.error
-- message: Uncaught ReferenceError: AdminKontakPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161242325
-- line: 167
-- col: 87
-- stack: 
-    ReferenceError: AdminKontakPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:00:42.751Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-23 11:00:42.754Z unhandledrejection
-- message: AdminKontakPage is not defined
-- stack: 
-    ReferenceError: AdminKontakPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-23 11:00:43.736Z root.empty
-- url: http://localhost:3000/kontak
-
-## 2026-09-23 11:00:42.736Z window.error
-- message: Uncaught ReferenceError: AdminKontakPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161242325
-- line: 167
-- col: 87
-- stack: 
-    ReferenceError: AdminKontakPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:00:42.742Z window.error
-- message: Uncaught ReferenceError: AdminKontakPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161242325
-- line: 167
-- col: 87
-- stack: 
-    ReferenceError: AdminKontakPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:00:42.743Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-23 11:00:42.746Z unhandledrejection
-- message: AdminKontakPage is not defined
-- stack: 
-    ReferenceError: AdminKontakPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161242325:167:87)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-23 11:00:43.736Z root.empty
-- url: http://localhost:3000/ngurus-aron/donasi
-
-## 2026-09-23 11:03:56.286Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:03:56.288Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:03:57.478Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:03:57.479Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:03:57.923Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:03:57.924Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:03:58.096Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:03:58.097Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:03:58.315Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:03:58.316Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:03:58.913Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:03:58.914Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:03:59.469Z click
-- element: {"tag":"nav","role":null,"ariaLabel":"Navigasi utama","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"BerandaTentang KamiPengurusProgramBeritaGaleriDonasiKontak"}
-
-## 2026-09-23 11:03:59.893Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi"}
-
-## 2026-09-23 11:03:59.894Z navigate
-- url: http://localhost:3000/donasi
-- via: pushState
-
-## 2026-09-23 11:04:00.895Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:04:00.895Z navigate
-- url: http://localhost:3000/kontak
-- via: pushState
-
-## 2026-09-23 11:04:01.667Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:04:01.668Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:04:01.885Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:04:01.885Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:04:02.424Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:04:02.424Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:04:03.629Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kontak"}
-
-## 2026-09-23 11:04:03.630Z navigate
-- url: http://localhost:3000/kontak
-- via: replaceState
-
-## 2026-09-23 11:04:33.344Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
-
-## 2026-09-23 11:04:33.345Z navigate
-- url: http://localhost:3000/keuangan
-- via: pushState
-
-## 2026-09-23 11:04:34.036Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/financial_reports?select=*&order=transaction_date.desc
-- status: 400
-- response: {"code":"42703","details":null,"hint":null,"message":"column financial_reports.transaction_date does not exist"}
-- durationMs: 666
-
-## 2026-09-23 11:04:34.036Z console.error
-- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/financial_reports?select=*&order=transaction_date.desc: {"code":"42703","details":null,"hint":null,"message":"column financial_reports.transaction_date does not exist"}
-
-## 2026-09-23 11:04:40.329Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Keterangan (Contoh: Iuran Bulan Juli)","label":"Keterangan (Contoh: Iuran Bulan Juli)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:40.547Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Keterangan (Contoh: Iuran Bulan Juli)","label":"Keterangan (Contoh: Iuran Bulan Juli)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:45.923Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Keuangan"}
-
-## 2026-09-23 11:04:45.924Z navigate
-- url: http://localhost:3000/ngurus-aron/keuangan
-- via: pushState
-
-## 2026-09-23 11:04:46.425Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/financial_reports?select=*&order=transaction_date.desc
-- status: 400
-- response: {"code":"42703","details":null,"hint":null,"message":"column financial_reports.transaction_date does not exist"}
-- durationMs: 486
-
-## 2026-09-23 11:04:46.425Z console.error
-- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/financial_reports?select=*&order=transaction_date.desc: {"code":"42703","details":null,"hint":null,"message":"column financial_reports.transaction_date does not exist"}
-
-## 2026-09-23 11:04:47.371Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Keterangan (Contoh: Iuran Bulan Juli)","label":"Keterangan (Contoh: Iuran Bulan Juli)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:47.586Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Keterangan (Contoh: Iuran Bulan Juli)","label":"Keterangan (Contoh: Iuran Bulan Juli)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:48.524Z focus
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"masuk","valueLength":5,"text":"PemasukanPengeluaran"}
-
-## 2026-09-23 11:04:48.743Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"masuk","valueLength":5,"text":"PemasukanPengeluaran"}
-
-## 2026-09-23 11:04:49.804Z change
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"keluar","valueLength":6,"text":"PemasukanPengeluaran"}
-
-## 2026-09-23 11:04:49.806Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"keluar","valueLength":6,"text":"PemasukanPengeluaran"}
-
-## 2026-09-23 11:04:50.392Z blur
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":"[select]","value":"keluar","valueLength":6,"text":"PemasukanPengeluaran"}
-
-## 2026-09-23 11:04:50.393Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"number","id":null,"placeholder":"Jumlah (Nominal Rp)","label":"Jumlah (Nominal Rp)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:50.602Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"number","id":null,"placeholder":"Jumlah (Nominal Rp)","label":"Jumlah (Nominal Rp)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:51.498Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Catat Transaksi KeuanganPemasukanPengeluaranSimpan TransaksiRiwayat Laporan Keuangan"}
-
-## 2026-09-23 11:04:52.247Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Keterangan (Contoh: Iuran Bulan Juli)","label":"Keterangan (Contoh: Iuran Bulan Juli)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:53.547Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Keterangan (Contoh: Iuran Bulan Juli)","label":"Keterangan (Contoh: Iuran Bulan Juli)","value":"","valueLength":0,"text":""}
-
-## 2026-09-23 11:04:57.342Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-23 11:07:47.232Z console.error
-- text: [vite] Failed to reload /src/pages/ngurus-aron/keuangan/KeuanganPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 11:07:47.237Z console.error
-- text: [vite] Failed to reload /src/pages/ngurus-aron/keuangan/KeuanganPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 11:08:07.729Z window.error
-- message: Uncaught ReferenceError: KeuanganAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161687242
-- line: 149
-- col: 89
-- stack: 
-    ReferenceError: KeuanganAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:08:07.730Z window.error
-- message: Uncaught ReferenceError: KeuanganAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161687242
-- line: 149
-- col: 89
-- stack: 
-    ReferenceError: KeuanganAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:08:07.732Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-23 11:08:07.733Z unhandledrejection
-- message: KeuanganAdminPage is not defined
-- stack: 
-    ReferenceError: KeuanganAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-23 11:08:08.732Z root.empty
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-23 11:08:07.731Z window.error
-- message: Uncaught ReferenceError: KeuanganAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161687242
-- line: 149
-- col: 89
-- stack: 
-    ReferenceError: KeuanganAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:08:07.734Z window.error
-- message: Uncaught ReferenceError: KeuanganAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790161687242
-- line: 149
-- col: 89
-- stack: 
-    ReferenceError: KeuanganAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-23 11:08:07.736Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-23 11:08:07.738Z unhandledrejection
-- message: KeuanganAdminPage is not defined
-- stack: 
-    ReferenceError: KeuanganAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790161687242:149:89)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-23 11:08:08.732Z root.empty
-- url: http://localhost:3000/keuangan
-
-## 2026-09-23 11:08:23.483Z console.error
-- text: [vite] Failed to reload /src/pages/Keuangan.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 11:08:23.575Z console.error
-- text: [vite] Failed to reload /src/pages/Keuangan.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-23 11:08:36.132Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-23 11:08:40.639Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-23 11:11:08.176Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-23 11:12:59.720Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-24 08:40:10.433Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-24 08:40:10.680Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 08:40:35.599Z click
-- element: {"tag":"svg","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:42:17.735Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
-
-## 2026-09-24 08:42:17.738Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 08:42:47.191Z click
-- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya."}
-
-## 2026-09-24 08:42:48.807Z click
-- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya."}
-
-## 2026-09-24 08:42:51.147Z click
-- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya."}
-
-## 2026-09-24 08:42:51.498Z click
-- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya."}
-
-## 2026-09-24 08:42:51.721Z click
-- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya."}
-
-## 2026-09-24 08:42:52.978Z click
-- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya."}
-
-## 2026-09-24 08:43:04.815Z focus
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:43:05.042Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:43:06.743Z change
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:43:06.754Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:43:10.192Z blur
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:43:12.272Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
-
-## 2026-09-24 08:43:12.273Z navigate
-- url: http://localhost:3000/keuangan
-- via: pushState
-
-## 2026-09-24 08:43:42.446Z focus
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:43:47.120Z blur
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:43:47.332Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:43:54.297Z click
-- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya."}
-
-## 2026-09-24 08:43:57.240Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:44:01.014Z focus
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:44:01.232Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:44:02.110Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:44:03.883Z blur
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:44:03.883Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:44:04.091Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:44:08.189Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 50.000 per bulan guna mendukung kegiatan sosial dan budaya.","valueLength":175,"text":""}
-
-## 2026-09-24 08:44:13.767Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 10.000 per bulan guna mendukung kegiatan sosial dan budaya.","valueLength":175,"text":""}
-
-## 2026-09-24 08:44:13.767Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 10.000 per bulan guna mendukung kegiatan sosial dan budaya.","valueLength":175,"text":""}
-
-## 2026-09-24 08:44:13.768Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:44:13.996Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:44:15.817Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"10 Mei 2026","valueLength":11,"text":""}
-
-## 2026-09-24 08:44:17.156Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"10 Mei 2026","valueLength":11,"text":""}
-
-## 2026-09-24 08:44:17.377Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Catatan"}
-
-## 2026-09-24 08:44:17.378Z submit
-- action: http://localhost:3000/ngurus-aron/keuangan
-- fields: [{"label":"type","type":"select-one","value":"info","length":4,"redacted":false},{"label":"date","type":"text","value":"10 Mei 2026","length":11,"redacted":false},{"label":"title","type":"text","value":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 10.000 per bulan guna mendukung kegiatan sosial dan budaya.","length":175,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 08:44:18.066Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/financial_reports?columns=%22type%22%2C%22title%22%2C%22amount%22%2C%22date%22%2C%22category%22
-- status: 400
-- requestBody: {"0":{"type":"info","title":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 10.000 per bulan guna mendukung kegiatan sosial dan budaya.","amount":"","date":"10 Mei 2026","category":"Iuran Kas"}}
-- response: {"code":"22P02","details":null,"hint":null,"message":"invalid input syntax for type numeric: \"\""}
-- durationMs: 684
-
-## 2026-09-24 08:44:18.067Z console.error
-- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/financial_reports?columns=%22type%22%2C%22title%22%2C%22amount%22%2C%22date%22%2C%22category%22: {"code":"22P02","details":null,"hint":null,"message":"invalid input syntax for type numeric: \"\""}
-
-## 2026-09-24 08:46:19.986Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Catatan"}
-
-## 2026-09-24 08:46:19.988Z submit
-- action: http://localhost:3000/ngurus-aron/keuangan
-- fields: [{"label":"type","type":"select-one","value":"info","length":4,"redacted":false},{"label":"date","type":"text","value":"10 Mei 2026","length":11,"redacted":false},{"label":"title","type":"text","value":"Berdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 10.000 per bulan guna mendukung kegiatan sosial dan budaya.","length":175,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 08:46:33.503Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-24 08:46:49.587Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:46:49.587Z window.error
-- message: Uncaught ReferenceError: handleDelete is not defined
-- source: http://localhost:3000/src/pages/ngurus-aron/keuangan/KeuanganAdminPage.jsx?t=1790239574648
-- line: 267
-- col: 61
-- stack: 
-    ReferenceError: handleDelete is not defined
-        at onClick (http://localhost:3000/src/pages/ngurus-aron/keuangan/KeuanganAdminPage.jsx?t=1790239574648:267:61)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3742:33)
-        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7046:11)
-        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7066:15)
-        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7075:13)
-        at dispatchEventsForPlugins (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7083:11)
-        at http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7206:20
-
-## 2026-09-24 08:46:49.592Z window.error
-- message: Uncaught ReferenceError: handleDelete is not defined
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 3756
-- col: 13
-- stack: 
-    ReferenceError: handleDelete is not defined
-        at onClick (http://localhost:3000/src/pages/ngurus-aron/keuangan/KeuanganAdminPage.jsx?t=1790239574648:267:61)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3742:33)
-        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7046:11)
-        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7066:15)
-        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7075:13)
-        at dispatchEventsForPlugins (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7083:11)
-        at http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7206:20
-
-## 2026-09-24 08:46:51.293Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:46:51.294Z window.error
-- message: Uncaught ReferenceError: handleDelete is not defined
-- source: http://localhost:3000/src/pages/ngurus-aron/keuangan/KeuanganAdminPage.jsx?t=1790239574648
-- line: 267
-- col: 61
-- stack: 
-    ReferenceError: handleDelete is not defined
-        at onClick (http://localhost:3000/src/pages/ngurus-aron/keuangan/KeuanganAdminPage.jsx?t=1790239574648:267:61)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3742:33)
-        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7046:11)
-        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7066:15)
-        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7075:13)
-        at dispatchEventsForPlugins (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7083:11)
-        at http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7206:20
-
-## 2026-09-24 08:46:51.294Z window.error
-- message: Uncaught ReferenceError: handleDelete is not defined
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 3756
-- col: 13
-- stack: 
-    ReferenceError: handleDelete is not defined
-        at onClick (http://localhost:3000/src/pages/ngurus-aron/keuangan/KeuanganAdminPage.jsx?t=1790239574648:267:61)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3742:33)
-        at executeDispatch (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7046:11)
-        at processDispatchQueueItemsInOrder (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7066:15)
-        at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7075:13)
-        at dispatchEventsForPlugins (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7083:11)
-        at http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:7206:20
-
-## 2026-09-24 08:48:01.970Z focus
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:48:01.983Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:48:05.601Z click
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:48:06.666Z blur
-- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
-
-## 2026-09-24 08:48:06.666Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:48:06.667Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:48:14.344Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"100 mei 2026","valueLength":12,"text":""}
-
-## 2026-09-24 08:48:14.344Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"100 mei 2026","valueLength":12,"text":""}
-
-## 2026-09-24 08:48:14.345Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:48:14.351Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:48:21.869Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"kas bulan 100","valueLength":13,"text":""}
-
-## 2026-09-24 08:48:21.869Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"kas bulan 100","valueLength":13,"text":""}
-
-## 2026-09-24 08:48:21.870Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":"500000","label":"amount","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:48:21.872Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":"500000","label":"amount","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 08:48:27.862Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":"500000","label":"amount","value":"100000","valueLength":6,"text":""}
-
-## 2026-09-24 08:48:27.862Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":"500000","label":"amount","value":"100000","valueLength":6,"text":""}
-
-## 2026-09-24 08:48:27.864Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"category","type":"text","id":null,"placeholder":"Iuran Kas / Donasi / Operasional","label":"category","value":"Iuran Kas","valueLength":9,"text":""}
-
-## 2026-09-24 08:48:27.866Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"category","type":"text","id":null,"placeholder":"Iuran Kas / Donasi / Operasional","label":"category","value":"Iuran Kas","valueLength":9,"text":""}
-
-## 2026-09-24 08:48:29.195Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"category","type":"text","id":null,"placeholder":"Iuran Kas / Donasi / Operasional","label":"category","value":"Iuran Kas","valueLength":9,"text":""}
-
-## 2026-09-24 08:48:30.233Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":"category","type":"text","id":null,"placeholder":"Iuran Kas / Donasi / Operasional","label":"category","value":"Iuran Kas","valueLength":9,"text":""}
-
-## 2026-09-24 08:48:30.234Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Catatan"}
-
-## 2026-09-24 08:48:30.235Z submit
-- action: http://localhost:3000/ngurus-aron/keuangan
-- fields: [{"label":"type","type":"select-one","value":"masuk","length":5,"redacted":false},{"label":"date","type":"text","value":"100 mei 2026","length":12,"redacted":false},{"label":"title","type":"text","value":"kas bulan 100","length":13,"redacted":false},{"label":"amount","type":"number","value":"100000","length":6,"redacted":false},{"label":"category","type":"text","value":"Iuran Kas","length":9,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 08:48:34.478Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-24 08:49:05.541Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 08:49:09.748Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:49:16.451Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:49:20.799Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:49:25.182Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:49:29.527Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 08:49:38.622Z load
-- url: http://localhost:3000/keuangan
-
-## 2026-09-24 08:50:00.426Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
-
-## 2026-09-24 08:50:00.427Z navigate
-- url: http://localhost:3000/keuangan
-- via: replaceState
-
-## 2026-09-24 08:50:01.867Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi"}
-
-## 2026-09-24 08:50:01.868Z navigate
-- url: http://localhost:3000/donasi
-- via: pushState
-
-## 2026-09-24 08:50:04.974Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bergabung Bersama Kami"}
-
-## 2026-09-24 08:50:04.975Z navigate
-- url: http://localhost:3000/gabung
-- via: pushState
-
-## 2026-09-24 08:50:10.637Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
-
-## 2026-09-24 08:50:10.638Z navigate
-- url: http://localhost:3000/keuangan
-- via: pushState
-
-## 2026-09-24 08:50:53.264Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Setelah melakukan pembayaran iuran kas, mohon konfirmasikan bukti transfer melalui WhatsApp kepada Bendahara Umum (Meilani br Karo-karo)."}
-
-## 2026-09-24 08:52:04.954Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
-
-## 2026-09-24 08:52:04.955Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 08:52:43.301Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Tentang Kami"}
-
-## 2026-09-24 08:52:43.302Z navigate
-- url: http://localhost:3000/tentang-kami
-- via: pushState
-
-## 2026-09-24 08:52:58.654Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
-
-## 2026-09-24 08:52:58.655Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 08:53:10.078Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bergabung Bersama KamiKenali Kami Lebih Dekat"}
-
-## 2026-09-24 08:56:40.621Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 08:56:41.075Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:07:58.281Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Tentang Kami"}
-
-## 2026-09-24 09:07:58.284Z navigate
-- url: http://localhost:3000/tentang-kami
-- via: pushState
-
-## 2026-09-24 09:08:02.350Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
-
-## 2026-09-24 09:08:02.351Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 09:10:56.494Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita & Agenda"}
-
-## 2026-09-24 09:10:56.709Z load
-- url: http://localhost:3000/berita
-
-## 2026-09-24 09:10:56.845Z navigate
-- url: http://localhost:3000/berita
-- via: replaceState
-
-## 2026-09-24 09:10:59.468Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
-
-## 2026-09-24 09:10:59.470Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 09:12:51.059Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Tentang Kami"}
-
-## 2026-09-24 09:12:51.060Z navigate
-- url: http://localhost:3000/tentang-kami
-- via: pushState
-
-## 2026-09-24 09:13:31.663Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
-
-## 2026-09-24 09:13:31.664Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 09:24:08.726Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:25:22.657Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241922288
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:22.661Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241922288
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:22.664Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:25:22.669Z unhandledrejection
-- message: YoutubeAdminPage is not defined
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-24 09:25:23.650Z root.empty
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:25:22.656Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241922288
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:22.660Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241922288
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:22.663Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:25:22.667Z unhandledrejection
-- message: YoutubeAdminPage is not defined
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241922288:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-24 09:25:23.650Z root.empty
-- url: http://localhost:3000/
-
-## 2026-09-24 09:25:34.650Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:34.654Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:34.654Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:25:34.655Z unhandledrejection
-- message: YoutubeAdminPage is not defined
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-24 09:25:34.651Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:34.652Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:34.653Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:25:34.653Z unhandledrejection
-- message: YoutubeAdminPage is not defined
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-24 09:25:38.608Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:25:38.691Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:38.692Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:38.693Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:25:38.693Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 19466
-- col: 13
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performConcurrentWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18734:30)
-
-## 2026-09-24 09:25:39.408Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:25:39.467Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:39.468Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:39.468Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:25:39.468Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 19466
-- col: 13
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performConcurrentWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18734:30)
-
-## 2026-09-24 09:25:39.774Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:25:39.834Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:39.834Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/src/App.jsx?t=1790241934360
-- line: 212
-- col: 88
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:25:39.835Z console.error
-- text: 
-    The above error occurred in the <App> component:
-    
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:25:39.835Z window.error
-- message: Uncaught ReferenceError: YoutubeAdminPage is not defined
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 19466
-- col: 13
-- stack: 
-    ReferenceError: YoutubeAdminPage is not defined
-        at App (http://localhost:3000/src/App.jsx?t=1790241934360:212:88)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at mountIndeterminateComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14974:21)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15962:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performConcurrentWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18734:30)
-
-## 2026-09-24 09:26:08.736Z console.error
-- text: [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-24 09:26:08.805Z console.error
-- text: [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
-
-## 2026-09-24 09:27:02.901Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:27:02.921Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 09:27:14.005Z load
-- url: http://localhost:3000/ngurus-aron/keuangan
-
-## 2026-09-24 09:27:19.403Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Galeri"}
-
-## 2026-09-24 09:27:19.404Z navigate
-- url: http://localhost:3000/ngurus-aron/galeri
-- via: pushState
-
-## 2026-09-24 09:27:20.341Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Berita"}
-
-## 2026-09-24 09:27:20.342Z navigate
-- url: http://localhost:3000/ngurus-aron/berita
-- via: pushState
-
-## 2026-09-24 09:27:21.689Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Beranda"}
-
-## 2026-09-24 09:27:21.690Z navigate
-- url: http://localhost:3000/ngurus-aron/beranda
-- via: pushState
-
-## 2026-09-24 09:27:38.653Z window.error
-- message: Uncaught ReferenceError: YouTube is not defined
-- source: http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723
-- line: 52
-- col: 60
-- stack: 
-    ReferenceError: YouTube is not defined
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:52:60)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:27:38.658Z window.error
-- message: Uncaught ReferenceError: YouTube is not defined
-- source: http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723
-- line: 52
-- col: 60
-- stack: 
-    ReferenceError: YouTube is not defined
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:52:60)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:27:38.659Z console.error
-- text: 
-    The above error occurred in the <DashboardLayout> component:
-    
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:27:38.661Z unhandledrejection
-- message: YouTube is not defined
-- stack: 
-    ReferenceError: YouTube is not defined
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:52:60)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performSyncWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18932:28)
-
-## 2026-09-24 09:27:38.965Z root.empty
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 09:27:40.552Z load
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 09:27:40.618Z window.error
-- message: Uncaught ReferenceError: YouTube is not defined
-- source: http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723
-- line: 52
-- col: 60
-- stack: 
-    ReferenceError: YouTube is not defined
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:52:60)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:27:40.620Z window.error
-- message: Uncaught ReferenceError: YouTube is not defined
-- source: http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723
-- line: 52
-- col: 60
-- stack: 
-    ReferenceError: YouTube is not defined
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:52:60)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-        at invokeGuardedCallback (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3739:39)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19818:15)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-
-## 2026-09-24 09:27:40.621Z console.error
-- text: 
-    The above error occurred in the <DashboardLayout> component:
-    
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:27:40.622Z window.error
-- message: Uncaught ReferenceError: YouTube is not defined
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 19466
-- col: 13
-- stack: 
-    ReferenceError: YouTube is not defined
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242057723:52:60)
-        at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:11596:26)
-        at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14630:28)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15972:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-        at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19190:13)
-        at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19169:15)
-        at recoverFromConcurrentError (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18786:28)
-        at performConcurrentWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:18734:30)
-
-## 2026-09-24 09:27:40.929Z root.empty
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 09:28:10.648Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:10.649Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:10.649Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:10.663Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:10.664Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:10.666Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:10.668Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:10.669Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:10.669Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:10.675Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:10.676Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:10.677Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:10.678Z console.error
-- text: 
-    The above error occurred in the <a> component:
-    
-        at a
-        at LinkWithRef (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10927:5)
-        at nav
-        at div
-        at aside
-        at div
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:28:10.678Z console.error
-- text: 
-    The above error occurred in the <a> component:
-    
-        at a
-        at LinkWithRef (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10927:5)
-        at nav
-        at div
-        at aside
-        at div
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:28:10.678Z console.error
-- text: 
-    The above error occurred in the <a> component:
-    
-        at a
-        at LinkWithRef (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10927:5)
-        at nav
-        at div
-        at aside
-        at div
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:28:10.679Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 19466
-- col: 13
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-
-## 2026-09-24 09:28:10.981Z root.empty
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 09:28:12.638Z load
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 09:28:12.712Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:12.713Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:12.713Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:12.720Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:12.721Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:12.721Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:12.722Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:12.722Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:12.722Z console.error
-- text: 
-    Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s%s undefined  You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check your code at DashboardLayout.jsx:80. 
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-
-## 2026-09-24 09:28:12.724Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:12.724Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:12.724Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 20500
-- col: 17
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at HTMLUnknownElement.callCallback2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3680:22)
-        at Object.invokeGuardedCallbackDev (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:3705:24)
-
-## 2026-09-24 09:28:12.725Z console.error
-- text: 
-    The above error occurred in the <a> component:
-    
-        at a
-        at LinkWithRef (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10927:5)
-        at nav
-        at div
-        at aside
-        at div
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:28:12.725Z console.error
-- text: 
-    The above error occurred in the <a> component:
-    
-        at a
-        at LinkWithRef (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10927:5)
-        at nav
-        at div
-        at aside
-        at div
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:28:12.725Z console.error
-- text: 
-    The above error occurred in the <a> component:
-    
-        at a
-        at LinkWithRef (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10927:5)
-        at nav
-        at div
-        at aside
-        at div
-        at DashboardLayout (http://localhost:3000/src/pages/ngurus-aron/DashboardLayout.jsx?t=1790242090183:9:33)
-        at RenderedRoute (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:6647:26)
-        at Routes (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7572:3)
-        at Router (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:7511:13)
-        at BrowserRouter (http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=ec678070:10816:3)
-        at App
-    
-    Consider adding an error boundary to your tree to customize error handling behavior.
-    Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-
-## 2026-09-24 09:28:12.725Z window.error
-- message: 
-    Uncaught Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-- source: http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070
-- line: 19466
-- col: 13
-- stack: 
-    Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-    
-    Check the render method of `DashboardLayout`.
-        at createFiberFromTypeAndProps (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20500:23)
-        at createFiberFromElement (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:20521:23)
-        at createChild (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10136:34)
-        at reconcileChildrenArray (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10329:33)
-        at reconcileChildFibers2 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:10606:24)
-        at reconcileChildren (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14338:37)
-        at updateHostComponent (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:14855:11)
-        at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:15983:22)
-        at beginWork$1 (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19806:22)
-        at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-OGKD6Q5V.js?v=ec678070:19251:20)
-
-## 2026-09-24 09:28:13.033Z root.empty
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 09:28:15.821Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 09:31:45.995Z load
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 09:31:54.115Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Tentang"}
-
-## 2026-09-24 09:31:54.116Z navigate
-- url: http://localhost:3000/ngurus-aron/tentang
-- via: pushState
-
-## 2026-09-24 09:31:58.682Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Sambutan"}
-
-## 2026-09-24 09:31:58.683Z navigate
-- url: http://localhost:3000/ngurus-aron/sambutan
-- via: pushState
-
-## 2026-09-24 09:32:01.843Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","valueLength":59,"text":""}
-
-## 2026-09-24 09:32:02.073Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","valueLength":59,"text":""}
-
-## 2026-09-24 09:32:03.692Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","valueLength":59,"text":""}
-
-## 2026-09-24 09:32:03.692Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:32:03.910Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:32:04.161Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:32:04.380Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:32:15.601Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Yegar Sahaduta Tarigan","valueLength":22,"text":""}
-
-## 2026-09-24 09:32:15.602Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Yegar Sahaduta Tarigan","valueLength":22,"text":""}
-
-## 2026-09-24 09:32:15.602Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"https://images.hostinger.com/60231bc1-c1bc-439b-833d-35cc0879f851.png","valueLength":69,"text":""}
-
-## 2026-09-24 09:32:15.774Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"https://images.hostinger.com/60231bc1-c1bc-439b-833d-35cc0879f851.png","valueLength":69,"text":""}
-
-## 2026-09-24 09:32:15.996Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"https://images.hostinger.com/60231bc1-c1bc-439b-833d-35cc0879f851.png","valueLength":69,"text":""}
-
-## 2026-09-24 09:32:24.308Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 09:32:57.765Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 09:33:00.853Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Youtube"}
-
-## 2026-09-24 09:33:00.854Z navigate
-- url: http://localhost:3000/ngurus-aron/youtube
-- via: pushState
-
-## 2026-09-24 09:33:51.541Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"dQw4w9WgXcQ","valueLength":11,"text":""}
-
-## 2026-09-24 09:33:51.733Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"dQw4w9WgXcQ","valueLength":11,"text":""}
-
-## 2026-09-24 09:33:51.962Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"dQw4w9WgXcQ","valueLength":11,"text":""}
-
-## 2026-09-24 09:33:59.341Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"https://youtu.be/rpN2tJ2XBRY?si=ftG86BqGYPcBGYNR","valueLength":48,"text":""}
-
-## 2026-09-24 09:33:59.341Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"https://youtu.be/rpN2tJ2XBRY?si=ftG86BqGYPcBGYNR","valueLength":48,"text":""}
-
-## 2026-09-24 09:34:16.780Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"https://youtu.be/rpN2tJ2XBRY?si=ftG86BqGYPcBGYNR","valueLength":48,"text":""}
-
-## 2026-09-24 09:34:19.309Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"https://youtu.be/rpN2tJ2XBRY?si=ftG86BqGYPcBGYNR","valueLength":48,"text":""}
-
-## 2026-09-24 09:34:19.532Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Video YouTube"}
-
-## 2026-09-24 09:34:19.533Z submit
-- action: http://localhost:3000/ngurus-aron/youtube
-- fields: [{"label":"[text]","type":"text","value":"Dokumentasi Kegiatan Kerja Tahun & Seni Budaya Karo Balikpapan","length":62,"redacted":false},{"label":"[text]","type":"text","value":"https://youtu.be/rpN2tJ2XBRY?si=ftG86BqGYPcBGYNR","length":48,"redacted":false},{"label":"[textarea]","type":"textarea","value":"Saksikan keseruan pagelaran budaya dan kebersamaan keluarga besar Aron Rudang Mayang.","length":85,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 09:34:23.805Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 09:34:33.652Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 09:34:48.258Z load
-- url: http://localhost:3000/ngurus-aron/youtube
-
-## 2026-09-24 09:34:49.814Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Sambutan"}
-
-## 2026-09-24 09:34:49.816Z navigate
-- url: http://localhost:3000/ngurus-aron/sambutan
-- via: pushState
-
-## 2026-09-24 09:34:53.083Z click
-- element: {"tag":"img","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 09:34:57.680Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Unggah Foto Baru"}
-
-## 2026-09-24 09:34:57.681Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"file","id":null,"placeholder":null,"label":"Unggah Foto Baru","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 09:35:15.488Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Perubahan Sambutan"}
-
-## 2026-09-24 09:35:15.490Z submit
-- action: http://localhost:3000/ngurus-aron/sambutan
-- fields: [{"label":"[text]","type":"text","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","length":59,"redacted":false},{"label":"[text]","type":"text","value":"Drs. Andreas Ginting","length":20,"redacted":false},{"label":"[text]","type":"text","value":"Ketua Umum Aron Rudang Mayang","length":29,"redacted":false},{"label":"Unggah Foto Baru","type":"file","value":"C:\\fakepath\\edited-photo.png","length":28,"redacted":false},{"label":"https://...","type":"text","value":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/sambutan_1790242506022.png","length":109,"redacted":false},{"label":"[textarea]","type":"textarea","value":"Mejuah-juah man banta kerina. Kehadiran Aron Rudang Mayang di Balikpapan bukan sekadar wadah berkumpul, melainkan rumah bersama tempat kita saling menopang dalam semangat kekeluargaan dan gotong royong khas Karo. Mari terus jaga kebersamaan, junjung tinggi adat istiadat, dan berikan kontribusi positif bagi kemajuan Kota Balikpapan tercinta.","length":342,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 09:35:18.205Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:35:18.356Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:35:18.498Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:35:18.716Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Drs. Andreas Ginting","valueLength":20,"text":""}
-
-## 2026-09-24 09:35:27.051Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Yegar Sahaduta Tarigan","valueLength":22,"text":""}
-
-## 2026-09-24 09:35:27.278Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Yegar Sahaduta Tarigan","valueLength":22,"text":""}
-
-## 2026-09-24 09:35:31.994Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Yegar Tarigan","valueLength":13,"text":""}
-
-## 2026-09-24 09:35:31.995Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":null,"label":"[text]","value":"Yegar Tarigan","valueLength":13,"text":""}
-
-## 2026-09-24 09:35:32.207Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Perubahan Sambutan"}
-
-## 2026-09-24 09:35:32.210Z submit
-- action: http://localhost:3000/ngurus-aron/sambutan
-- fields: [{"label":"[text]","type":"text","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","length":59,"redacted":false},{"label":"[text]","type":"text","value":"Yegar Tarigan","length":13,"redacted":false},{"label":"[text]","type":"text","value":"Ketua Umum Aron Rudang Mayang","length":29,"redacted":false},{"label":"Unggah Foto Baru","type":"file","value":"","length":0,"redacted":false},{"label":"https://...","type":"text","value":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/sambutan_1790242506022.png","length":109,"redacted":false},{"label":"[textarea]","type":"textarea","value":"Mejuah-juah man banta kerina. Kehadiran Aron Rudang Mayang di Balikpapan bukan sekadar wadah berkumpul, melainkan rumah bersama tempat kita saling menopang dalam semangat kekeluargaan dan gotong royong khas Karo. Mari terus jaga kebersamaan, junjung tinggi adat istiadat, dan berikan kontribusi positif bagi kemajuan Kota Balikpapan tercinta.","length":342,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 09:35:35.317Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 09:42:38.074Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 09:44:40.070Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:45:28.964Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:45:39.972Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:46:23.876Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:46:39.954Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:47:28.954Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:47:39.969Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:48:24.072Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:48:34.056Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:49:40.053Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:49:54.274Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:50:09.281Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:50:18.962Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 09:50:21.945Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Unggah Foto Baru"}
-
-## 2026-09-24 09:50:21.947Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"file","id":null,"placeholder":null,"label":"Unggah Foto Baru","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 09:50:30.060Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Perubahan Sambutan"}
-
-## 2026-09-24 09:50:30.061Z submit
-- action: http://localhost:3000/ngurus-aron/sambutan
-- fields: [{"label":"[text]","type":"text","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","length":59,"redacted":false},{"label":"[text]","type":"text","value":"Yegar Tarigan","length":13,"redacted":false},{"label":"[text]","type":"text","value":"Ketua Umum Aron Rudang Mayang","length":29,"redacted":false},{"label":"Unggah Foto Baru","type":"file","value":"C:\\fakepath\\edited-photo2.png","length":29,"redacted":false},{"label":"https://...","type":"text","value":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/sambutan_1790243424326.png","length":109,"redacted":false},{"label":"[textarea]","type":"textarea","value":"Mejuah-juah man banta kerina. Kehadiran Aron Rudang Mayang di Balikpapan bukan sekadar wadah berkumpul, melainkan rumah bersama tempat kita saling menopang dalam semangat kekeluargaan dan gotong royong khas Karo. Mari terus jaga kebersamaan, junjung tinggi adat istiadat, dan berikan kontribusi positif bagi kemajuan Kota Balikpapan tercinta.","length":342,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 09:50:36.202Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 10:01:02.790Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 10:01:03.840Z load
-- url: http://localhost:3000/ngurus-aron/sambutan
-
-## 2026-09-24 10:03:06.825Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Beranda"}
-
-## 2026-09-24 10:03:06.827Z navigate
-- url: http://localhost:3000/ngurus-aron/beranda
-- via: pushState
-
-## 2026-09-24 10:10:21.106Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 10:10:21.108Z load
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 10:10:33.354Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya "}
-
-## 2026-09-24 10:10:33.505Z load
-- url: http://localhost:3000/berita
-
-## 2026-09-24 10:10:33.567Z navigate
-- url: http://localhost:3000/berita
-- via: replaceState
-
-## 2026-09-24 10:10:39.173Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
-
-## 2026-09-24 10:10:39.175Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 10:10:48.018Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Hubungi / Kunjungi Usaha"}
-
-## 2026-09-24 10:11:08.926Z click
-- element: {"tag":"img","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 10:11:18.309Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ARON RUDANG MAYANGKota BalikpapanBerandaTentang KamiPengurusProgramBeritaGaleriDonasiKeuanganBergabung Bersama Kami"}
-
-## 2026-09-24 10:11:18.969Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Tentang Kami"}
-
-## 2026-09-24 10:11:18.970Z navigate
-- url: http://localhost:3000/tentang-kami
-- via: pushState
-
-## 2026-09-24 10:11:20.392Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Pengurus"}
-
-## 2026-09-24 10:11:20.393Z navigate
-- url: http://localhost:3000/pengurus
-- via: pushState
-
-## 2026-09-24 10:11:25.966Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ARON RUDANG MAYANGKota Balikpapan"}
-
-## 2026-09-24 10:11:25.967Z navigate
-- url: http://localhost:3000/
-- via: pushState
-
-## 2026-09-24 10:17:11.815Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 10:17:11.826Z load
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 10:17:12.239Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/sponsors?select=*&order=created_at.desc
-- message: Failed to fetch
-- durationMs: 11
-
-## 2026-09-24 10:17:12.243Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchSponsors (http://localhost:3000/src/components/Sponsor.jsx:14:22)
-
-## 2026-09-24 10:17:12.245Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/sambutan?select=*&limit=1
-- message: Failed to fetch
-- durationMs: 18
-
-## 2026-09-24 10:17:12.245Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchSambutan (http://localhost:3000/src/components/Sambutan.jsx?t=1790243408295:19:34)
-
-## 2026-09-24 10:17:12.245Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/youtube_videos?select=*&order=created_at.desc&limit=1
-- message: Failed to fetch
-- durationMs: 17
-
-## 2026-09-24 10:17:12.246Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchVideo (http://localhost:3000/src/components/Youtube.jsx:17:22)
-
-## 2026-09-24 10:17:12.246Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/news?select=*&order=created_at.desc&limit=3
-- message: Failed to fetch
-- durationMs: 17
-
-## 2026-09-24 10:17:12.246Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchHomeData (http://localhost:3000/src/pages/HomePage.jsx?t=1790243408295:222:32)
-
-## 2026-09-24 10:17:13.658Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/sponsors?select=*&order=created_at.desc
-- message: Failed to fetch
-- durationMs: 5
-
-## 2026-09-24 10:17:13.658Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchSponsors (http://localhost:3000/src/components/Sponsor.jsx:14:22)
-
-## 2026-09-24 10:17:13.659Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/sambutan?select=*&limit=1
-- message: Failed to fetch
-- durationMs: 4
-
-## 2026-09-24 10:17:13.659Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchSambutan (http://localhost:3000/src/components/Sambutan.jsx?t=1790243408295:19:34)
-
-## 2026-09-24 10:17:13.659Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/youtube_videos?select=*&order=created_at.desc&limit=1
-- message: Failed to fetch
-- durationMs: 4
-
-## 2026-09-24 10:17:13.659Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchVideo (http://localhost:3000/src/components/Youtube.jsx:17:22)
-
-## 2026-09-24 10:17:13.660Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/news?select=*&order=created_at.desc&limit=3
-- message: Failed to fetch
-- durationMs: 4
-
-## 2026-09-24 10:17:13.660Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20310:23
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:20349:12
-        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:466:13)
-        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:668:21)
-        at async fetchHomeData (http://localhost:3000/src/pages/HomePage.jsx?t=1790243408295:222:32)
-
-## 2026-09-24 10:32:09.832Z load
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 10:32:09.858Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 10:49:12.278Z load
-- url: http://localhost:3000/ngurus-aron/beranda
-
-## 2026-09-24 10:49:12.677Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 10:49:12.387Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/auth/v1/token?grant_type=refresh_token
-- requestBody: {"refresh_token":"[redacted:length=12]"}
-- message: Failed to fetch
-- durationMs: 11
-
-## 2026-09-24 10:49:12.389Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/ngurus-aron/beranda:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12265:23
-        at _handleRequest2 (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12679:20)
-        at _request (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12669:22)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:18505:22
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12331:32
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12343:7
-        at new Promise (<anonymous>)
-        at retryable (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12326:19)
-
-## 2026-09-24 10:49:12.656Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/auth/v1/token?grant_type=refresh_token
-- requestBody: {"refresh_token":"[redacted:length=12]"}
-- message: Failed to fetch
-- durationMs: 12
-
-## 2026-09-24 10:49:12.656Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/ngurus-aron/beranda:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12265:23
-        at _handleRequest2 (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12679:20)
-        at _request (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12669:22)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:18505:22
-        at async http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12331:26
-
-## 2026-09-24 10:49:12.969Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/auth/v1/token?grant_type=refresh_token
-- requestBody: {"refresh_token":"[redacted:length=12]"}
-- message: Failed to fetch
-- durationMs: 155
-
-## 2026-09-24 10:49:12.972Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12265:23
-        at _handleRequest2 (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12679:20)
-        at _request (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12669:22)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:18505:22
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12331:32
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12343:7
-        at new Promise (<anonymous>)
-        at retryable (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12326:19)
-
-## 2026-09-24 10:49:13.647Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/auth/v1/token?grant_type=refresh_token
-- requestBody: {"refresh_token":"[redacted:length=12]"}
-- message: Failed to fetch
-- durationMs: 5
-
-## 2026-09-24 10:49:13.647Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12265:23
-        at _handleRequest2 (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12679:20)
-        at _request (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12669:22)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:18505:22
-        at async http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12331:26
-
-## 2026-09-24 10:49:13.647Z network.error
-- method: POST
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/auth/v1/token?grant_type=refresh_token
-- requestBody: {"refresh_token":"[redacted:length=12]"}
-- message: Failed to fetch
-- durationMs: 6
-
-## 2026-09-24 10:49:13.648Z console.error
-- text: 
-    TypeError: Failed to fetch
-        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
-        at window.fetch (http://localhost:3000/ngurus-aron/beranda:497:23)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12265:23
-        at _handleRequest2 (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12679:20)
-        at _request (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12669:22)
-        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:18505:22
-        at async http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=ec678070:12331:26
-
-## 2026-09-24 13:35:01.505Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:35:06.064Z network.error
-- method: GET
-- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/news?select=*&order=created_at.desc&limit=3
-- status: 401
-- response: {"code":"PGRST303","details":null,"hint":null,"message":"JWT issued at future"}
-- durationMs: 3272
-
-## 2026-09-24 13:35:06.064Z console.error
-- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/news?select=*&order=created_at.desc&limit=3: {"code":"PGRST303","details":null,"hint":null,"message":"JWT issued at future"}
-
-## 2026-09-24 13:35:57.898Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:37:10.521Z load
-- url: http://localhost:3000/ngurus-aron/login
-
-## 2026-09-24 13:37:12.231Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:37:12.233Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
-
-## 2026-09-24 13:37:12.233Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
-
-## 2026-09-24 13:37:12.233Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=0]","valueLength":0,"text":""}
-
-## 2026-09-24 13:37:12.234Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=7]","valueLength":7,"text":""}
-
-## 2026-09-24 13:37:12.234Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=7]","valueLength":7,"text":""}
-
-## 2026-09-24 13:37:12.318Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Masuk ke Dashboard"}
-
-## 2026-09-24 13:37:12.319Z submit
-- action: http://localhost:3000/ngurus-aron/login
-- fields: [{"label":"email@domain.com","type":"email","value":"yegargirsang@gmail.com","length":22,"redacted":false},{"label":"••••••••","type":"password","value":"[redacted:length=7]","length":7,"redacted":true},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 13:37:13.122Z navigate
-- url: http://localhost:3000/ngurus-aron/beranda
-- via: pushState
-
-## 2026-09-24 13:37:17.438Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Sambutan"}
-
-## 2026-09-24 13:37:17.439Z navigate
-- url: http://localhost:3000/ngurus-aron/sambutan
-- via: pushState
-
-## 2026-09-24 13:37:19.974Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Unggah Foto Baru"}
-
-## 2026-09-24 13:37:19.974Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"file","id":null,"placeholder":null,"label":"Unggah Foto Baru","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:37:32.446Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Perubahan Sambutan"}
-
-## 2026-09-24 13:37:32.446Z submit
-- action: http://localhost:3000/ngurus-aron/sambutan
-- fields: [{"label":"[text]","type":"text","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","length":59,"redacted":false},{"label":"[text]","type":"text","value":"Yegar Tarigan","length":13,"redacted":false},{"label":"[text]","type":"text","value":"Ketua Umum Aron Rudang Mayang","length":29,"redacted":false},{"label":"Unggah Foto Baru","type":"file","value":"C:\\fakepath\\edited-photo3.png","length":29,"redacted":false},{"label":"https://...","type":"text","value":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/sambutan_1790257044767.png","length":109,"redacted":false},{"label":"[textarea]","type":"textarea","value":"Mejuah-juah man banta kerina. Kehadiran Aron Rudang Mayang di Balikpapan bukan sekadar wadah berkumpul, melainkan rumah bersama tempat kita saling menopang dalam semangat kekeluargaan dan gotong royong khas Karo. Mari terus jaga kebersamaan, junjung tinggi adat istiadat, dan berikan kontribusi positif bagi kemajuan Kota Balikpapan tercinta.","length":342,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 13:37:35.456Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:41:48.294Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Unggah Foto Baru"}
-
-## 2026-09-24 13:41:48.294Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"file","id":null,"placeholder":null,"label":"Unggah Foto Baru","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:41:55.448Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Perubahan Sambutan"}
-
-## 2026-09-24 13:41:55.449Z submit
-- action: http://localhost:3000/ngurus-aron/sambutan
-- fields: [{"label":"[text]","type":"text","value":"Merawat Akar Tradisi, Menjembatani Masa Depan di Perantauan","length":59,"redacted":false},{"label":"[text]","type":"text","value":"Yegar Tarigan","length":13,"redacted":false},{"label":"[text]","type":"text","value":"Ketua Umum Aron Rudang Mayang","length":29,"redacted":false},{"label":"Unggah Foto Baru","type":"file","value":"C:\\fakepath\\edited-photo4.png","length":29,"redacted":false},{"label":"https://...","type":"text","value":"https://zlbiezqiicgtcejdbdpm.supabase.co/storage/v1/object/public/community-assets/sambutan_1790257310758.png","length":109,"redacted":false},{"label":"[textarea]","type":"textarea","value":"Mejuah-juah man banta kerina. Kehadiran Aron Rudang Mayang di Balikpapan bukan sekadar wadah berkumpul, melainkan rumah bersama tempat kita saling menopang dalam semangat kekeluargaan dan gotong royong khas Karo. Mari terus jaga kebersamaan, junjung tinggi adat istiadat, dan berikan kontribusi positif bagi kemajuan Kota Balikpapan tercinta.","length":342,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 13:41:58.559Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:42:46.728Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Buka ShareLoc Google Maps"}
-
-## 2026-09-24 13:43:04.646Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Sponsor"}
-
-## 2026-09-24 13:43:04.647Z navigate
-- url: http://localhost:3000/ngurus-aron/sponsor
-- via: pushState
-
-## 2026-09-24 13:43:06.590Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:43:06.686Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:43:27.390Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"Jual & Sewa Pakaian Adat","valueLength":24,"text":""}
-
-## 2026-09-24 13:43:27.390Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"Jual & Sewa Pakaian Adat","valueLength":24,"text":""}
-
-## 2026-09-24 13:43:27.390Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Kuliner & Kopi","valueLength":14,"text":""}
-
-## 2026-09-24 13:43:27.630Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Kuliner & Kopi","valueLength":14,"text":""}
-
-## 2026-09-24 13:43:27.806Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Kuliner & Kopi","valueLength":14,"text":""}
-
-## 2026-09-24 13:43:52.470Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Pakaian dan kain adat","valueLength":21,"text":""}
-
-## 2026-09-24 13:43:52.470Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Pakaian dan kain adat","valueLength":21,"text":""}
-
-## 2026-09-24 13:43:52.470Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:43:52.566Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:44:02.480Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:44:07.518Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kuliner & Kopi Khas KaroCoffee Tiganna📍 Jl. MT Haryono, Balikpapan Selatan"}
-
-## 2026-09-24 13:48:00.190Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hubungi via WhatsApp"}
-
-## 2026-09-24 13:48:12.664Z load
-- url: http://localhost:3000/ngurus-aron/sponsor
-
-## 2026-09-24 13:48:15.127Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:48:15.215Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:48:25.759Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"UIS NANDE NINO","valueLength":14,"text":""}
-
-## 2026-09-24 13:48:25.759Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Nama Usaha (Cth: Coffee Tiganna)","label":"Nama Usaha (Cth: Coffee Tiganna)","value":"UIS NANDE NINO","valueLength":14,"text":""}
-
-## 2026-09-24 13:48:25.760Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Kuliner & Kopi","valueLength":14,"text":""}
-
-## 2026-09-24 13:48:33.367Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"PAKA","valueLength":4,"text":""}
-
-## 2026-09-24 13:48:33.368Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"PAKA","valueLength":4,"text":""}
-
-## 2026-09-24 13:48:34.887Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"PAKA","valueLength":4,"text":""}
-
-## 2026-09-24 13:48:36.679Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"P","valueLength":1,"text":""}
-
-## 2026-09-24 13:48:36.679Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"P","valueLength":1,"text":""}
-
-## 2026-09-24 13:48:36.680Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:48:39.152Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"P","valueLength":1,"text":""}
-
-## 2026-09-24 13:48:39.238Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"P","valueLength":1,"text":""}
-
-## 2026-09-24 13:49:13.288Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Jual dan Sewa Pakaian Adat","valueLength":26,"text":""}
-
-## 2026-09-24 13:49:13.288Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Kategori (Cth: Kuliner & Kopi)","label":"Kategori (Cth: Kuliner & Kopi)","value":"Jual dan Sewa Pakaian Adat","valueLength":26,"text":""}
-
-## 2026-09-24 13:49:13.288Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:49:13.383Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:50:11.062Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:50:15.487Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"https://share.google/OGa00SF1T4Fp18fXi","valueLength":38,"text":""}
-
-## 2026-09-24 13:50:15.487Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Lokasi / Alamat","label":"Lokasi / Alamat","value":"https://share.google/OGa00SF1T4Fp18fXi","valueLength":38,"text":""}
-
-## 2026-09-24 13:50:15.487Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:50:15.574Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:50:37.926Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:50:42.295Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"0813-4716-6903","valueLength":14,"text":""}
-
-## 2026-09-24 13:50:51.281Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"6281347166903","valueLength":13,"text":""}
-
-## 2026-09-24 13:50:51.281Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"6281347166903","valueLength":13,"text":""}
-
-## 2026-09-24 13:50:52.105Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"6281347166903","valueLength":13,"text":""}
-
-## 2026-09-24 13:50:52.471Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"6281347166903","valueLength":13,"text":""}
-
-## 2026-09-24 13:52:13.961Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"6281347166903","valueLength":13,"text":""}
-
-## 2026-09-24 13:52:15.214Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"No WhatsApp (Cth: 62821...)","label":"No WhatsApp (Cth: 62821...)","value":"6281347166903","valueLength":13,"text":""}
-
-## 2026-09-24 13:52:15.310Z click
-- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Pilih Foto"}
-
-## 2026-09-24 13:52:15.310Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"file","id":null,"placeholder":null,"label":"Pilih Foto","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:52:35.240Z click
-- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Foto Usaha / KedaiPilih Foto Foto SiapSimpan Sponsor / Usaha"}
-
-## 2026-09-24 13:52:35.463Z focus
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Deskripsi singkat usaha...","label":"Deskripsi singkat usaha...","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:52:35.533Z click
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Deskripsi singkat usaha...","label":"Deskripsi singkat usaha...","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:52:38.174Z change
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Deskripsi singkat usaha...","label":"Deskripsi singkat usaha...","value":"Jual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00","valueLength":123,"text":"Jual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00"}
-
-## 2026-09-24 13:52:38.174Z blur
-- element: {"tag":"textarea","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":"Deskripsi singkat usaha...","label":"Deskripsi singkat usaha...","value":"Jual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00","valueLength":123,"text":"Jual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00"}
-
-## 2026-09-24 13:52:38.270Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Simpan Sponsor / Usaha"}
-
-## 2026-09-24 13:52:38.271Z submit
-- action: http://localhost:3000/ngurus-aron/sponsor
-- fields: [{"label":"Nama Usaha (Cth: Coffee Tiganna)","type":"text","value":"UIS NANDE NINO","length":14,"redacted":false},{"label":"Kategori (Cth: Kuliner & Kopi)","type":"text","value":"Jual dan Sewa Pakaian Adat","length":26,"redacted":false},{"label":"Lokasi / Alamat","type":"text","value":"https://share.google/OGa00SF1T4Fp18fXi","length":38,"redacted":false},{"label":"No WhatsApp (Cth: 62821...)","type":"text","value":"6281347166903","length":13,"redacted":false},{"label":"Pilih Foto","type":"file","value":"C:\\fakepath\\321.png","length":19,"redacted":false},{"label":"Deskripsi singkat usaha...","type":"textarea","value":"Jual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00","length":123,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
-
-## 2026-09-24 13:52:47.501Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:52:57.911Z click
-- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hubungi via WhatsApp"}
-
-## 2026-09-24 13:53:28.254Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:29.023Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:29.190Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:30.007Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:30.966Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:31.510Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Jual dan Sewa Pakaian AdatUIS NANDE NINO https://share.google/OGa00SF1T4Fp18fXiJual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00"}
-
-## 2026-09-24 13:53:31.918Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Jual dan Sewa Pakaian AdatUIS NANDE NINO https://share.google/OGa00SF1T4Fp18fXiJual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00"}
-
-## 2026-09-24 13:53:33.654Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:34.038Z click
-- element: {"tag":"h4","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"UIS NANDE NINO"}
-
-## 2026-09-24 13:53:40.654Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:43.403Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:53:46.510Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:46.686Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:47.324Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:47.855Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:49.006Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:53:49.790Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:54:31.448Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:54:32.837Z load
-- url: http://localhost:3000/ngurus-aron/sponsor
-
-## 2026-09-24 13:54:35.558Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:54:36.173Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Jual dan Sewa Pakaian AdatUIS NANDE NINO https://share.google/OGa00SF1T4Fp18fXiJual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00 Hubungi via WhatsAppKuliner & Kopi Khas KaroCoffee Tiganna Jl. MT Haryono, Balikpapan SelatanKedai kopi kebanggaan warga Karo di Balikpapan yang menyajikan racikan kopi pilihan nusantara serta suasana kekeluargaan yang hangat. Hubungi via WhatsApp"}
-
-## 2026-09-24 13:54:36.702Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Jual dan Sewa Pakaian AdatUIS NANDE NINO https://share.google/OGa00SF1T4Fp18fXiJual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00 Hubungi via WhatsApp"}
-
-## 2026-09-24 13:54:42.534Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kuliner & Kopi Khas KaroCoffee Tiganna📍 Jl. MT Haryono, Balikpapan Selatan"}
-
-## 2026-09-24 13:54:43.295Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 13:54:48.230Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Jual dan Sewa Pakaian AdatUIS NANDE NINO📍 https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:54:48.414Z click
-- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Jual dan Sewa Pakaian AdatUIS NANDE NINO📍 https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:58:27.716Z load
-- url: http://localhost:3000/
-
-## 2026-09-24 13:58:32.966Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" https://share.google/OGa00SF1T4Fp18fXi"}
-
-## 2026-09-24 13:58:33.550Z click
-- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Jual &sewa PAKAIAN ADAT, BAJU KARAKTER & PROFESI, GAUN PENGANTIN, JAS, KIMONO, HANBOK, DLL\n🗓️ Buka Senin-Sabtu 09.00-17.00"}
-
-## 2026-09-24 13:58:37.790Z click
-- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
-
-## 2026-09-24 13:58:42.960Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cth: Jl. MT Haryono, Balikpapan","label":"Cth: Jl. MT Haryono, Balikpapan","value":"https://share.google/OGa00SF1T4Fp18fXi","valueLength":38,"text":""}
-
-## 2026-09-24 13:58:43.079Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cth: Jl. MT Haryono, Balikpapan","label":"Cth: Jl. MT Haryono, Balikpapan","value":"https://share.google/OGa00SF1T4Fp18fXi","valueLength":38,"text":""}
-
-## 2026-09-24 13:58:45.870Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cth: Jl. MT Haryono, Balikpapan","label":"Cth: Jl. MT Haryono, Balikpapan","value":"import React, { useState, useEffect } from 'react'; import { supabase } from '@/lib/supabase'; import Reveal from '@/components/Reveal'; import { SectionHeading } from '@/components/KaroPattern'; import { MapPin, MessageCircle, ExternalLink } from 'lucide-react';  export default function SponsorSection() {     const [sponsors, setSponsors] = useState([]);      useEffect(() => {         fetchSponsors();     }, []);      const fetchSponsors = async () => {         const { data } = await supabase.from('sponsors').select('*').order('created_at', { ascending: false });         if (data) setSponsors(data);     };      if (sponsors.length === 0) return null;      return (         <section className=\"py-24 bg-karo-ivory\">             <div className=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">                 <Reveal>                     <SectionHeading eyebrow=\"Mitra & UMKM\" title=\"Didukung Oleh Usaha Keluarga Besar\" description=\"Mari dukung dan kunjungi kafe serta usaha milik anggota yang mensupport komunitas Aron Rudang Mayang.\" />                 </Reveal>                 <div className=\"mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3\">                     {sponsors.map((sponsor, i) => (                         <Reveal key={sponsor.id} delay={i * 0.05}>                             <div className=\"rounded-3xl border border-border bg-white p-6 shadow-lg flex flex-col justify-between\">                                 <div>                                     <img src={sponsor.image_url} alt={sponsor.name} className=\"aspect-[16/10] w-full rounded-2xl object-cover mb-4\" />                                     <span className=\"text-[10px] font-bold uppercase bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full\">{sponsor.category}</span>                                     <h4 className=\"font-display text-xl font-bold text-karo-charcoal mt-3\">{sponsor.name}</h4>                                                                          {/* Alamat Teks Biasa yang Rapih */}             ...","valueLength":3987,"text":""}
-
-## 2026-09-24 13:58:45.871Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cth: Jl. MT Haryono, Balikpapan","label":"Cth: Jl. MT Haryono, Balikpapan","value":"import React, { useState, useEffect } from 'react'; import { supabase } from '@/lib/supabase'; import Reveal from '@/components/Reveal'; import { SectionHeading } from '@/components/KaroPattern'; import { MapPin, MessageCircle, ExternalLink } from 'lucide-react';  export default function SponsorSection() {     const [sponsors, setSponsors] = useState([]);      useEffect(() => {         fetchSponsors();     }, []);      const fetchSponsors = async () => {         const { data } = await supabase.from('sponsors').select('*').order('created_at', { ascending: false });         if (data) setSponsors(data);     };      if (sponsors.length === 0) return null;      return (         <section className=\"py-24 bg-karo-ivory\">             <div className=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">                 <Reveal>                     <SectionHeading eyebrow=\"Mitra & UMKM\" title=\"Didukung Oleh Usaha Keluarga Besar\" description=\"Mari dukung dan kunjungi kafe serta usaha milik anggota yang mensupport komunitas Aron Rudang Mayang.\" />                 </Reveal>                 <div className=\"mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3\">                     {sponsors.map((sponsor, i) => (                         <Reveal key={sponsor.id} delay={i * 0.05}>                             <div className=\"rounded-3xl border border-border bg-white p-6 shadow-lg flex flex-col justify-between\">                                 <div>                                     <img src={sponsor.image_url} alt={sponsor.name} className=\"aspect-[16/10] w-full rounded-2xl object-cover mb-4\" />                                     <span className=\"text-[10px] font-bold uppercase bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full\">{sponsor.category}</span>                                     <h4 className=\"font-display text-xl font-bold text-karo-charcoal mt-3\">{sponsor.name}</h4>                                                                          {/* Alamat Teks Biasa yang Rapih */}             ...","valueLength":3987,"text":""}
-
-## 2026-09-24 13:58:45.871Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"url","id":null,"placeholder":"Cth: https://maps.app.goo.gl/...","label":"Cth: https://maps.app.goo.gl/...","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:58:45.967Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"url","id":null,"placeholder":"Cth: https://maps.app.goo.gl/...","label":"Cth: https://maps.app.goo.gl/...","value":"","valueLength":0,"text":""}
-
-## 2026-09-24 13:58:54.872Z change
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"url","id":null,"placeholder":"Cth: https://maps.app.goo.gl/...","label":"Cth: https://maps.app.goo.gl/...","value":"import React, { useState, useEffect } from 'react'; import { supabase } from '@/lib/supabase'; import Reveal from '@/components/Reveal'; import { SectionHeading } from '@/components/KaroPattern'; import { MapPin, MessageCircle, ExternalLink } from 'lucide-react';  export default function SponsorSection() {     const [sponsors, setSponsors] = useState([]);      useEffect(() => {         fetchSponsors();     }, []);      const fetchSponsors = async () => {         const { data } = await supabase.from('sponsors').select('*').order('created_at', { ascending: false });         if (data) setSponsors(data);     };      if (sponsors.length === 0) return null;      return (         <section className=\"py-24 bg-karo-ivory\">             <div className=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">                 <Reveal>                     <SectionHeading eyebrow=\"Mitra & UMKM\" title=\"Didukung Oleh Usaha Keluarga Besar\" description=\"Mari dukung dan kunjungi kafe serta usaha milik anggota yang mensupport komunitas Aron Rudang Mayang.\" />                 </Reveal>                 <div className=\"mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3\">                     {sponsors.map((sponsor, i) => (                         <Reveal key={sponsor.id} delay={i * 0.05}>                             <div className=\"rounded-3xl border border-border bg-white p-6 shadow-lg flex flex-col justify-between\">                                 <div>                                     <img src={sponsor.image_url} alt={sponsor.name} className=\"aspect-[16/10] w-full rounded-2xl object-cover mb-4\" />                                     <span className=\"text-[10px] font-bold uppercase bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full\">{sponsor.category}</span>                                     <h4 className=\"font-display text-xl font-bold text-karo-charcoal mt-3\">{sponsor.name}</h4>                                                                          {/* Alamat Teks Biasa yang Rapih */}             ...","valueLength":3987,"text":""}
-
-## 2026-09-24 13:58:54.872Z blur
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"url","id":null,"placeholder":"Cth: https://maps.app.goo.gl/...","label":"Cth: https://maps.app.goo.gl/...","value":"import React, { useState, useEffect } from 'react'; import { supabase } from '@/lib/supabase'; import Reveal from '@/components/Reveal'; import { SectionHeading } from '@/components/KaroPattern'; import { MapPin, MessageCircle, ExternalLink } from 'lucide-react';  export default function SponsorSection() {     const [sponsors, setSponsors] = useState([]);      useEffect(() => {         fetchSponsors();     }, []);      const fetchSponsors = async () => {         const { data } = await supabase.from('sponsors').select('*').order('created_at', { ascending: false });         if (data) setSponsors(data);     };      if (sponsors.length === 0) return null;      return (         <section className=\"py-24 bg-karo-ivory\">             <div className=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">                 <Reveal>                     <SectionHeading eyebrow=\"Mitra & UMKM\" title=\"Didukung Oleh Usaha Keluarga Besar\" description=\"Mari dukung dan kunjungi kafe serta usaha milik anggota yang mensupport komunitas Aron Rudang Mayang.\" />                 </Reveal>                 <div className=\"mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3\">                     {sponsors.map((sponsor, i) => (                         <Reveal key={sponsor.id} delay={i * 0.05}>                             <div className=\"rounded-3xl border border-border bg-white p-6 shadow-lg flex flex-col justify-between\">                                 <div>                                     <img src={sponsor.image_url} alt={sponsor.name} className=\"aspect-[16/10] w-full rounded-2xl object-cover mb-4\" />                                     <span className=\"text-[10px] font-bold uppercase bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full\">{sponsor.category}</span>                                     <h4 className=\"font-display text-xl font-bold text-karo-charcoal mt-3\">{sponsor.name}</h4>                                                                          {/* Alamat Teks Biasa yang Rapih */}             ...","valueLength":3987,"text":""}
-
-## 2026-09-24 13:59:12.700Z focus
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"url","id":null,"placeholder":"Cth: https://maps.app.goo.gl/...","label":"Cth: https://maps.app.goo.gl/...","value":"import React, { useState, useEffect } from 'react'; import { supabase } from '@/lib/supabase'; import Reveal from '@/components/Reveal'; import { SectionHeading } from '@/components/KaroPattern'; import { MapPin, MessageCircle, ExternalLink } from 'lucide-react';  export default function SponsorSection() {     const [sponsors, setSponsors] = useState([]);      useEffect(() => {         fetchSponsors();     }, []);      const fetchSponsors = async () => {         const { data } = await supabase.from('sponsors').select('*').order('created_at', { ascending: false });         if (data) setSponsors(data);     };      if (sponsors.length === 0) return null;      return (         <section className=\"py-24 bg-karo-ivory\">             <div className=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">                 <Reveal>                     <SectionHeading eyebrow=\"Mitra & UMKM\" title=\"Didukung Oleh Usaha Keluarga Besar\" description=\"Mari dukung dan kunjungi kafe serta usaha milik anggota yang mensupport komunitas Aron Rudang Mayang.\" />                 </Reveal>                 <div className=\"mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3\">                     {sponsors.map((sponsor, i) => (                         <Reveal key={sponsor.id} delay={i * 0.05}>                             <div className=\"rounded-3xl border border-border bg-white p-6 shadow-lg flex flex-col justify-between\">                                 <div>                                     <img src={sponsor.image_url} alt={sponsor.name} className=\"aspect-[16/10] w-full rounded-2xl object-cover mb-4\" />                                     <span className=\"text-[10px] font-bold uppercase bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full\">{sponsor.category}</span>                                     <h4 className=\"font-display text-xl font-bold text-karo-charcoal mt-3\">{sponsor.name}</h4>                                                                          {/* Alamat Teks Biasa yang Rapih */}             ...","valueLength":3987,"text":""}
-
-## 2026-09-24 13:59:13.862Z click
-- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"url","id":null,"placeholder":"Cth: https://maps.app.goo.gl/...","label":"Cth: https://maps.app.goo.gl/...","value":"import React, { useState, useEffect } from 'react'; import { supabase } from '@/lib/supabase'; import Reveal from '@/components/Reveal'; import { SectionHeading } from '@/components/KaroPattern'; import { MapPin, MessageCircle, ExternalLink } from 'lucide-react';  export default function SponsorSection() {     const [sponsors, setSponsors] = useState([]);      useEffect(() => {         fetchSponsors();     }, []);      const fetchSponsors = async () => {         const { data } = await supabase.from('sponsors').select('*').order('created_at', { ascending: false });         if (data) setSponsors(data);     };      if (sponsors.length === 0) return null;      return (         <section className=\"py-24 bg-karo-ivory\">             <div className=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">                 <Reveal>                     <SectionHeading eyebrow=\"Mitra & UMKM\" title=\"Didukung Oleh Usaha Keluarga Besar\" description=\"Mari dukung dan kunjungi kafe serta usaha milik anggota yang mensupport komunitas Aron Rudang Mayang.\" />                 </Reveal>                 <div className=\"mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3\">                     {sponsors.map((sponsor, i) => (                         <Reveal key={sponsor.id} delay={i * 0.05}>                             <div className=\"rounded-3xl border border-border bg-white p-6 shadow-lg flex flex-col justify-between\">                                 <div>                                     <img src={sponsor.image_url} alt={sponsor.name} className=\"aspect-[16/10] w-full rounded-2xl object-cover mb-4\" />                                     <span className=\"text-[10px] font-bold uppercase bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full\">{sponsor.category}</span>                                     <h4 className=\"font-display text-xl font-bold text-karo-charcoal mt-3\">{sponsor.name}</h4>                                                                          {/* Alamat Teks Biasa yang Rapih */}             ...","valueLength":3987,"text":""}
+ull\">{sponsor.category}</span>                                     <h4 className=\"font-display text-xl font-bold text-karo-charcoal mt-3\">{sponsor.name}</h4>                                                                          {/* Alamat Teks Biasa yang Rapih */}             ...","valueLength":3987,"text":""}
 
 ## 2026-09-24 13:59:18.159Z change
 - element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"url","id":null,"placeholder":"Cth: https://maps.app.goo.gl/...","label":"Cth: https://maps.app.goo.gl/...","value":"https://share.google/LtO5eGTfgzUnJqXoZ","valueLength":38,"text":""}
@@ -6049,4 +2583,2510 @@ rror
         at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
         at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
         at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-10-09 11:23:47.843Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 11:23:49.063Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-10-09 15:14:26.461Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:14:26.530Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-10-09 15:14:29.071Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:14:29.120Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-10-09 15:16:16.642Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:16:16.881Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:6:25
+
+## 2026-10-09 15:20:35.390Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:20:35.626Z console.error
+- text: ⚠️ PERINGATAN: File .env tidak terbaca dengan benar!
+
+## 2026-10-09 15:20:35.626Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559202341:17:25
+
+## 2026-10-09 15:21:07.160Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:21:07.411Z console.error
+- text: ⚠️ PERINGATAN: File .env tidak terbaca dengan benar!
+
+## 2026-10-09 15:21:07.413Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:17:25
+
+## 2026-10-09 15:21:09.856Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:21:10.062Z console.error
+- text: ⚠️ PERINGATAN: File .env tidak terbaca dengan benar!
+
+## 2026-10-09 15:21:10.062Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2
+- line: 20422
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20422:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20654:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=c4ac70d2:20898:10)
+        at http://localhost:3000/src/lib/supabase.js:17:25
+
+## 2026-10-09 15:22:07.046Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:22:19.810Z console.error
+- text: ⚠️ PERINGATAN: File .env tidak terbaca dengan benar!
+
+## 2026-10-09 15:22:19.812Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=850e2944
+- line: 20420
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=850e2944:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=850e2944:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=850e2944:20896:10)
+        at http://localhost:3000/src/lib/supabase.js:17:25
+
+## 2026-10-09 15:23:53.488Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:23:53.730Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-09 15:23:54.396Z network.error
+- method: POST
+- url: https://zlbiezqiicgtcejdbdpm.supabase.co/auth/v1/token?grant_type=refresh_token
+- status: 400
+- requestBody: {"refresh_token":"[redacted:length=12]"}
+- response: {"code":"refresh_token_not_found","message":"Invalid Refresh Token: Refresh Token Not Found"}
+- durationMs: 678
+
+## 2026-10-09 15:23:54.397Z console.error
+- text: Fetch error from https://zlbiezqiicgtcejdbdpm.supabase.co/auth/v1/token?grant_type=refresh_token: {"code":"refresh_token_not_found","message":"Invalid Refresh Token: Refresh Token Not Found"}
+
+## 2026-10-09 15:26:57.301Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.302Z console.error
+- text: [vite] Failed to reload /src/pages/PengurusPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.303Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.304Z console.error
+- text: [vite] Failed to reload /src/components/Youtube.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.306Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.307Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/sambutan/SambutanPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.308Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.308Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/login/LoginPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.310Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.311Z console.error
+- text: [vite] Failed to reload /src/pages/KeuanganPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.313Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.313Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/berita/BeritaPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.316Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.317Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/keuangan/KeuanganAdminPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.318Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.319Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/donasi/DonasiPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.320Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.320Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/youtube/YoutubePage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.322Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.322Z console.error
+- text: [vite] Failed to reload /src/components/Secretariat.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.323Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.324Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/galeri/GaleriPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.325Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.326Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/new-member/AnggotaBaruPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.327Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.328Z console.error
+- text: [vite] Failed to reload /src/pages/GaleriPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.329Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.329Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/secretariat/SecretariatPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.332Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.332Z console.error
+- text: [vite] Failed to reload /src/pages/GabungPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.333Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.334Z console.error
+- text: [vite] Failed to reload /src/pages/ProgramPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.335Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.336Z console.error
+- text: [vite] Failed to reload /src/pages/TentangKamiPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.337Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.338Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/DashboardLayout.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.341Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.342Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/anggota/AnggotaPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.344Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.345Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/struktur-organisasi/PengurusPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.346Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.346Z console.error
+- text: [vite] Failed to reload /src/pages/DonasiPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.348Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.348Z console.error
+- text: [vite] Failed to reload /src/components/Sambutan.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.350Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.350Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/sponsor/SponsorPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.351Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.352Z console.error
+- text: [vite] Failed to reload /src/components/Sponsor.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.353Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.354Z console.error
+- text: [vite] Failed to reload /src/pages/BeritaPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.357Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.357Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/tentang/TentangPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.358Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.359Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/program/ProgramPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:26:57.361Z console.error
+- text: 
+    [vite] Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:26:57.361Z console.error
+- text: [vite] Failed to reload /src/pages/HomePage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 15:27:36.610Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:27:36.886Z window.error
+- message: Uncaught Error: supabaseUrl is required.
+- source: http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed
+- line: 20420
+- col: 26
+- stack: 
+    Error: supabaseUrl is required.
+        at validateSupabaseUrl (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20420:26)
+        at new SupabaseClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20652:21)
+        at createClient (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20896:10)
+        at http://localhost:3000/src/lib/supabase.js?t=1791559617061:6:25
+
+## 2026-10-09 15:36:07.438Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:36:31.300Z click
+- element: {"tag":"section","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Sambutan Ketua UmumMerawat Akar Tradisi, Menjembatani Masa Depan di Perantauan\"Mejuah-juah man banta kerina. Kehadiran Aron Rudang Mayang di Balikpapan bukan sekadar wadah berkumpul, melainkan rumah bersama tempat kita saling menopang dalam semangat kekeluargaan dan gotong royong khas Karo. Mari terus jaga kebersamaan, junjung tinggi adat istiadat, dan berikan kontribusi positif bagi kemajuan Kota Balikpapan tercinta.\"Yegar TariganKetua Umum Aron Rudang Mayang"}
+
+## 2026-10-09 15:36:37.657Z load
+- url: http://localhost:3000/aku-bisa
+
+## 2026-10-09 15:36:37.826Z navigate
+- url: http://localhost:3000/aku-bisa
+- via: replaceState
+
+## 2026-10-09 15:36:44.862Z load
+- url: http://localhost:3000/ngurus-aron
+
+## 2026-10-09 15:36:44.928Z navigate
+- url: http://localhost:3000/ngurus-aron
+- via: replaceState
+
+## 2026-10-09 15:36:44.932Z navigate
+- url: http://localhost:3000/ngurus-aron/login
+- via: pushState
+
+## 2026-10-09 15:36:46.557Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:36:46.563Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 15:36:46.564Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 15:36:46.564Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-10-09 15:36:46.565Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=7]","valueLength":7,"text":""}
+
+## 2026-10-09 15:36:46.565Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=7]","valueLength":7,"text":""}
+
+## 2026-10-09 15:36:46.637Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Masuk ke Dashboard"}
+
+## 2026-10-09 15:36:46.639Z submit
+- action: http://localhost:3000/ngurus-aron/login
+- fields: [{"label":"email@domain.com","type":"email","value":"yegargirsang@gmail.com","length":22,"redacted":false},{"label":"••••••••","type":"password","value":"[redacted:length=7]","length":7,"redacted":true},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 15:36:47.293Z navigate
+- url: http://localhost:3000/ngurus-aron/beranda
+- via: pushState
+
+## 2026-10-09 15:36:49.331Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 15:36:49.332Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 15:37:08.414Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Manajemen KeuanganKelola laporan umum dan iuran kas anggota secara terpusat. Kas Anggota Laporan Umum Nominal Kas/Bulan Total Anggota227 Orang Total TerkumpulRp 0 Total TunggakanRp 11.400.000Daftar Status Kas AnggotaDihitung otomatis sejak tanggal gabungEllois Sembiring Gabung: Sep 2026MenunggakHarus BayarRp 100.000Belum DibayarRp 100.000 Kirim WA Tandai BayarEllois Sembiring 083183585368• Gabung September 2026TagihanRp 100.000LunasRp 0TunggakanRp 100.000Yegar Tarigan Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarYegar Tarigan 083877734668• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000JULIUS BASTIANTA GINTING Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarJULIUS BASTIANTA GINTING 081346809085• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Aldiano Zio Malvintha Tarigan Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarAldiano Zio Malvintha Tarigan 081318760909• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Ditha Bunga Marsella Br Ginting Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarDitha Bunga Marsella Br Ginting 081256799609• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Rinaldi Kristian Ginting Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarRinaldi Kristian Ginting 82122988267• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000RAMA ALDI SITEPU Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarRAMA ALDI SITEPU 83848246659• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Taufan Widyatamaka Purba Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarTaufan Widyatamaka Purba 85754584140• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Teguh Prawira Kusuma Purba Gabung: Okt 2026Menunggak..."}
+
+## 2026-10-09 15:37:11.127Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Manajemen KeuanganKelola laporan umum dan iuran kas anggota secara terpusat. Kas Anggota Laporan Umum Nominal Kas/Bulan Total Anggota227 Orang Total TerkumpulRp 0 Total TunggakanRp 11.400.000Daftar Status Kas AnggotaDihitung otomatis sejak tanggal gabungEllois Sembiring Gabung: Sep 2026MenunggakHarus BayarRp 100.000Belum DibayarRp 100.000 Kirim WA Tandai BayarEllois Sembiring 083183585368• Gabung September 2026TagihanRp 100.000LunasRp 0TunggakanRp 100.000Yegar Tarigan Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarYegar Tarigan 083877734668• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000JULIUS BASTIANTA GINTING Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarJULIUS BASTIANTA GINTING 081346809085• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Aldiano Zio Malvintha Tarigan Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarAldiano Zio Malvintha Tarigan 081318760909• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Ditha Bunga Marsella Br Ginting Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarDitha Bunga Marsella Br Ginting 081256799609• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Rinaldi Kristian Ginting Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarRinaldi Kristian Ginting 82122988267• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000RAMA ALDI SITEPU Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarRAMA ALDI SITEPU 83848246659• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Taufan Widyatamaka Purba Gabung: Okt 2026MenunggakHarus BayarRp 50.000Belum DibayarRp 50.000 Kirim WA Tandai BayarTaufan Widyatamaka Purba 85754584140• Gabung Oktober 2026TagihanRp 50.000LunasRp 0TunggakanRp 50.000Teguh Prawira Kusuma Purba Gabung: Okt 2026Menunggak..."}
+
+## 2026-10-09 15:37:17.805Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083183585368• Gabung September 2026"}
+
+## 2026-10-09 15:37:18.157Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083183585368• Gabung September 2026"}
+
+## 2026-10-09 15:37:18.340Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083183585368• Gabung September 2026"}
+
+## 2026-10-09 15:37:18.996Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083183585368• Gabung September 2026"}
+
+## 2026-10-09 15:37:26.883Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ellois Sembiring Gabung: Sep 2026MenunggakHarus BayarRp 100.000Belum DibayarRp 100.000 Kirim WA Tandai BayarEllois Sembiring 083183585368• Gabung September 2026TagihanRp 100.000LunasRp 0TunggakanRp 100.000"}
+
+## 2026-10-09 15:37:27.476Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Laporan Umum"}
+
+## 2026-10-09 15:37:30.948Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Kas Anggota"}
+
+## 2026-10-09 15:37:38.476Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"227 Orang"}
+
+## 2026-10-09 15:37:38.919Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"number","id":null,"placeholder":null,"label":"[number]","value":"50000","valueLength":5,"text":""}
+
+## 2026-10-09 15:37:39.032Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"number","id":null,"placeholder":null,"label":"[number]","value":"50000","valueLength":5,"text":""}
+
+## 2026-10-09 15:38:10.969Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"number","id":null,"placeholder":null,"label":"[number]","value":"20000","valueLength":5,"text":""}
+
+## 2026-10-09 15:38:10.969Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"number","id":null,"placeholder":null,"label":"[number]","value":"20000","valueLength":5,"text":""}
+
+## 2026-10-09 15:38:11.083Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 15:39:04.531Z load
+- url: http://localhost:3000/
+
+## 2026-10-09 15:39:04.694Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-09 15:39:07.078Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bergabung Bersama Kami"}
+
+## 2026-10-09 15:39:07.079Z navigate
+- url: http://localhost:3000/gabung
+- via: pushState
+
+## 2026-10-09 15:39:08.853Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:08.939Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:13.158Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"gutuu","valueLength":5,"text":""}
+
+## 2026-10-09 15:39:13.158Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"gutuu","valueLength":5,"text":""}
+
+## 2026-10-09 15:39:13.159Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:13.243Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:14.615Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"23 Agustus","valueLength":10,"text":""}
+
+## 2026-10-09 15:39:19.254Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"23 Agustus 2022","valueLength":15,"text":""}
+
+## 2026-10-09 15:39:19.254Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"23 Agustus 2022","valueLength":15,"text":""}
+
+## 2026-10-09 15:39:19.256Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:19.347Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:20.145Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"Sembiring","valueLength":9,"text":""}
+
+## 2026-10-09 15:39:21.318Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"Sembiring","valueLength":9,"text":""}
+
+## 2026-10-09 15:39:21.319Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:21.437Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:23.348Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:28.268Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"manggar","valueLength":7,"text":""}
+
+## 2026-10-09 15:39:28.269Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"manggar","valueLength":7,"text":""}
+
+## 2026-10-09 15:39:28.270Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:28.356Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:30.172Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 15:39:30.173Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 15:39:30.173Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:30.176Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 15:39:30.176Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 15:39:30.176Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 15:39:31.727Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 15:39:31.728Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:39:31.814Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:39:32.565Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:39:32.568Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:39:33.381Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:39:33.382Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"golongan_darah","type":null,"id":null,"placeholder":null,"label":"golongan_darah","value":"O","valueLength":1,"text":"ABABOTidak Tahu"}
+
+## 2026-10-09 15:39:33.500Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"golongan_darah","type":null,"id":null,"placeholder":null,"label":"golongan_darah","value":"O","valueLength":1,"text":"ABABOTidak Tahu"}
+
+## 2026-10-09 15:39:33.961Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"golongan_darah","type":null,"id":null,"placeholder":null,"label":"golongan_darah","value":"O","valueLength":1,"text":"ABABOTidak Tahu"}
+
+## 2026-10-09 15:39:34.043Z click
+- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nama LengkapJenis KelaminLaki-lakiPerempuanUlang Tahun (Tanggal & Bulan)Bebere / Marga Ibu (Opsional)Asal Kota / KampungDomisili di BalikpapanNomor HP / WhatsApp AktifEmail AktifStatus AktivitasBekerjaKuliahWiraswastaLainnyaGolongan DarahABABOTidak TahuAkun Media Sosial (Opsional) Informasi Kontak DaruratNama Kontak DaruratHubunganKeluarga (Ortu/Saudara)Teman DekatPasanganLainnyaNomor HP Kontak DaruratKirim Pendaftaran Anggota"}
+
+## 2026-10-09 15:39:35.412Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:35.501Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:37.212Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"y_gar.tarigan","valueLength":13,"text":""}
+
+## 2026-10-09 15:39:38.173Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"y_gar.tarigan","valueLength":13,"text":""}
+
+## 2026-10-09 15:39:38.173Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:38.242Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:40.138Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"Efraim","valueLength":6,"text":""}
+
+## 2026-10-09 15:39:41.037Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"Efraim","valueLength":6,"text":""}
+
+## 2026-10-09 15:39:41.038Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"kontak_darurat_hubungan","type":null,"id":null,"placeholder":null,"label":"kontak_darurat_hubungan","value":"Keluarga","valueLength":8,"text":"Keluarga (Ortu/Saudara)Teman DekatPasanganLainnya"}
+
+## 2026-10-09 15:39:41.124Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"kontak_darurat_hubungan","type":null,"id":null,"placeholder":null,"label":"kontak_darurat_hubungan","value":"Keluarga","valueLength":8,"text":"Keluarga (Ortu/Saudara)Teman DekatPasanganLainnya"}
+
+## 2026-10-09 15:39:43.150Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"kontak_darurat_hubungan","type":null,"id":null,"placeholder":null,"label":"kontak_darurat_hubungan","value":"Teman Dekat","valueLength":11,"text":"Keluarga (Ortu/Saudara)Teman DekatPasanganLainnya"}
+
+## 2026-10-09 15:39:43.155Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"kontak_darurat_hubungan","type":null,"id":null,"placeholder":null,"label":"kontak_darurat_hubungan","value":"Teman Dekat","valueLength":11,"text":"Keluarga (Ortu/Saudara)Teman DekatPasanganLainnya"}
+
+## 2026-10-09 15:39:43.453Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"kontak_darurat_hubungan","type":null,"id":null,"placeholder":null,"label":"kontak_darurat_hubungan","value":"Teman Dekat","valueLength":11,"text":"Keluarga (Ortu/Saudara)Teman DekatPasanganLainnya"}
+
+## 2026-10-09 15:39:43.453Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:43.523Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:39:44.649Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 15:39:45.942Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 15:39:46.020Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pendaftaran Anggota"}
+
+## 2026-10-09 15:39:46.022Z submit
+- action: http://localhost:3000/gabung
+- fields: [{"label":"nama","type":"text","value":"gutuu","length":5,"redacted":false},{"label":"jenis_kelamin","type":"select-one","value":"Laki-laki","length":9,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"23 Agustus 2022","length":15,"redacted":false},{"label":"bebere","type":"text","value":"Sembiring","length":9,"redacted":false},{"label":"asal_kota","type":"text","value":"manggar","length":7,"redacted":false},{"label":"domisili","type":"text","value":"Sepinggan","length":9,"redacted":false},{"label":"no_hp","type":"tel","value":"083877734668","length":12,"redacted":false},{"label":"email","type":"email","value":"yegargirsang@gmail.com","length":22,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah","length":6,"redacted":false},{"label":"golongan_darah","type":"select-one","value":"O","length":1,"redacted":false},{"label":"sosmed","type":"text","value":"y_gar.tarigan","length":13,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Efraim","length":6,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Teman Dekat","length":11,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"083877734668","length":12,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 15:39:53.348Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota Baru"}
+
+## 2026-10-09 15:39:53.350Z navigate
+- url: http://localhost:3000/ngurus-aron/new-member
+- via: pushState
+
+## 2026-10-09 15:39:58.548Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Terima & Sambut WA"}
+
+## 2026-10-09 15:40:06.589Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 15:40:06.590Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 15:40:09.926Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:40:10.011Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:40:16.134Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"gut","valueLength":3,"text":""}
+
+## 2026-10-09 15:40:16.134Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"gut","valueLength":3,"text":""}
+
+## 2026-10-09 15:40:16.205Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 15:40:16.206Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 15:40:19.140Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Daftar Status Kas AnggotaDihitung otomatis sejak tanggal gabung"}
+
+## 2026-10-09 15:40:59.254Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083877734668• Gabung Oktober 2026"}
+
+## 2026-10-09 15:40:59.789Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083877734668• Gabung Oktober 2026"}
+
+## 2026-10-09 15:41:02.787Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 15:43:20.221Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 15:43:45.892Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 81396340246• Gabung Oktober 2026"}
+
+## 2026-10-09 15:43:46.963Z click
+- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Zeremia Bangun"}
+
+## 2026-10-09 15:43:50.139Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 15:43:50.142Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 15:43:55.157Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:43:55.251Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:44:02.333Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"zi","valueLength":2,"text":""}
+
+## 2026-10-09 15:44:02.333Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, email...","label":"Cari nama, telepon, email...","value":"zi","valueLength":2,"text":""}
+
+## 2026-10-09 15:44:02.411Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 15:44:04.054Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"81396340246","valueLength":11,"text":""}
+
+## 2026-10-09 15:44:04.147Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"81396340246","valueLength":11,"text":""}
+
+## 2026-10-09 15:44:08.405Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"081396340246","valueLength":12,"text":""}
+
+## 2026-10-09 15:44:08.405Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"081396340246","valueLength":12,"text":""}
+
+## 2026-10-09 15:44:08.515Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 15:44:08.517Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"ZIEZEFANYA NABORA BR PERANGIN-ANGIN","length":35,"redacted":false},{"label":"bebere","type":"text","value":"Sembiring Pelawi","length":16,"redacted":false},{"label":"asal_kota","type":"text","value":"Desa Ajijahe","length":12,"redacted":false},{"label":"address","type":"text","value":"Kilo 15","length":7,"redacted":false},{"label":"phone","type":"tel","value":"081396340246","length":12,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"01 Maret 2006","length":13,"redacted":false},{"label":"gol-dar","type":"select-one","value":"B","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Ziezefanya Nabora","length":17,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Jhon Freddy","length":11,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"081362138833","length":12,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 15:44:13.708Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 15:44:14.875Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"81263203125","valueLength":11,"text":""}
+
+## 2026-10-09 15:44:14.970Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"81263203125","valueLength":11,"text":""}
+
+## 2026-10-09 15:44:16.197Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"081263203125","valueLength":12,"text":""}
+
+## 2026-10-09 15:44:16.197Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"081263203125","valueLength":12,"text":""}
+
+## 2026-10-09 15:44:16.331Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 15:44:16.332Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama Kontak Darurat","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:44:19.190Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama Kontak Darurat","label":"kontak_darurat_nama","value":"-","valueLength":1,"text":""}
+
+## 2026-10-09 15:44:19.190Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama Kontak Darurat","label":"kontak_darurat_nama","value":"-","valueLength":1,"text":""}
+
+## 2026-10-09 15:44:19.191Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"No HP Kontak Darurat","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:44:19.290Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"No HP Kontak Darurat","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 15:44:20.085Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"No HP Kontak Darurat","label":"kontak_darurat_no_hp","value":"-","valueLength":1,"text":""}
+
+## 2026-10-09 15:44:20.085Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"No HP Kontak Darurat","label":"kontak_darurat_no_hp","value":"-","valueLength":1,"text":""}
+
+## 2026-10-09 15:44:20.179Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 15:44:20.180Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"ANGGA ABDUL AZIS GINTING","length":24,"redacted":false},{"label":"bebere","type":"text","value":"Bukit","length":5,"redacted":false},{"label":"asal_kota","type":"text","value":"Ujung bandar","length":12,"redacted":false},{"label":"address","type":"text","value":"PERUM GRIYA PERMATA ASRI JLN KANDILO NO 109","length":43,"redacted":false},{"label":"phone","type":"tel","value":"081263203125","length":12,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"38154","length":5,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"(FB)Salsabila (IG) SKTK","length":23,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 15:44:26.043Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 15:44:26.045Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 15:44:56.547Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083183585368• Gabung September 2026"}
+
+## 2026-10-09 15:44:57.099Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" 083183585368• Gabung September 2026"}
+
+## 2026-10-09 15:45:17.395Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Elon nardo tarigan Gabung: Okt 2026MenunggakHarus BayarRp 20.000Belum DibayarRp 20.000 Kirim WA Tandai BayarElon nardo tarigan 82125226390• Gabung Oktober 2026TagihanRp 20.000LunasRp 0TunggakanRp 20.000"}
+
+## 2026-10-09 15:46:06.572Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 15:46:43.435Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 15:46:43.437Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 15:49:38.067Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 15:49:38.068Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 15:49:48.999Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:49:49.090Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:50:00.881Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahWiraswastaLainnya"}
+
+## 2026-10-09 15:50:00.979Z click
+- element: {"tag":"main","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keluarga Besar PerantauanBergabung Bersama Aron Rudang MayangMari pererat tali persaudaraan, lestarikan budaya, dan saling menopang di tanah rantau Kota Balikpapan.Syarat & Ketentuan Bergabung1.Merupakan perantau atau warga keturunan suku Karo yang berdomisili di Kota Balikpapan dan sekitarnya.2.Memiliki komitmen untuk menjunjung tinggi nilai kekeluargaan, saling menghormati, dan berpartisipasi dalam semangat gotong royong (aron).3.Bersedia mematuhi Anggaran Dasar / Anggaran Rumah Tangga (AD/ART) serta keputusan musyawarah komunitas.4.Menjaga nama baik organisasi Aron Rudang Mayang baik di dalam maupun di luar kegiatan komunitas.Formulir Pendaftaran Anggota BaruPendaftaran berhasil dikirim! Data Anda telah masuk ke sistem panitia Aron Rudang Mayang.Nama LengkapJenis KelaminLaki-lakiPerempuanUlang Tahun (Tanggal & Bulan)Bebere / Marga Ibu (Opsional)Asal Kota / KampungDomisili di BalikpapanNomor HP / WhatsApp AktifEmail AktifStatus AktivitasBekerjaKuliahWiraswastaLainnyaGolongan DarahABABOTidak TahuAkun Media Sosial (Opsional) Informasi Kontak DaruratNama Kontak DaruratHubunganKeluarga (Ortu/Saudara)Teman DekatPasanganLainnyaNomor HP Kontak DaruratKirim Pendaftaran Anggota"}
+
+## 2026-10-09 15:51:31.592Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 15:51:31.691Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 15:51:37.682Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 15:51:38.482Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 15:52:06.209Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 15:52:08.483Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 15:52:10.042Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 15:52:10.045Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 16:00:06.141Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:00:08.548Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:00:08.549Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:08.617Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:09.960Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar girsang","valueLength":13,"text":""}
+
+## 2026-10-09 16:00:09.960Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar girsang","valueLength":13,"text":""}
+
+## 2026-10-09 16:00:09.960Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:09.963Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"Kota Balikpapan","valueLength":15,"text":""}
+
+## 2026-10-09 16:00:09.963Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"Kota Balikpapan","valueLength":15,"text":""}
+
+## 2026-10-09 16:00:09.963Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:09.965Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:00:09.965Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:00:09.965Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:09.969Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 16:00:09.969Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 16:00:09.969Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar girsang","valueLength":13,"text":""}
+
+## 2026-10-09 16:00:13.474Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar girsang","valueLength":13,"text":""}
+
+## 2026-10-09 16:00:13.474Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:00:13.561Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:00:14.293Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:00:14.297Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:00:15.641Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:00:15.641Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:15.736Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:18.122Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"sfdv","valueLength":4,"text":""}
+
+## 2026-10-09 16:00:18.122Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"sfdv","valueLength":4,"text":""}
+
+## 2026-10-09 16:00:18.123Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:18.202Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:20.673Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:21.342Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"Jhon Freddy","valueLength":11,"text":""}
+
+## 2026-10-09 16:00:22.571Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"Jhon Freddy","valueLength":11,"text":""}
+
+## 2026-10-09 16:00:22.571Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:22.664Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:23.519Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:00:26.500Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:00:26.593Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pendaftaran Anggota"}
+
+## 2026-10-09 16:00:26.594Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:30.937Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota Baru"}
+
+## 2026-10-09 16:00:30.940Z navigate
+- url: http://localhost:3000/ngurus-aron/new-member
+- via: pushState
+
+## 2026-10-09 16:00:35.223Z load
+- url: http://localhost:3000/ngurus-aron/new-member
+
+## 2026-10-09 16:00:36.893Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:40.960Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pendaftaran Anggota"}
+
+## 2026-10-09 16:00:40.962Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:00:46.957Z load
+- url: http://localhost:3000/ngurus-aron/new-member
+
+## 2026-10-09 16:00:52.292Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:01.336Z load
+- url: http://localhost:3000/gabung
+
+## 2026-10-09 16:01:03.316Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:03.401Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:04.329Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar girsang","valueLength":13,"text":""}
+
+## 2026-10-09 16:01:04.329Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar girsang","valueLength":13,"text":""}
+
+## 2026-10-09 16:01:04.329Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:04.332Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"Kota Balikpapan","valueLength":15,"text":""}
+
+## 2026-10-09 16:01:04.332Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"asal_kota","type":"text","id":null,"placeholder":"Contoh: Kabanjahe / Berastagi","label":"asal_kota","value":"Kota Balikpapan","valueLength":15,"text":""}
+
+## 2026-10-09 16:01:04.332Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:04.336Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:01:04.336Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:01:04.336Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:04.338Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 16:01:04.338Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"email","type":"email","id":null,"placeholder":"email@domain.com","label":"email","value":"yegargirsang@gmail.com","valueLength":22,"text":""}
+
+## 2026-10-09 16:01:04.338Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar girsang","valueLength":13,"text":""}
+
+## 2026-10-09 16:01:11.410Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar gutul","valueLength":11,"text":""}
+
+## 2026-10-09 16:01:11.410Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"nama","type":"text","id":null,"placeholder":"Contoh: Yegar Tarigan","label":"nama","value":"yegar gutul","valueLength":11,"text":""}
+
+## 2026-10-09 16:01:11.411Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:01:11.473Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:01:11.978Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:01:11.982Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:01:13.506Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah","valueLength":6,"text":"BekerjaKuliahLainnya"}
+
+## 2026-10-09 16:01:13.507Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:13.617Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:15.072Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"dswf","valueLength":4,"text":""}
+
+## 2026-10-09 16:01:15.072Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"sosmed","type":"text","id":null,"placeholder":"Contoh: IG: @brando, FB: Brando Ginting","label":"sosmed","value":"dswf","valueLength":4,"text":""}
+
+## 2026-10-09 16:01:15.073Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:15.201Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:16.215Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"Efraim","valueLength":6,"text":""}
+
+## 2026-10-09 16:01:17.088Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"Efraim","valueLength":6,"text":""}
+
+## 2026-10-09 16:01:17.705Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"Efraim","valueLength":6,"text":""}
+
+## 2026-10-09 16:01:23.033Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"mmmmaaaa","valueLength":8,"text":""}
+
+## 2026-10-09 16:01:23.034Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_nama","type":"text","id":null,"placeholder":"Nama lengkap","label":"kontak_darurat_nama","value":"mmmmaaaa","valueLength":8,"text":""}
+
+## 2026-10-09 16:01:23.034Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:23.138Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:24.025Z click
+- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nama LengkapJenis KelaminLaki-lakiPerempuanUlang Tahun (Tanggal & Bulan)Bebere / Marga Ibu (Opsional)Asal Kota / KampungDomisili di BalikpapanNomor HP / WhatsApp AktifEmail AktifStatus AktivitasBekerjaKuliahLainnyaGolongan DarahABABOTidak TahuAkun Media Sosial (Opsional) Informasi Kontak DaruratNama Kontak DaruratHubunganKeluarga (Ortu/Saudara)Teman DekatPasanganLainnyaNomor HP Kontak DaruratKirim Pendaftaran Anggota"}
+
+## 2026-10-09 16:01:24.969Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Nomor HP Kontak Darurat"}
+
+## 2026-10-09 16:01:25.210Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:25.313Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:25.918Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:01:26.788Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"kontak_darurat_no_hp","type":"tel","id":null,"placeholder":"081234567890","label":"kontak_darurat_no_hp","value":"083877734668","valueLength":12,"text":""}
+
+## 2026-10-09 16:01:26.898Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pendaftaran Anggota"}
+
+## 2026-10-09 16:01:26.900Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:29.832Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:31.557Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"13 November 2004","valueLength":16,"text":""}
+
+## 2026-10-09 16:01:34.354Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"tanggal_lahir","type":"text","id":null,"placeholder":"Contoh: 13 November 2003","label":"tanggal_lahir","value":"13 November 2004","valueLength":16,"text":""}
+
+## 2026-10-09 16:01:34.354Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:34.441Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:01:35.157Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"Sembiring","valueLength":9,"text":""}
+
+## 2026-10-09 16:01:37.212Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"bebere","type":"text","id":null,"placeholder":"Contoh: Sembiring","label":"bebere","value":"Sembiring","valueLength":9,"text":""}
+
+## 2026-10-09 16:01:37.322Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kirim Pendaftaran Anggota"}
+
+## 2026-10-09 16:01:37.324Z submit
+- action: http://localhost:3000/gabung
+- fields: [{"label":"nama","type":"text","value":"yegar gutul","length":11,"redacted":false},{"label":"jenis_kelamin","type":"select-one","value":"Laki-laki","length":9,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"13 November 2004","length":16,"redacted":false},{"label":"bebere","type":"text","value":"Sembiring","length":9,"redacted":false},{"label":"asal_kota","type":"text","value":"Kota Balikpapan","length":15,"redacted":false},{"label":"domisili","type":"text","value":"Sepinggan","length":9,"redacted":false},{"label":"no_hp","type":"tel","value":"083877734668","length":12,"redacted":false},{"label":"email","type":"email","value":"yegargirsang@gmail.com","length":22,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah","length":6,"redacted":false},{"label":"golongan_darah","type":"select-one","value":"O","length":1,"redacted":false},{"label":"sosmed","type":"text","value":"dswf","length":4,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"mmmmaaaa","length":8,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"083877734668","length":12,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:01:43.923Z load
+- url: http://localhost:3000/ngurus-aron/new-member
+
+## 2026-10-09 16:02:48.178Z click
+- element: {"tag":"span","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kuliah"}
+
+## 2026-10-09 16:02:48.665Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kuliahyegar gutulLaki-laki • Bebere: Sembiring • Gol. Darah: O"}
+
+## 2026-10-09 16:02:49.009Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kuliahyegar gutulLaki-laki • Bebere: Sembiring • Gol. Darah: O"}
+
+## 2026-10-09 16:02:51.561Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 16:02:51.563Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 16:06:29.744Z load
+- url: http://localhost:3000/gabung
+
+## 2026-10-09 16:06:30.336Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ARON RUDANG MAYANGKota Balikpapan"}
+
+## 2026-10-09 16:06:30.338Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-10-09 16:06:35.576Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 16:06:35.578Z navigate
+- url: http://localhost:3000/keuangan
+- via: pushState
+
+## 2026-10-09 16:06:58.897Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 16:06:58.900Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 16:06:59.953Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Laporan Umum"}
+
+## 2026-10-09 16:07:24.265Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hasil Keputusan RapatKetentuan & Kebijakan KasBerdasarkan hasil rapat pengurus dan anggota tanggal 10 Januari 2026, iuran kas wajib anggota ditetapkan sebesar Rp 10.000 per bulan guna mendukung kegiatan sosial dan budaya.💡 Catatan Penting:Pembayaran iuran kas dapat disetorkan langsung kepada bendahara atau melalui rekening resmi komunitas di bawah ini."}
+
+## 2026-10-09 16:07:31.473Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:07:47.688Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:07:47.787Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:07:50.581Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:07:50.583Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:07:50.666Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:08:00.650Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:08:02.986Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota, iuran kas rutin wajib dibayarkan setiap bulannya untuk mempererat solidaritas aron."}
+
+## 2026-10-09 16:08:03.735Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota, iuran kas rutin wajib dibayarkan setiap bulannya untuk mempererat solidaritas aron."}
+
+## 2026-10-09 16:08:04.168Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota, iuran kas rutin wajib dibayarkan setiap bulannya untuk mempererat solidaritas aron."}
+
+## 2026-10-09 16:08:14.224Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hasil Keputusan RapatKetentuan & Kebijakan KasBerdasarkan hasil rapat pengurus dan anggota, iuran kas rutin wajib dibayarkan setiap bulannya untuk mempererat solidaritas aron.💡 Catatan Penting:Pembayaran iuran kas dapat disetorkan langsung kepada bendahara atau melalui rekening resmi komunitas di bawah ini."}
+
+## 2026-10-09 16:08:14.816Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berdasarkan hasil rapat pengurus dan anggota, iuran kas rutin wajib dibayarkan setiap bulannya untuk mempererat solidaritas aron."}
+
+## 2026-10-09 16:08:16.216Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hasil Keputusan RapatKetentuan & Kebijakan KasBerdasarkan hasil rapat pengurus dan anggota, iuran kas rutin wajib dibayarkan setiap bulannya untuk mempererat solidaritas aron.💡 Catatan Penting:Pembayaran iuran kas dapat disetorkan langsung kepada bendahara atau melalui rekening resmi komunitas di bawah ini."}
+
+## 2026-10-09 16:08:23.455Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:08:26.767Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Kas Anggota"}
+
+## 2026-10-09 16:08:31.514Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Catatan berhasil dihapus!✕"}
+
+## 2026-10-09 16:08:32.577Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"✕"}
+
+## 2026-10-09 16:08:35.338Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Laporan Umum"}
+
+## 2026-10-09 16:08:38.394Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Belum ada catatan keuangan."}
+
+## 2026-10-09 16:08:39.524Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Riwayat Keuangan Tercatat (0)Belum ada catatan keuangan."}
+
+## 2026-10-09 16:08:40.293Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Riwayat Keuangan Tercatat (0)Belum ada catatan keuangan."}
+
+## 2026-10-09 16:08:40.457Z click
+- element: {"tag":"h4","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Riwayat Keuangan Tercatat (0)"}
+
+## 2026-10-09 16:08:41.201Z click
+- element: {"tag":"h4","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Riwayat Keuangan Tercatat (0)"}
+
+## 2026-10-09 16:08:48.353Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Simpan Catatan"}
+
+## 2026-10-09 16:08:51.183Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:08:51.296Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:08:54.603Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:08:54.607Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:08:56.787Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:08:56.791Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:08:56.890Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:11:09.577Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan, yang kuliah ditetapkan sebesar Rp 12.000 guna mendukung kegiatan sosial dan budaya.","valueLength":218,"text":""}
+
+## 2026-10-09 16:11:50.843Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan, yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","valueLength":225,"text":""}
+
+## 2026-10-09 16:11:50.843Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan, yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","valueLength":225,"text":""}
+
+## 2026-10-09 16:11:50.845Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:11:50.919Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:12:05.188Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"05 Oktober 2026","valueLength":15,"text":""}
+
+## 2026-10-09 16:12:05.188Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"05 Oktober 2026","valueLength":15,"text":""}
+
+## 2026-10-09 16:12:05.276Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Simpan Catatan"}
+
+## 2026-10-09 16:12:05.277Z submit
+- action: http://localhost:3000/ngurus-aron/keuangan
+- fields: [{"label":"type","type":"select-one","value":"info","length":4,"redacted":false},{"label":"date","type":"text","value":"05 Oktober 2026","length":15,"redacted":false},{"label":"title","type":"text","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan, yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","length":225,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:12:06.617Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Simpan Catatan"}
+
+## 2026-10-09 16:12:06.619Z submit
+- action: http://localhost:3000/ngurus-aron/keuangan
+- fields: [{"label":"type","type":"select-one","value":"info","length":4,"redacted":false},{"label":"date","type":"text","value":"05 Oktober 2026","length":15,"redacted":false},{"label":"title","type":"text","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan, yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","length":225,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:12:13.176Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:12:15.825Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Tambah Catatan Keuangan BaruJenis TransaksiUang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman RapatTanggalKeterangan / JudulNominal (Rupiah)Kategori Simpan Catatan"}
+
+## 2026-10-09 16:12:18.961Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:12:44.224Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hasil Keputusan RapatKetentuan & Kebijakan KasBerdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan, yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.💡 Catatan Penting:Pembayaran iuran kas dapat disetorkan langsung kepada bendahara atau melalui rekening resmi komunitas di bawah ini."}
+
+## 2026-10-09 16:12:49.681Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:12:52.747Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:12:52.825Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:12:53.489Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:12:53.492Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:12:54.531Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:12:54.532Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:12:54.642Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:12:59.185Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan, yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","valueLength":225,"text":""}
+
+## 2026-10-09 16:13:04.873Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan dan yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","valueLength":228,"text":""}
+
+## 2026-10-09 16:13:04.874Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan dan yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","valueLength":228,"text":""}
+
+## 2026-10-09 16:13:04.875Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:13:04.951Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:13:06.828Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"05 Oktober 2026","valueLength":15,"text":""}
+
+## 2026-10-09 16:13:07.545Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"date","type":"text","id":null,"placeholder":"15 Juli 2026","label":"date","value":"05 Oktober 2026","valueLength":15,"text":""}
+
+## 2026-10-09 16:13:07.616Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Simpan Catatan"}
+
+## 2026-10-09 16:13:07.617Z submit
+- action: http://localhost:3000/ngurus-aron/keuangan
+- fields: [{"label":"type","type":"select-one","value":"info","length":4,"redacted":false},{"label":"date","type":"text","value":"05 Oktober 2026","length":15,"redacted":false},{"label":"title","type":"text","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan dan yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.","length":228,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:13:11.812Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:13:18.887Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hasil Keputusan RapatKetentuan & Kebijakan KasBerdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan dan yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya."}
+
+## 2026-10-09 16:13:38.297Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/anggota/AnggotaPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 16:13:38.405Z console.error
+- text: [vite] Failed to reload /src/pages/ngurus-aron/anggota/AnggotaPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-09 16:14:56.983Z load
+- url: http://localhost:3000/ngurus-aron/keuangan
+
+## 2026-10-09 16:15:04.056Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 16:15:04.058Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 16:15:14.017Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ellois SembiringAktifBebere KaroAsal: Tanjung Anom | Domisili: kilo 10 (Asal: Tanjung Anom) | Ulang Tahun: 03 Agustus📞 083183585368 • ✉️ ellouisgusmawan@gmail.com | Gol. Darah: O Sosmed: @Llouis Milala Kontak Darurat: Yegar Tarigan (Teman Dekat) - 083877734668"}
+
+## 2026-10-09 16:15:14.367Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ellois SembiringAktifBebere Karo"}
+
+## 2026-10-09 16:15:19.810Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:15:25.026Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:15:25.136Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:15:30.944Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:15:31.041Z click
+- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)Gol. Darah: OGol. Darah: AGol. Darah: BGol. Darah: ABTidak TahuStatus Aktif Informasi Tambahan & Kontak DaruratKeluarga (Ortu/Saudara)Teman DekatPasanganLainnyaBatalPerbarui Data"}
+
+## 2026-10-09 16:15:32.015Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:15:43.416Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:15:44.368Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:15:44.465Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:15:45.346Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:15:46.369Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:15:46.479Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:15:46.482Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Ellois Sembiring","length":16,"redacted":false},{"label":"bebere","type":"text","value":"Karo","length":4,"redacted":false},{"label":"asal_kota","type":"text","value":"Tanjung Anom","length":12,"redacted":false},{"label":"address","type":"text","value":"kilo 10 (Asal: Tanjung Anom)","length":28,"redacted":false},{"label":"phone","type":"tel","value":"083183585368","length":12,"redacted":false},{"label":"email","type":"email","value":"ellouisgusmawan@gmail.com","length":25,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"03 Agustus","length":10,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Lainnya","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"@Llouis Milala","length":14,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Yegar Tarigan","length":13,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Teman Dekat","length":11,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"083877734668","length":12,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:15:54.409Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:15:54.505Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:16:04.904Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:16:06.626Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:06.735Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:07.257Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:07.303Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:09.473Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:09.576Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:16:09.578Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Yegar Tarigan","length":13,"redacted":false},{"label":"bebere","type":"text","value":"Sembiring","length":9,"redacted":false},{"label":"asal_kota","type":"text","value":"Regaji","length":6,"redacted":false},{"label":"address","type":"text","value":"Sepinggan (Asal: Regaji)","length":24,"redacted":false},{"label":"phone","type":"tel","value":"083877734668","length":12,"redacted":false},{"label":"email","type":"email","value":"yegargirsang@gmail.com","length":22,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"13 November 2004","length":16,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"B","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"y_gar.tarigan","length":13,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Efraim","length":6,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Lainnya","length":7,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"082210733872","length":12,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:16:12.295Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:16:12.375Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:16:17.489Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"yeg","valueLength":3,"text":""}
+
+## 2026-10-09 16:16:17.489Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"yeg","valueLength":3,"text":""}
+
+## 2026-10-09 16:16:17.551Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Yegar TariganAktifBekerjaBebere Sembiring"}
+
+## 2026-10-09 16:16:18.265Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"yeg","valueLength":3,"text":""}
+
+## 2026-10-09 16:16:18.466Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Daftar Direktori Anggota (1)"}
+
+## 2026-10-09 16:16:23.898Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:16:23.985Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:16:25.123Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:25.199Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:27.417Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:27.466Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:28.888Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:29.849Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:30.569Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:30.696Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:16:30.698Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"JULIUS BASTIANTA GINTING","length":24,"redacted":false},{"label":"bebere","type":"text","value":"Bangun","length":6,"redacted":false},{"label":"asal_kota","type":"text","value":"Balikpapan ","length":11,"redacted":false},{"label":"address","type":"text","value":"Bds 2 (Asal: Balikpapan )","length":25,"redacted":false},{"label":"phone","type":"tel","value":"081346809085","length":12,"redacted":false},{"label":"email","type":"email","value":"juliusginting76@gmail.com","length":25,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"08 juli 2007","length":12,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah/Pelajar","length":14,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Ig; juliusbastianta","length":19,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Yegar","length":5,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Lainnya","length":7,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"083877734668","length":12,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:16:34.785Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:16:35.596Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:35.680Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:36.312Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:36.372Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:37.113Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:37.224Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:16:37.225Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Aldiano Zio Malvintha Tarigan","length":29,"redacted":false},{"label":"bebere","type":"text","value":"Sebayang","length":8,"redacted":false},{"label":"asal_kota","type":"text","value":"Jakarta","length":7,"redacted":false},{"label":"address","type":"text","value":"Kilometer 4 (Asal: Jakarta)","length":27,"redacted":false},{"label":"phone","type":"tel","value":"081318760909","length":12,"redacted":false},{"label":"email","type":"email","value":"zio.tarigan1233@gmail.com","length":25,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"16 Desember","length":11,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"AB","length":2,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"@alditrgn_","length":10,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Bp Nino Simanjorang","length":19,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"081347493606","length":12,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:16:40.257Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:16:41.457Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:41.535Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:44.129Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:44.175Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:44.825Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:44.936Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:16:44.937Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Ditha Bunga Marsella Br Ginting","length":31,"redacted":false},{"label":"bebere","type":"text","value":"Br Tarigan","length":10,"redacted":false},{"label":"asal_kota","type":"text","value":"Jkt","length":3,"redacted":false},{"label":"address","type":"text","value":"Sepinggan (Asal: Jkt)","length":21,"redacted":false},{"label":"phone","type":"tel","value":"081256799609","length":12,"redacted":false},{"label":"email","type":"email","value":"dithamarsella03@gmail.com","length":25,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"27 Maret 2003","length":13,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"B","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"dithamarsellaa","length":14,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Bunga Marsella","length":14,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Teman Dekat","length":11,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"087898220623","length":12,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:16:47.416Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:16:48.543Z click
+- element: {"tag":"form","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)Gol. Darah: OGol. Darah: AGol. Darah: BGol. Darah: ABTidak TahuStatus Aktif Informasi Tambahan & Kontak DaruratKeluarga (Ortu/Saudara)Teman DekatPasanganLainnyaBatalPerbarui Data"}
+
+## 2026-10-09 16:16:48.825Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:48.911Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:54.756Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:16:54.840Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:17:04.713Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:17:07.981Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:08.080Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:10.010Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:10.061Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:10.729Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:10.832Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:17:10.834Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"ZIEZEFANYA NABORA BR PERANGIN-ANGIN","length":35,"redacted":false},{"label":"bebere","type":"text","value":"Sembiring Pelawi","length":16,"redacted":false},{"label":"asal_kota","type":"text","value":"Desa Ajijahe","length":12,"redacted":false},{"label":"address","type":"text","value":"Kilo 15","length":7,"redacted":false},{"label":"phone","type":"tel","value":"081396340246","length":12,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"01 Maret 2006","length":13,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah/Pelajar","length":14,"redacted":false},{"label":"gol-dar","type":"select-one","value":"B","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Ziezefanya Nabora","length":17,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"Jhon Freddy","length":11,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"081362138833","length":12,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:17:19.098Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:17:20.355Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:20.435Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:21.246Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:21.297Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:22.048Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:22.649Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:22.700Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:23.296Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:23.432Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:17:23.434Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Yogi Pranata Kemit","length":18,"redacted":false},{"label":"bebere","type":"text","value":"Tarigan","length":7,"redacted":false},{"label":"asal_kota","type":"text","value":"Naman Teran","length":11,"redacted":false},{"label":"address","type":"text","value":"Jalan Markoni","length":13,"redacted":false},{"label":"phone","type":"tel","value":"85890224942","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"15 Januari 2001","length":15,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"yogikemittt","length":11,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:17:30.928Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:17:31.962Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:32.047Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:33.176Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:33.219Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:34.009Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:34.120Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:17:34.121Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Zeremia Bangun","length":14,"redacted":false},{"label":"bebere","type":"text","value":"Barus","length":5,"redacted":false},{"label":"asal_kota","type":"text","value":"Barusjahe","length":9,"redacted":false},{"label":"address","type":"text","value":"Perumahan pondok mentari(RT 94 BLOKE)","length":37,"redacted":false},{"label":"phone","type":"tel","value":"895391520474","length":12,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"01 Januari 2005","length":15,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"ON IG zeremia_420","length":17,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:17:37.624Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:17:38.561Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:38.631Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:39.744Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:39.787Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:40.665Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:40.816Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:17:40.818Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Putra Pinem","length":11,"redacted":false},{"label":"bebere","type":"text","value":"Tarigan","length":7,"redacted":false},{"label":"asal_kota","type":"text","value":"Kuta kendit","length":11,"redacted":false},{"label":"address","type":"text","value":"jl.suekarno hatta km.13 balikpapan utara","length":40,"redacted":false},{"label":"phone","type":"tel","value":"895379876313","length":12,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"10 Januari 2000","length":15,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Pinem Photowotks","length":16,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:17:50.443Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:17:51.266Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:51.359Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:52.209Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:52.258Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:53.017Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:17:53.120Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:17:53.121Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Adinda Exsodina Br Ginting","length":26,"redacted":false},{"label":"bebere","type":"text","value":"Karo","length":4,"redacted":false},{"label":"asal_kota","type":"text","value":"Dusun 1 Desa Penungkiren","length":24,"redacted":false},{"label":"address","type":"text","value":"D'carjoe Cluster B1","length":19,"redacted":false},{"label":"phone","type":"tel","value":"81360306196","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"01 July 2005","length":12,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah/Pelajar","length":14,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"adinda_exsodiina","length":16,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:18:03.904Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:18:04.730Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:04.824Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:05.345Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:05.395Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:06.120Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:06.215Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:18:06.216Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Rocki P Sembiring","length":17,"redacted":false},{"label":"bebere","type":"text","value":"Karo","length":4,"redacted":false},{"label":"asal_kota","type":"text","value":"Barus jahe","length":10,"redacted":false},{"label":"address","type":"text","value":"Prum PGRI blok F1 no 03","length":23,"redacted":false},{"label":"phone","type":"tel","value":"81545705318","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"18 Januari 1998","length":15,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Facebook","length":8,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:18:14.786Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:18:15.986Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:16.082Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:17.185Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:17.229Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:18.122Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:18.239Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:18:18.241Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Perwira tarigan","length":15,"redacted":false},{"label":"bebere","type":"text","value":"Ginting","length":7,"redacted":false},{"label":"asal_kota","type":"text","value":"Lingga","length":6,"redacted":false},{"label":"address","type":"text","value":"Karang jawa rt 10","length":17,"redacted":false},{"label":"phone","type":"tel","value":"85345481955","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"28 Januari 1994","length":15,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"B","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Perwira tarigan","length":15,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:18:23.249Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:18:24.058Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:24.135Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:24.753Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:24.797Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:25.442Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:25.528Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:18:25.530Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Suci yosephin tarigan","length":21,"redacted":false},{"label":"bebere","type":"text","value":"","length":0,"redacted":false},{"label":"asal_kota","type":"text","value":"Tiga lingga","length":11,"redacted":false},{"label":"address","type":"text","value":"KM 15","length":5,"redacted":false},{"label":"phone","type":"tel","value":"0813 9633 0320","length":14,"redacted":false},{"label":"email","type":"email","value":"sucitarigan473@gmail.com","length":24,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"22 Januari 2005","length":15,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah/Pelajar","length":14,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"","length":0,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:18:28.296Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:18:29.146Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:29.256Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:30.105Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:30.153Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:30.905Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:31.016Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:18:31.018Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Vinny Yana Laurenta Br Purba","length":28,"redacted":false},{"label":"bebere","type":"text","value":"Bangun","length":6,"redacted":false},{"label":"asal_kota","type":"text","value":"Medan","length":5,"redacted":false},{"label":"address","type":"text","value":"Jl. Jenderal Sudirman, RT.21/RW.NO. 48, Damai, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76114","length":108,"redacted":false},{"label":"phone","type":"tel","value":"82267306706","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"06 February 1999","length":16,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"B","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Vinny Yana Laurenta Br Purba","length":28,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:18:34.216Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:18:35.113Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:35.207Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:36.343Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:36.402Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:37.433Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:37.543Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:18:37.545Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Boni Stefen Surbakti","length":20,"redacted":false},{"label":"bebere","type":"text","value":"Perangin-Angin","length":14,"redacted":false},{"label":"asal_kota","type":"text","value":"Desa Surbakti, kec. Simpang Empat, Kab. Karo","length":44,"redacted":false},{"label":"address","type":"text","value":"Jl. Timor no. 74, Gn. Dubbs, Perum Pertamina","length":44,"redacted":false},{"label":"phone","type":"tel","value":"82166070897","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"12 February 1997","length":16,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"A","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"boni_stefen (IG)","length":16,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:18:45.656Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:18:46.369Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:46.463Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:48.080Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:48.123Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:48.777Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:48.872Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:18:48.873Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Sahrina Sembiring","length":17,"redacted":false},{"label":"bebere","type":"text","value":"Tarigan","length":7,"redacted":false},{"label":"asal_kota","type":"text","value":"Salabulan","length":9,"redacted":false},{"label":"address","type":"text","value":"Perumahan bds 2 blok f6 no 56","length":29,"redacted":false},{"label":"phone","type":"tel","value":"81360696416","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"19 February 2002","length":16,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Ig: Sahrina02","length":13,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:18:57.016Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:18:57.873Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:57.975Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:58.801Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:58.846Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:59.450Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:18:59.543Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:18:59.545Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Tesalonika Br Perangin-angin","length":28,"redacted":false},{"label":"bebere","type":"text","value":"","length":0,"redacted":false},{"label":"asal_kota","type":"text","value":"Barus jahe","length":10,"redacted":false},{"label":"address","type":"text","value":"Jl. Giri Rejo KM. 15","length":20,"redacted":false},{"label":"phone","type":"tel","value":"85765768095","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"23 February 2004","length":16,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah/Pelajar","length":14,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"tesalonikaperanginnangin0099@gmail.com","length":38,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:19:07.552Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:19:08.418Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:08.511Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:09.824Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:09.861Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:10.649Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:10.743Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:19:10.745Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Suryadi Tarigan","length":15,"redacted":false},{"label":"bebere","type":"text","value":"","length":0,"redacted":false},{"label":"asal_kota","type":"text","value":"Medan","length":5,"redacted":false},{"label":"address","type":"text","value":"Jln. Tepo KM.10","length":15,"redacted":false},{"label":"phone","type":"tel","value":"0822-5133-1884","length":14,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"03 March 2001","length":13,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"suryadima3n46@gmail.com","length":23,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:19:17.105Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:19:17.962Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:18.040Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:21.755Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:25.293Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:19:26.369Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:22:14.359Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:22:16.959Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:22:17.905Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:22:17.960Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:22:20.706Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Bekerja","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-09 16:22:20.800Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-09 16:22:20.802Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Raju ekail sitepu","length":17,"redacted":false},{"label":"bebere","type":"text","value":"Bre Ginting","length":11,"redacted":false},{"label":"asal_kota","type":"text","value":"Ajinembah","length":9,"redacted":false},{"label":"address","type":"text","value":"Perusda berlian 6","length":17,"redacted":false},{"label":"phone","type":"tel","value":"81396539303","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"04 March 1999","length":13,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Bekerja","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Raju ekail","length":10,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:22:28.153Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 16:22:28.155Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 16:27:57.878Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Laporan Umum"}
+
+## 2026-10-09 16:27:58.142Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Laporan Umum"}
+
+## 2026-10-09 16:28:02.623Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"INFOIuran Kas 05 Oktober 2026Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan dan yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya."}
+
+## 2026-10-09 16:28:11.264Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Hasil Keputusan RapatKetentuan & Kebijakan KasBerdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan dan yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya.💡 Catatan Penting:Pembayaran iuran kas dapat disetorkan langsung kepada bendahara atau melalui rekening resmi komunitas di bawah ini."}
+
+## 2026-10-09 16:28:14.310Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Riwayat Keuangan Tercatat (1)INFOIuran Kas 05 Oktober 2026Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, iuran kas wajib anggota yang bekerja ditetapkan sebesar Rp 20.000/bulan dan yang kuliah ditetapkan sebesar Rp 10.000/bulan. Guna mendukung kegiatan sosial dan budaya."}
+
+## 2026-10-09 16:28:15.209Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:28:15.302Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"masuk","valueLength":5,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:28:15.978Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:28:15.982Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:28:16.552Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"type","type":null,"id":null,"placeholder":null,"label":"type","value":"info","valueLength":4,"text":"Uang Masuk (Pemasukan / Iuran)Uang Keluar (Pengeluaran)Catatan / Pengumuman Rapat"}
+
+## 2026-10-09 16:28:16.553Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:28:16.646Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:29:40.223Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, bagi anggota yang belum melunasi uang kas dari tahun 2025 ","valueLength":120,"text":""}
+
+## 2026-10-09 16:29:40.223Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, bagi anggota yang belum melunasi uang kas dari tahun 2025 ","valueLength":120,"text":""}
+
+## 2026-10-09 16:30:28.612Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, bagi anggota yang belum melunasi uang kas dari tahun 2025 ","valueLength":120,"text":""}
+
+## 2026-10-09 16:30:29.156Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, bagi anggota yang belum melunasi uang kas dari tahun 2025 ","valueLength":120,"text":""}
+
+## 2026-10-09 16:30:31.027Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, bagi anggota yang belum melunasi uang kas dari tahun 2025 ","valueLength":120,"text":""}
+
+## 2026-10-09 16:30:31.606Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"title","type":"text","id":null,"placeholder":"Contoh: Pembayaran Iuran Kas Bulan Juli","label":"title","value":"Berdasarkan hasil rapat pengurus ARM tanggal 04 Oktober 2026, bagi anggota yang belum melunasi uang kas dari tahun 2025 ","valueLength":120,"text":""}
+
+## 2026-10-09 16:32:21.831Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Export Excel"}
+
+## 2026-10-09 16:32:21.862Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:33:17.855Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Anggota Aktif198 Orang Total TerkumpulRp 20.000 Total TunggakanRp 2.100.000 Export ExcelEllois SembiringLainnya • Gabung: Sep 2026MenunggakNominal/BlnRp 10.000TunggakanRp 20.000 Histori WAEllois SembiringLainnya • 083183585368 • Gabung September 2026Per BulanRp 10.000Sudah BayarRp 0TunggakanRp 20.000Yegar TariganBekerja • Gabung: Okt 2026LunasNominal/BlnRp 20.000TunggakanRp 0 Histori WAYegar TariganBekerja • 083877734668 • Gabung Oktober 2026Per BulanRp 20.000Sudah BayarRp 20.000TunggakanRp 0JULIUS BASTIANTA GINTINGKuliah/Pelajar • Gabung: Okt 2026MenunggakNominal/BlnRp 10.000TunggakanRp 10.000 Histori WAJULIUS BASTIANTA GINTINGKuliah/Pelajar • 081346809085 • Gabung Oktober 2026Per BulanRp 10.000Sudah BayarRp 0TunggakanRp 10.000Aldiano Zio Malvintha TariganBekerja • Gabung: Okt 2026MenunggakNominal/BlnRp 20.000TunggakanRp 20.000 Histori WAAldiano Zio Malvintha TariganBekerja • 081318760909 • Gabung Oktober 2026Per BulanRp 20.000Sudah BayarRp 0TunggakanRp 20.000Ditha Bunga Marsella Br GintingBekerja • Gabung: Okt 2026MenunggakNominal/BlnRp 20.000TunggakanRp 20.000 Histori WADitha Bunga Marsella Br GintingBekerja • 081256799609 • Gabung Oktober 2026Per BulanRp 20.000Sudah BayarRp 0TunggakanRp 20.000Feby Glory Nasaretta br Ginting • Gabung: Okt 2026MenunggakNominal/BlnRp 10.000TunggakanRp 10.000 Histori WAFeby Glory Nasaretta br Ginting • 82214229162 • Gabung Oktober 2026Per BulanRp 10.000Sudah BayarRp 0TunggakanRp 10.000Yogi Pranata KemitBekerja • Gabung: Okt 2026MenunggakNominal/BlnRp 20.000TunggakanRp 20.000 Histori WAYogi Pranata KemitBekerja • 85890224942 • Gabung Oktober 2026Per BulanRp 20.000Sudah BayarRp 0TunggakanRp 20.000Putra PinemBekerja • Gabung: Okt 2026MenunggakNominal/BlnRp 20.000TunggakanRp 20.000 Histori WAPutra PinemBekerja • 895379876313 • Gabung Oktober 2026Per BulanRp 20.000Sudah BayarRp 0TunggakanRp 20.000joel resmana sembiring • Gabung: Okt 2026MenunggakNominal/BlnRp 10.000TunggakanRp 10.000 Histori WAjoel resmana sembiring • 0821 4465 6234 • G..."}
+
+## 2026-10-09 16:33:18.056Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:33:18.150Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:33:25.921Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"hedi","valueLength":4,"text":""}
+
+## 2026-10-09 16:33:25.921Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"hedi","valueLength":4,"text":""}
+
+## 2026-10-09 16:33:26.133Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"198 Orang"}
+
+## 2026-10-09 16:33:26.590Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Anggota Aktif198 Orang"}
+
+## 2026-10-09 16:33:27.511Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 16:33:27.513Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 16:33:32.928Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:33:32.998Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:33:46.150Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 16:33:46.152Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 16:33:54.007Z click
+- element: {"tag":"h5","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ellois Sembiring"}
+
+## 2026-10-09 16:33:54.613Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Ellois SembiringLainnya • 083183585368 • Gabung September 2026"}
+
+## 2026-10-09 16:33:58.574Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Kuliah/Pelajar • 081346809085 • Gabung Oktober 2026"}
+
+## 2026-10-09 16:34:02.406Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:34:04.531Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:34:04.640Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:34:06.646Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:34:06.758Z click
+- element: {"tag":"label","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Deskripsi / Catatan (Opsional)"}
+
+## 2026-10-09 16:34:09.352Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:34:09.469Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:34:25.086Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:35:56.369Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:36:26.550Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:36:26.574Z load
+- url: http://localhost:3000/ngurus-aron/keuangan
+
+## 2026-10-09 16:36:26.756Z network.error
+- method: GET
+- url: https://zlbiezqiicgtcejdbdpm.supabase.co/rest/v1/financial_reports?select=*&order=created_at.desc
+- message: Failed to fetch
+- durationMs: 17
+
+## 2026-10-09 16:36:26.759Z console.error
+- text: 
+    TypeError: Failed to fetch
+        at window.fetch (http://localhost:3000/@id/virtual:session-journal-client:328:28)
+        at window.fetch (http://localhost:3000/keuangan:497:23)
+        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20313:23
+        at http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:20352:12
+        at async fetchWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:466:13)
+        at async executeWithRetry (http://localhost:3000/node_modules/.vite/deps/@supabase_supabase-js.js?v=aac522ed:669:21)
+        at async fetchKeuangan (http://localhost:3000/src/pages/KeuanganPage.jsx:19:29)
+
+## 2026-10-09 16:36:34.670Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:36:36.664Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:36.752Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:44.044Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2025-01","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:45.837Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2025-01","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:46.681Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2025-01","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:47.844Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2025-01","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:49.717Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2025-01","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:53.677Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2025-01","valueLength":7,"text":""}
+
+## 2026-10-09 16:36:56.369Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:37:01.536Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-03","valueLength":7,"text":""}
+
+## 2026-10-09 16:37:03.408Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-03","valueLength":7,"text":""}
+
+## 2026-10-09 16:37:03.409Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"20000","valueLength":5,"text":""}
+
+## 2026-10-09 16:37:03.733Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"20000","valueLength":5,"text":""}
+
+## 2026-10-09 16:37:06.779Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:37:10.950Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"300000","valueLength":6,"text":""}
+
+## 2026-10-09 16:37:10.950Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"300000","valueLength":6,"text":""}
+
+## 2026-10-09 16:37:10.951Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:37:11.029Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:37:16.619Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:37:25.063Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas 2025","valueLength":13,"text":""}
+
+## 2026-10-09 16:37:25.064Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas 2025","valueLength":13,"text":""}
+
+## 2026-10-09 16:37:25.150Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Simpan Catatan Manual"}
+
+## 2026-10-09 16:37:25.152Z submit
+- action: http://localhost:3000/ngurus-aron/keuangan
+- fields: [{"label":"month_year","type":"month","value":"2026-03","length":7,"redacted":false},{"label":"amount","type":"number","value":"300000","length":6,"redacted":false},{"label":"notes","type":"text","value":"uang kas 2025","length":13,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-09 16:37:26.721Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:37:32.606Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:37:36.639Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:37:39.627Z load
+- url: http://localhost:3000/keuangan
+
+## 2026-10-09 16:39:33.901Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-09 16:39:33.904Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-09 16:39:41.286Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Tambah Anggota Manual💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)Gol. Darah: OGol. Darah: AGol. Darah: BGol. Darah: ABTidak TahuStatus Aktif Informasi Tambahan & Kontak DaruratKeluarga (Ortu/Saudara)Teman DekatPasanganLainnyaSimpan Anggota Baru"}
+
+## 2026-10-09 16:41:27.926Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 16:41:27.928Z navigate
+- url: http://localhost:3000/keuangan
+- via: replaceState
+
+## 2026-10-09 16:41:29.276Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 16:41:29.277Z navigate
+- url: http://localhost:3000/keuangan
+- via: replaceState
+
+## 2026-10-09 16:41:29.613Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Donasi"}
+
+## 2026-10-09 16:41:29.614Z navigate
+- url: http://localhost:3000/donasi
+- via: pushState
+
+## 2026-10-09 16:41:30.381Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Galeri"}
+
+## 2026-10-09 16:41:30.382Z navigate
+- url: http://localhost:3000/galeri
+- via: pushState
+
+## 2026-10-09 16:41:30.981Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita"}
+
+## 2026-10-09 16:41:30.981Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-09 16:41:31.636Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Galeri"}
+
+## 2026-10-09 16:41:31.636Z navigate
+- url: http://localhost:3000/galeri
+- via: pushState
+
+## 2026-10-09 16:41:51.556Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
+
+## 2026-10-09 16:41:51.557Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-10-09 16:42:04.285Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Tentang Kami"}
+
+## 2026-10-09 16:42:04.286Z navigate
+- url: http://localhost:3000/tentang-kami
+- via: pushState
+
+## 2026-10-09 16:42:20.158Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Beranda"}
+
+## 2026-10-09 16:42:20.159Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-10-09 16:43:40.207Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-09 16:43:40.209Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-09 16:43:53.871Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:43:53.963Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:43:58.623Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"zi","valueLength":2,"text":""}
+
+## 2026-10-09 16:43:58.623Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"zi","valueLength":2,"text":""}
+
+## 2026-10-09 16:43:58.717Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:44:01.406Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:44:01.525Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-09 16:44:03.925Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas 2025","valueLength":13,"text":""}
+
+## 2026-10-09 16:44:07.496Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas 2025","valueLength":13,"text":""}
+
+## 2026-10-09 16:44:07.498Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"10000","valueLength":5,"text":""}
+
+## 2026-10-09 16:44:09.941Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"10000","valueLength":5,"text":""}
+
+## 2026-10-09 16:44:10.654Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"10000","valueLength":5,"text":""}
+
+## 2026-10-09 16:44:13.366Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"100000","valueLength":6,"text":""}
+
+## 2026-10-09 16:44:13.366Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"100000","valueLength":6,"text":""}
+
+## 2026-10-09 16:44:13.368Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:44:13.453Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:44:14.709Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:44:28.510Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"month_year","type":"month","id":null,"placeholder":null,"label":"month_year","value":"2026-10","valueLength":7,"text":""}
+
+## 2026-10-09 16:44:28.511Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"100000","valueLength":6,"text":""}
+
+## 2026-10-09 16:44:28.613Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"100000","valueLength":6,"text":""}
+
+## 2026-10-09 16:44:30.367Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"100000","valueLength":6,"text":""}
+
+## 2026-10-09 16:44:30.437Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:44:36.133Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-09 16:47:15.605Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
 

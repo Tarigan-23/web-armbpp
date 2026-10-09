@@ -29,9 +29,16 @@ function Hero() {
     useEffect(() => {
         async function fetchCounts() {
             try {
-                // Menghitung jumlah total data dari tabel members & programs di Supabase
-                const { count: memberCount } = await supabase.from('members').select('*', { count: 'exact', head: true });
-                const { count: programCount } = await supabase.from('programs').select('*', { count: 'exact', head: true });
+                // PERBAIKAN DI SINI: Menambahkan .eq('status_aktif', true) 
+                // agar hanya menghitung anggota yang statusnya aktif
+                const { count: memberCount } = await supabase
+                    .from('members')
+                    .select('*', { count: 'exact', head: true })
+                    .eq('status_aktif', true);
+
+                const { count: programCount } = await supabase
+                    .from('programs')
+                    .select('*', { count: 'exact', head: true });
 
                 setStats({
                     membersCount: memberCount !== null && memberCount > 0 ? memberCount : 250,
@@ -68,7 +75,6 @@ function Hero() {
                         Aron Rudang Mayang Kota Balikpapan adalah wadah perhimpunan masyarakat Karo yang merawat budaya leluhur dan mempererat persaudaraan.
                     </p>
                     <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                        {/* Tombol diarahkan ke halaman /gabung */}
                         <a href="/gabung" className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full bg-karo-gold px-8 py-3.5 text-sm font-semibold text-karo-black shadow-lg shadow-karo-gold/25 hover:bg-karo-goldwarm transition-all">
                             Bergabung Bersama Kami <ArrowRight className="h-4 w-4" />
                         </a>

@@ -17,6 +17,7 @@
 		"apps/*"
 	],
 	"dependencies": {
+		"@supabase/supabase-js": "^2.117.3",
 		"xlsx": "^0.18.5"
 	}
 }

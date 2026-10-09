@@ -179,7 +179,6 @@ export default function GabungPage() {
                                     <select name="status_aktivitas" value={formData.status_aktivitas} onChange={handleChange} className="mt-1 w-full rounded-xl border border-karo-ivory/20 bg-karo-black px-4 py-3 text-sm text-karo-ivory outline-none focus:border-karo-gold">
                                         <option value="Bekerja">Bekerja</option>
                                         <option value="Kuliah">Kuliah</option>
-                                        <option value="Wiraswasta">Wiraswasta</option>
                                         <option value="Lainnya">Lainnya</option>
                                     </select>
                                 </div>
