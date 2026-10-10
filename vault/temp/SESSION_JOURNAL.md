@@ -5436,3 +5436,36 @@ ull\">{sponsor.category}</span>                                     <h4 classNam
 - url: http://localhost:3000/ngurus-aron/keuangan
 - via: pushState
 
+## 2026-10-10 21:46:32.687Z load
+- url: http://localhost:3000/
+
+## 2026-10-10 21:46:32.744Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-10 21:46:40.394Z load
+- url: http://localhost:3000/ngurus-aron
+
+## 2026-10-10 21:46:40.535Z navigate
+- url: http://localhost:3000/ngurus-aron
+- via: replaceState
+
+## 2026-10-10 21:46:43.472Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-10 21:46:43.473Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-10 21:46:46.104Z load
+- url: http://localhost:3000/ngurus-aron/keuangan
+
+## 2026-10-10 21:46:50.503Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 21:47:47.304Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 21:48:25.112Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
