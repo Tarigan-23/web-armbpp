@@ -92,7 +92,7 @@ export default function Footer() {
                         {/* Telepon dengan Ikon Telepon & Teks Putih */}
                         <div className="flex items-center gap-2 text-xs text-white mt-3 font-semibold">
                             <Phone className="h-4 w-4 shrink-0 text-karo-gold" />
-                            <span>+62 813-6508-465</span>
+                            <span>+62 838-7773-4668</span>
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@ export default function Footer() {
 
                 {/* Hak Cipta */}
                 <div className="mt-16 border-t border-karo-gold/20 pt-8 text-center text-xs text-karo-ivory/60">
-                    <p>© {new Date().getFullYear()} Aron Rudang Mayang Balikpapan. Mejuah-juah man banta kerina!</p>
+                    <p>© {new Date().getFullYear()} Aron Rudang Mayang Balikpapan. Mejuah-juah man banta kerina!</p> <p>Web Developer: yegar_tarigan.</p>
                 </div>
             </div>
         </footer>

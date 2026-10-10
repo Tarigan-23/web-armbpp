@@ -5469,3 +5469,64 @@ ull\">{sponsor.category}</span>                                     <h4 classNam
 ## 2026-10-10 21:48:25.112Z click
 - element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
 
+## 2026-10-10 22:23:04.255Z load
+- url: http://localhost:3000/
+
+## 2026-10-10 22:23:04.593Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-10 22:27:20.954Z load
+- url: http://localhost:3000/
+
+## 2026-10-10 22:31:39.939Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-10 22:37:20.661Z load
+- url: http://localhost:3000/ngurus-aron/keuangan
+
+## 2026-10-10 22:37:23.830Z load
+- url: http://localhost:3000/ngurus-aron/keuangan
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-10 22:37:29.300Z load
+- url: http://localhost:3000/login?next=%2Fdashboard#harga
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-10 22:37:29.521Z navigate
+- url: http://localhost:3000/login?next=%2Fdashboard#harga
+- via: replaceState
+
+## 2026-10-10 22:38:26.417Z load
+- url: http://localhost:3000/login?next=%2Fdashboard#harga
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-10 22:39:17.059Z load
+- url: http://localhost:3000/login?next=%2Fdashboard#harga
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-10 22:39:58.033Z load
+- url: http://localhost:3000/login?next=%2Fdashboard#harga
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-10 22:40:05.873Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-10 22:40:05.914Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-10 22:45:13.873Z click
+- element: {"tag":"footer","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Aron Rudang MayangWadah kekeluargaan masyarakat Karo di Kota Balikpapan yang melestarikan seni budaya dan mempererat tali persaudaraan.Navigasi UtamaBerandaTentang Kami & SejarahStruktur PengurusProgram KerjaInformasi & PublikBerita & AgendaGaleri DokumentasiLaporan Keuangan & KasDonasi KomunitasSekretariatJl. Jend. Sudirman No. 88, Balikpapan Kota, Kalimantan Timur 76111aronrudangmayangbalikpapan@gmail.com+62 813-6508-465© 2026 Aron Rudang Mayang Balikpapan. Mejuah-juah man banta kerina! Web Developer: yegar_tarigan."}
+
+## 2026-10-10 22:45:14.546Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Web Developer: yegar_tarigan."}
+
+## 2026-10-10 22:46:52.850Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Wadah kekeluargaan masyarakat Karo di Kota Balikpapan yang melestarikan seni budaya dan mempererat tali persaudaraan."}
+
+## 2026-10-10 22:46:53.802Z click
+- element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Wadah kekeluargaan masyarakat Karo di Kota Balikpapan yang melestarikan seni budaya dan mempererat tali persaudaraan."}
+

@@ -115,7 +115,7 @@ export default function KeuanganAdminPage() {
 
     const sendWAMessage = (member) => {
         const phone = member.phone.startsWith('0') ? '62' + member.phone.slice(1) : member.phone;
-        const message = `Mejuah-juah Aron *${member.name}* 👋\n\nKami dari admin keuangan Aron Rudang Mayang menginformasikan status iuran kas:\n📅 Periode: Sejak ${new Date(member.join_date).toLocaleDateString('id-ID', { month: 'long', year: 'numeric' })}\n💰 Nominal Kas/Bulan: Rp ${member.monthlyRate.toLocaleString('id-ID')} (${member.status_aktivitas})\n✅ Total Sudah Dibayar: Rp ${member.totalPaid.toLocaleString('id-ID')}\n⚠️ *Total Belum Dibayar: Rp ${member.unpaidTotal.toLocaleString('id-ID')}*\n\nTranfer ke Bank BRI: 211201010329508 \n an.Meilin Br Sembiring \nMohon konfirmasi pembayarannya. Bujur! 🙏\n\nKunjungi website kita untuk melihat info terbaru Aron Rudang Mayang. https://aron.rudangmayang.web.id/`;
+        const message = `Mejuah-juah Aron *${member.name}* 👋\n\nKami dari admin keuangan Aron Rudang Mayang menginformasikan status iuran kas:\n📅 Periode: Sejak ${new Date(member.join_date).toLocaleDateString('id-ID', { month: 'long', year: 'numeric' })}\n💰 Nominal Kas/Bulan: Rp ${member.monthlyRate.toLocaleString('id-ID')} (${member.status_aktivitas})\n✅ Total Sudah Dibayar: Rp ${member.totalPaid.toLocaleString('id-ID')}\n⚠️ *Total Belum Dibayar: Rp ${member.unpaidTotal.toLocaleString('id-ID')}*\n\nTranfer ke Bank BRI: 211201010329508 \n an.Meilin Br Sembiring \nAtau Tunai ke pengurus ARM\nMohon konfirmasi pembayarannya. Bujur! 🙏\n\nKunjungi website kita untuk melihat info terbaru Aron Rudang Mayang. https://aron.rudangmayang.web.id/`;
         window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
     };
 
