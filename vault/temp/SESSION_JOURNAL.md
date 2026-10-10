@@ -5090,3 +5090,349 @@ ull\">{sponsor.category}</span>                                     <h4 classNam
 ## 2026-10-09 16:47:15.605Z click
 - element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
 
+## 2026-10-10 05:47:44.926Z load
+- url: http://localhost:3000/
+
+## 2026-10-10 05:47:45.746Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-10 05:48:00.975Z load
+- url: http://localhost:3000/ngurus-aron
+
+## 2026-10-10 05:48:01.013Z navigate
+- url: http://localhost:3000/ngurus-aron
+- via: replaceState
+
+## 2026-10-10 05:48:01.015Z navigate
+- url: http://localhost:3000/ngurus-aron/login
+- via: pushState
+
+## 2026-10-10 05:48:02.384Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:48:02.485Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:48:04.074Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"aronrudangmayangbalikpapan@gmail.com","valueLength":36,"text":""}
+
+## 2026-10-10 05:48:04.765Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"email","id":null,"placeholder":"email@domain.com","label":"email@domain.com","value":"aronrudangmayangbalikpapan@gmail.com","valueLength":36,"text":""}
+
+## 2026-10-10 05:48:04.766Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-10-10 05:48:04.877Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=0]","valueLength":0,"text":""}
+
+## 2026-10-10 05:48:15.679Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=17]","valueLength":17,"text":""}
+
+## 2026-10-10 05:48:15.680Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Masuk ke Dashboard"}
+
+## 2026-10-10 05:48:15.682Z submit
+- action: http://localhost:3000/ngurus-aron/login
+- fields: [{"label":"email@domain.com","type":"email","value":"aronrudangmayangbalikpapan@gmail.com","length":36,"redacted":false},{"label":"••••••••","type":"password","value":"[redacted:length=17]","length":17,"redacted":true},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-10 05:48:16.464Z navigate
+- url: http://localhost:3000/ngurus-aron/beranda
+- via: pushState
+
+## 2026-10-10 05:48:16.466Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"password","id":null,"placeholder":"••••••••","label":"••••••••","value":"[redacted:length=17]","valueLength":17,"text":""}
+
+## 2026-10-10 05:48:20.038Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-10 05:48:20.039Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-10 05:48:25.277Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:49:57.869Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:50:42.085Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:51:39.261Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:52:33.117Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:53:19.205Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:55:18.598Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:55:18.692Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:55:27.279Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"dini","valueLength":4,"text":""}
+
+## 2026-10-10 05:55:27.280Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"dini","valueLength":4,"text":""}
+
+## 2026-10-10 05:55:27.381Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-10 05:55:27.382Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-10 05:55:32.231Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:55:32.332Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:55:36.639Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"dini","valueLength":4,"text":""}
+
+## 2026-10-10 05:55:36.639Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"dini","valueLength":4,"text":""}
+
+## 2026-10-10 05:55:36.733Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:55:38.274Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"82181817334","valueLength":11,"text":""}
+
+## 2026-10-10 05:55:38.349Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"82181817334","valueLength":11,"text":""}
+
+## 2026-10-10 05:55:41.567Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"082181817334","valueLength":12,"text":""}
+
+## 2026-10-10 05:55:41.567Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"phone","type":"tel","id":null,"placeholder":"No WhatsApp / Telepon","label":"phone","value":"082181817334","valueLength":12,"text":""}
+
+## 2026-10-10 05:55:41.568Z focus
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-10 05:55:41.644Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Lainnya","valueLength":7,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-10 05:55:42.469Z change
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-10 05:55:42.472Z click
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-10 05:55:43.046Z blur
+- element: {"tag":"select","role":null,"ariaLabel":null,"name":"status_aktivitas","type":null,"id":null,"placeholder":null,"label":"status_aktivitas","value":"Kuliah/Pelajar","valueLength":14,"text":"💼 Bekerja (Kas: Rp 20.000)🎓 Kuliah / Pelajar (Kas: Rp 10.000)📌 Lainnya (Kas: Rp 10.000)"}
+
+## 2026-10-10 05:55:43.156Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-10 05:55:43.158Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Dini Filiarani Br Kacaribu","length":26,"redacted":false},{"label":"bebere","type":"text","value":"Sembiring Meliala","length":17,"redacted":false},{"label":"asal_kota","type":"text","value":"Berastagi kab,karo","length":18,"redacted":false},{"label":"address","type":"text","value":"Kilo 15","length":7,"redacted":false},{"label":"phone","type":"tel","value":"082181817334","length":12,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"20 November 2005","length":16,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Kuliah/Pelajar","length":14,"redacted":false},{"label":"gol-dar","type":"select-one","value":"AB","length":2,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"@dinikacaribu&20","length":16,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-10 05:55:46.900Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-10 05:55:46.901Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-10 05:55:48.102Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:55:48.225Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:55:54.398Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"dini","valueLength":4,"text":""}
+
+## 2026-10-10 05:55:54.398Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"dini","valueLength":4,"text":""}
+
+## 2026-10-10 05:55:54.485Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:56:36.536Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"dini","valueLength":4,"text":""}
+
+## 2026-10-10 05:56:36.764Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Panel Pengurus AronAron Rudang MayangBalikpapanaronrudangmayangbalikpapan@gmail.comBerandaBeritaGaleriKeuanganAnggotaDonasiProgramStruktur OrganisasiAnggota BaruTentangYoutubeSambutanSponsorSekretariatNdaratDashboard Manajemen PengurusAron Rudang Mayang BalikpapanSistem Terproteksi Manajemen KeuanganKelola laporan umum dan iuran kas anggota terpusat. Kas Anggota Laporan Umum Anggota Aktif189 Orang Total TerkumpulRp 320.000 Total TunggakanRp 2.280.000 Export ExcelDini Filiarani Br KacaribuKuliah/Pelajar • Gabung: Okt 2026MenunggakNominal/BlnRp 10.000TunggakanRp 10.000 Histori WADini Filiarani Br KacaribuKuliah/Pelajar • 082181817334 • Gabung Oktober 2026Per BulanRp 10.000Sudah BayarRp 0TunggakanRp 10.000"}
+
+## 2026-10-10 05:56:53.825Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:56:58.035Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:57:46.837Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:57:57.675Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-10 05:57:57.676Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-10 05:58:01.821Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:58:01.900Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:58:06.108Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"yuli","valueLength":4,"text":""}
+
+## 2026-10-10 05:58:06.108Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"yuli","valueLength":4,"text":""}
+
+## 2026-10-10 05:58:06.188Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:58:07.718Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:58:07.821Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:58:07.824Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:58:08.868Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:58:08.972Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-10 05:58:08.974Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Yulistri Girsang","length":16,"redacted":false},{"label":"bebere","type":"text","value":"Ginting","length":7,"redacted":false},{"label":"asal_kota","type":"text","value":"Pematangsiantar","length":15,"redacted":false},{"label":"address","type":"text","value":"Perumahan Depan Polda","length":21,"redacted":false},{"label":"phone","type":"tel","value":"82157655977","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"35984","length":5,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Lainnya","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Ig : @yuligirsang","length":17,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-10 05:58:11.411Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-10 05:58:11.412Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
+## 2026-10-10 05:58:12.501Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:58:12.587Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:58:19.111Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"yu","valueLength":2,"text":""}
+
+## 2026-10-10 05:58:19.111Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, nomor HP, atau status (kerja/kuliah)...","label":"Cari nama, nomor HP, atau status (kerja/kuliah)...","value":"yu","valueLength":2,"text":""}
+
+## 2026-10-10 05:58:19.172Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:58:32.918Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:58:33.021Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:58:41.287Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas ","valueLength":9,"text":""}
+
+## 2026-10-10 05:58:41.288Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas ","valueLength":9,"text":""}
+
+## 2026-10-10 05:58:41.289Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"10000","valueLength":5,"text":""}
+
+## 2026-10-10 05:58:41.366Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"10000","valueLength":5,"text":""}
+
+## 2026-10-10 05:58:45.229Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"340000","valueLength":6,"text":""}
+
+## 2026-10-10 05:58:45.229Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"amount","type":"number","id":null,"placeholder":null,"label":"amount","value":"340000","valueLength":6,"text":""}
+
+## 2026-10-10 05:58:45.230Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas ","valueLength":9,"text":""}
+
+## 2026-10-10 05:58:45.331Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas ","valueLength":9,"text":""}
+
+## 2026-10-10 05:58:56.966Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas sampai okober","valueLength":22,"text":""}
+
+## 2026-10-10 05:58:56.966Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"notes","type":"text","id":null,"placeholder":"Cth: Bayar tunai tahun 2023, dll","label":"notes","value":"uang kas sampai okober","valueLength":22,"text":""}
+
+## 2026-10-10 05:58:57.077Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Simpan Catatan Manual"}
+
+## 2026-10-10 05:58:57.078Z submit
+- action: http://localhost:3000/ngurus-aron/keuangan
+- fields: [{"label":"month_year","type":"month","value":"2026-10","length":7,"redacted":false},{"label":"amount","type":"number","value":"340000","length":6,"redacted":false},{"label":"notes","type":"text","value":"uang kas sampai okober","length":22,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-10 05:59:03.597Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:59:06.917Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Tunggakan"}
+
+## 2026-10-10 05:59:08.061Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Yulistri GirsangLainnya • Gabung: Okt 2026LunasNominal/BlnRp 10.000TunggakanRp 0 Histori WAYulistri GirsangLainnya • 82157655977 • Gabung Oktober 2026Per BulanRp 10.000Sudah BayarRp 340.000TunggakanRp 0"}
+
+## 2026-10-10 05:59:17.092Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Anggota"}
+
+## 2026-10-10 05:59:17.093Z navigate
+- url: http://localhost:3000/ngurus-aron/anggota
+- via: pushState
+
+## 2026-10-10 05:59:19.965Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:59:20.036Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"","valueLength":0,"text":""}
+
+## 2026-10-10 05:59:23.879Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"yuli","valueLength":4,"text":""}
+
+## 2026-10-10 05:59:23.880Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":null,"type":"text","id":null,"placeholder":"Cari nama, telepon, status...","label":"Cari nama, telepon, status...","value":"yuli","valueLength":4,"text":""}
+
+## 2026-10-10 05:59:23.957Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-10 05:59:24.854Z focus
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:59:24.947Z click
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:59:24.949Z change
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:59:25.772Z blur
+- element: {"tag":"input","role":null,"ariaLabel":null,"name":"status_aktif","type":"checkbox","id":"edit_status_aktif","placeholder":null,"label":"status_aktif","value":"on","valueLength":2,"text":""}
+
+## 2026-10-10 05:59:25.868Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"submit","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Perbarui Data"}
+
+## 2026-10-10 05:59:25.869Z submit
+- action: http://localhost:3000/ngurus-aron/anggota
+- fields: [{"label":"name","type":"text","value":"Yulistri Girsang","length":16,"redacted":false},{"label":"bebere","type":"text","value":"Ginting","length":7,"redacted":false},{"label":"asal_kota","type":"text","value":"Pematangsiantar","length":15,"redacted":false},{"label":"address","type":"text","value":"Perumahan Depan Polda","length":21,"redacted":false},{"label":"phone","type":"tel","value":"82157655977","length":11,"redacted":false},{"label":"email","type":"email","value":"","length":0,"redacted":false},{"label":"tanggal_lahir","type":"text","value":"35984","length":5,"redacted":false},{"label":"status_aktivitas","type":"select-one","value":"Lainnya","length":7,"redacted":false},{"label":"gol-dar","type":"select-one","value":"O","length":1,"redacted":false},{"label":"status_aktif","type":"checkbox","value":"on","length":2,"redacted":false},{"label":"sosmed","type":"text","value":"Ig : @yuligirsang","length":17,"redacted":false},{"label":"kontak_darurat_nama","type":"text","value":"-","length":1,"redacted":false},{"label":"kontak_darurat_hubungan","type":"select-one","value":"Keluarga","length":8,"redacted":false},{"label":"kontak_darurat_no_hp","type":"tel","value":"-","length":1,"redacted":false},{"label":"[button]","type":"button","value":"","length":0,"redacted":false},{"label":"[submit]","type":"submit","value":"","length":0,"redacted":false}]
+
+## 2026-10-10 05:59:28.212Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Keuangan"}
+
+## 2026-10-10 05:59:28.213Z navigate
+- url: http://localhost:3000/ngurus-aron/keuangan
+- via: pushState
+
