@@ -7,6 +7,8 @@ import TentangKamiPage from './pages/TentangKamiPage';
 import PublicPengurusPage from './pages/PengurusPage';
 import PublicProgramPage from './pages/ProgramPage';
 import PublicBeritaPage from './pages/BeritaPage';
+import BeritaDetail from './pages/BeritaDetail';
+import AgendaDetail from './pages/AgendaDetail';
 import PublicGaleriPage from './pages/GaleriPage';
 import DonasiPage from './pages/DonasiPage';
 import KeuanganPage from './pages/KeuanganPage';

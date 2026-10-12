@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
+import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { ArrowLeft, Calendar, Clock, MapPin, ExternalLink, Timer } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
@@ -44,9 +43,8 @@ function CountdownTimer({ targetDate }) {
     );
 }
 
-export default function AgendaDetailPage() {
-    const router = useRouter();
-    const { id } = router.query;
+export default function AgendaDetail() {
+    const { id } = useParams();
     const [agenda, setAgenda] = useState(null);
     const [loading, setLoading] = useState(true);
 
@@ -83,7 +81,7 @@ export default function AgendaDetailPage() {
             <Navbar />
 
             <main className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
-                <Link href="/BeritaPage" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-karo-gold mb-8 transition-colors">
+                <Link to="/berita" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-karo-gold mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4" /> Kembali ke Daftar Agenda
                 </Link>
 

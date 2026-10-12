@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Clock, ExternalLink, Timer } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import Reveal from '@/components/Reveal';
@@ -93,7 +93,7 @@ export default function BeritaPage() {
                                 {featured && (
                                     <Reveal>
                                         <article className="group relative h-full min-h-[420px] overflow-hidden rounded-3xl shadow-xl shadow-karo-black/10">
-                                            <Link href={`/berita/${featured.id}`} className="absolute inset-0 z-10" />
+                                            <Link to={`/berita/${featured.id}`} className="absolute inset-0 z-10" />
                                             <img
                                                 src={featured.image_url}
                                                 alt={featured.title}
@@ -121,7 +121,7 @@ export default function BeritaPage() {
                                     {items.map((item, i) => (
                                         <Reveal key={item.id} delay={0.1 + i * 0.08} className="flex-1">
                                             <article className="group flex h-full flex-col gap-5 rounded-3xl border border-border bg-white p-5 transition-all duration-300 hover:border-karo-gold/60 hover:shadow-xl sm:flex-row relative">
-                                                <Link href={`/berita/${item.id}`} className="absolute inset-0 z-10 rounded-3xl" />
+                                                <Link to={`/berita/${item.id}`} className="absolute inset-0 z-10 rounded-3xl" />
                                                 <img
                                                     src={item.image_url}
                                                     alt={item.title}
@@ -162,7 +162,7 @@ export default function BeritaPage() {
                                     {agendaList.map((agenda, i) => (
                                         <Reveal key={agenda.id} delay={i * 0.05}>
                                             <div className="rounded-3xl border border-karo-gold/30 bg-white p-7 shadow-lg flex flex-col justify-between space-y-6 relative group">
-                                                <Link href={`/agenda/${agenda.id}`} className="absolute inset-0 z-10 rounded-3xl" />
+                                                <Link to={`/agenda/${agenda.id}`} className="absolute inset-0 z-10 rounded-3xl" />
 
                                                 <div className="space-y-4 relative z-20">
                                                     <div className="flex justify-between items-center">
