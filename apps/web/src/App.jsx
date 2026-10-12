@@ -58,6 +58,8 @@ function App() {
                     <Route path="/pengurus" element={<PublicPengurusPage />} />
                     <Route path="/program" element={<PublicProgramPage />} />
                     <Route path="/berita" element={<PublicBeritaPage />} />
+                    <Route path="/berita/:id" element={<BeritaDetail />} />
+                    <Route path="/agenda/:id" element={<AgendaDetail />} />
                     <Route path="/galeri" element={<PublicGaleriPage />} />
                     <Route path="/donasi" element={<DonasiPage />} />
                     <Route path="/keuangan" element={<KeuanganPage />} />

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Calendar, MapPin, Clock, ExternalLink, Timer, ArrowRight, BookOpen } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import Reveal from '@/components/Reveal';
@@ -14,11 +14,9 @@ function CountdownTimer({ targetDate }) {
 
     useEffect(() => {
         const target = new Date(targetDate).getTime();
-
         const interval = setInterval(() => {
             const now = new Date().getTime();
             const difference = target - now;
-
             if (difference <= 0) {
                 setIsExpired(true);
                 clearInterval(interval);
@@ -30,7 +28,6 @@ function CountdownTimer({ targetDate }) {
                 setTimeLeft({ days, hours, minutes, seconds });
             }
         }, 1000);
-
         return () => clearInterval(interval);
     }, [targetDate]);
 
@@ -50,6 +47,7 @@ export default function BeritaPage() {
     const [newsList, setNewsList] = useState([]);
     const [agendaList, setAgendaList] = useState([]);
     const [loading, setLoading] = useState(true);
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetchData();
@@ -59,7 +57,6 @@ export default function BeritaPage() {
         setLoading(true);
         const { data: newsData } = await supabase.from('news').select('*').order('created_at', { ascending: false });
         const { data: agendaData } = await supabase.from('agendas').select('*').order('created_at', { ascending: false });
-
         if (newsData) setNewsList(newsData);
         if (agendaData) setAgendaList(agendaData);
         setLoading(false);
@@ -92,14 +89,21 @@ export default function BeritaPage() {
                             <div className="mt-16 grid gap-8 lg:grid-cols-2">
                                 {featured && (
                                     <Reveal>
-                                        <article className="group relative h-full min-h-[420px] overflow-hidden rounded-3xl shadow-xl shadow-karo-black/10">
-                                            <Link to={`/berita/${featured.id}`} className="absolute inset-0 z-10" />
-                                            <img
-                                                src={featured.image_url}
-                                                alt={featured.title}
-                                                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-                                            />
-                                            <div className="absolute inset-0 bg-gradient-to-t from-karo-black via-karo-black/30 to-transparent" />
+                                        {/* PERHATIAN: overflow-hidden DIHAPUS dari sini agar dropdown tidak terpotong */}
+                                        <article
+                                            className="group relative h-full min-h-[420px] rounded-3xl shadow-xl shadow-karo-black/10 cursor-pointer"
+                                            onClick={() => navigate(`/berita/${featured.id}`)}
+                                        >
+                                            {/* Pembungkus gambar: overflow-hidden DAN rounded-3xl dipindah ke sini */}
+                                            <div className="absolute inset-0 rounded-3xl overflow-hidden">
+                                                <img
+                                                    src={featured.image_url}
+                                                    alt={featured.title}
+                                                    className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                                                />
+                                                <div className="absolute inset-0 bg-gradient-to-t from-karo-black via-karo-black/30 to-transparent" />
+                                            </div>
+
                                             <div className="absolute inset-x-0 bottom-0 p-7 sm:p-9 z-20">
                                                 <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.2em]">
                                                     <span className="rounded-full bg-karo-gold px-3 py-1 text-karo-black">{featured.category || 'Berita'}</span>
@@ -110,15 +114,18 @@ export default function BeritaPage() {
                                                 </h3>
                                                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-karo-ivory/75 line-clamp-3">{featured.excerpt}</p>
                                                 <div className="mt-6 flex items-center gap-4">
-                                                    <Link
-                                                        to={`/berita/${featured.id}`}
+                                                    <button
+                                                        type="button"
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            navigate(`/berita/${featured.id}`);
+                                                        }}
                                                         className="inline-flex items-center gap-2 text-sm font-semibold text-karo-gold hover:text-karo-gold/80 transition-colors"
-                                                        onClick={(e) => e.stopPropagation()}
                                                     >
                                                         <BookOpen className="h-4 w-4" />
                                                         Baca Selengkapnya
                                                         <ArrowRight className="h-4 w-4" />
-                                                    </Link>
+                                                    </button>
                                                     <div onClick={(e) => e.stopPropagation()}>
                                                         <ShareButtons title={featured.title} url={`/berita/${featured.id}`} />
                                                     </div>
@@ -131,14 +138,16 @@ export default function BeritaPage() {
                                 <div className="flex flex-col gap-8">
                                     {items.map((item, i) => (
                                         <Reveal key={item.id} delay={0.1 + i * 0.08} className="flex-1">
-                                            <article className="group flex h-full flex-col gap-5 rounded-3xl border border-border bg-white p-5 transition-all duration-300 hover:border-karo-gold/60 hover:shadow-xl sm:flex-row relative">
-                                                <Link to={`/berita/${item.id}`} className="absolute inset-0 z-10 rounded-3xl" />
+                                            <article
+                                                className="group flex h-full flex-col gap-5 rounded-3xl border border-border bg-white p-5 transition-all duration-300 hover:border-karo-gold/60 hover:shadow-xl sm:flex-row cursor-pointer"
+                                                onClick={() => navigate(`/berita/${item.id}`)}
+                                            >
                                                 <img
                                                     src={item.image_url}
                                                     alt={item.title}
-                                                    className="aspect-[3/2] w-full rounded-2xl object-cover sm:aspect-auto sm:h-auto sm:w-44 sm:shrink-0 relative z-0"
+                                                    className="aspect-[3/2] w-full rounded-2xl object-cover sm:aspect-auto sm:h-auto sm:w-44 sm:shrink-0"
                                                 />
-                                                <div className="flex flex-col justify-center py-1 relative z-20">
+                                                <div className="flex flex-col justify-center py-1">
                                                     <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.2em]">
                                                         <span className="text-karo-red">{item.category}</span>
                                                         <span className="text-muted-foreground">{item.date}</span>
@@ -148,14 +157,17 @@ export default function BeritaPage() {
                                                     </h3>
                                                     <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{item.excerpt}</p>
                                                     <div className="mt-3 flex items-center gap-3">
-                                                        <Link
-                                                            to={`/berita/${item.id}`}
+                                                        <button
+                                                            type="button"
+                                                            onClick={(e) => {
+                                                                e.stopPropagation();
+                                                                navigate(`/berita/${item.id}`);
+                                                            }}
                                                             className="inline-flex items-center gap-1.5 text-xs font-semibold text-karo-gold hover:text-karo-gold/80 transition-colors"
-                                                            onClick={(e) => e.stopPropagation()}
                                                         >
                                                             <BookOpen className="h-3.5 w-3.5" />
                                                             Baca Selengkapnya
-                                                        </Link>
+                                                        </button>
                                                         <div onClick={(e) => e.stopPropagation()}>
                                                             <ShareButtons title={item.title} url={`/berita/${item.id}`} />
                                                         </div>
@@ -183,10 +195,11 @@ export default function BeritaPage() {
                                 <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                                     {agendaList.map((agenda, i) => (
                                         <Reveal key={agenda.id} delay={i * 0.05}>
-                                            <div className="rounded-3xl border border-karo-gold/30 bg-white p-7 shadow-lg flex flex-col justify-between space-y-6 relative group">
-                                                <Link to={`/agenda/${agenda.id}`} className="absolute inset-0 z-10 rounded-3xl" />
-
-                                                <div className="space-y-4 relative z-20">
+                                            <div
+                                                className="rounded-3xl border border-karo-gold/30 bg-white p-7 shadow-lg flex flex-col justify-between space-y-6 relative group cursor-pointer"
+                                                onClick={() => navigate(`/agenda/${agenda.id}`)}
+                                            >
+                                                <div className="space-y-4">
                                                     <div className="flex justify-between items-center">
                                                         <span className="inline-flex items-center gap-1.5 rounded-full bg-karo-maroon/10 px-3 py-1 text-xs font-bold text-karo-maroon">
                                                             <Calendar className="h-3.5 w-3.5" /> {agenda.date}
@@ -200,7 +213,7 @@ export default function BeritaPage() {
                                                     {agenda.target_datetime && <CountdownTimer targetDate={agenda.target_datetime} />}
                                                 </div>
 
-                                                <div className="space-y-3 border-t border-gray-100 pt-4 text-xs text-gray-600 relative z-20">
+                                                <div className="space-y-3 border-t border-gray-100 pt-4 text-xs text-gray-600">
                                                     <p className="flex items-center gap-2"><Clock className="h-3.5 w-3.5 text-amber-600" /> {agenda.time}</p>
                                                     <p className="flex items-center gap-2"><MapPin className="h-3.5 w-3.5 text-amber-600" /> {agenda.location}</p>
 
@@ -216,7 +229,7 @@ export default function BeritaPage() {
                                                         </a>
                                                     )}
 
-                                                    <div className="pt-2" onClick={(e) => e.preventDefault()}>
+                                                    <div className="pt-2" onClick={(e) => e.stopPropagation()}>
                                                         <ShareButtons title={agenda.title} url={`/agenda/${agenda.id}`} />
                                                     </div>
                                                 </div>

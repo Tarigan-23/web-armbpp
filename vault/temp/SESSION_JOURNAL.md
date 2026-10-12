@@ -5530,3 +5530,941 @@ ull\">{sponsor.category}</span>                                     <h4 classNam
 ## 2026-10-10 22:46:53.802Z click
 - element: {"tag":"p","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Wadah kekeluargaan masyarakat Karo di Kota Balikpapan yang melestarikan seni budaya dan mempererat tali persaudaraan."}
 
+## 2026-10-12 05:13:59.916Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:13:59.951Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-12 05:14:02.961Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita"}
+
+## 2026-10-12 05:14:02.963Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 05:14:07.821Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:14:09.200Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:14:10.604Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 05:14:10.605Z navigate
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- via: pushState
+
+## 2026-10-12 05:14:12.926Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita"}
+
+## 2026-10-12 05:14:12.927Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 05:23:17.482Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:23:20.859Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:23:24.334Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ARON RUDANG MAYANGKota Balikpapan"}
+
+## 2026-10-12 05:23:24.336Z navigate
+- url: http://localhost:3000/
+- via: pushState
+
+## 2026-10-12 05:23:34.901Z click
+- element: {"tag":"span","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"11 Oktobe 2026"}
+
+## 2026-10-12 05:23:36.210Z click
+- element: {"tag":"h3","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Arisan Perpulungen Rudang Mayang Bulan Oktober"}
+
+## 2026-10-12 05:23:37.861Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya "}
+
+## 2026-10-12 05:23:37.955Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:23:38.002Z navigate
+- url: http://localhost:3000/berita
+- via: replaceState
+
+## 2026-10-12 05:23:41.426Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 05:23:41.427Z navigate
+- url: http://localhost:3000/berita/c516ba81-f7e6-433e-8b3b-229a1b00e9fc
+- via: pushState
+
+## 2026-10-12 05:23:46.974Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:23:51.846Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:23:52.702Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:23:53.343Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:23:54.066Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:23:56.992Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Kembali ke Daftar Berita"}
+
+## 2026-10-12 05:23:56.993Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 05:24:00.071Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:24:02.864Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:24:03.795Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 05:24:03.796Z navigate
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- via: pushState
+
+## 2026-10-12 05:24:08.361Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:24:55.189Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:24:57.524Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Kembali ke Daftar Berita"}
+
+## 2026-10-12 05:24:57.524Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 05:25:07.793Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:06.472Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:26:08.713Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:26:12.767Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 05:26:12.768Z navigate
+- url: http://localhost:3000/berita/c516ba81-f7e6-433e-8b3b-229a1b00e9fc
+- via: pushState
+
+## 2026-10-12 05:26:16.210Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:17.623Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:18.582Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:19.100Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:19.245Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:19.401Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:19.542Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:19.691Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:19.826Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:19.967Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:20.124Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:20.348Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:22.063Z load
+- url: http://localhost:3000/berita/c516ba81-f7e6-433e-8b3b-229a1b00e9fc
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:26:29.542Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:30.277Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:30.427Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:30.583Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:30.797Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:32.773Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:33.443Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Kembali ke Daftar Berita"}
+
+## 2026-10-12 05:26:33.443Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 05:26:37.011Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:37.787Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:39.306Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:39.986Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:40.198Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:41.555Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:43.431Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 05:26:43.432Z navigate
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- via: pushState
+
+## 2026-10-12 05:26:45.728Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:46.415Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:46.578Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:46.734Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:26:46.912Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:26:47.132Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:27:06.950Z console.error
+- text: [vite] Failed to reload /src/components/ShareButtons.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-12 05:27:30.009Z console.error
+- text: [vite] SyntaxError: The requested module '/src/components/ShareDropdown.jsx' does not provide an export named 'default'
+
+## 2026-10-12 05:27:30.010Z console.error
+- text: [vite] Failed to reload /src/pages/BeritaPage.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-12 05:27:30.010Z console.error
+- text: [vite] SyntaxError: The requested module '/src/components/ShareDropdown.jsx' does not provide an export named 'default'
+
+## 2026-10-12 05:27:30.010Z console.error
+- text: [vite] Failed to reload /src/pages/AgendaDetail.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-12 05:27:30.010Z console.error
+- text: [vite] SyntaxError: The requested module '/src/components/ShareDropdown.jsx' does not provide an export named 'default'
+
+## 2026-10-12 05:27:30.010Z console.error
+- text: [vite] Failed to reload /src/pages/BeritaDetail.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+
+## 2026-10-12 05:27:59.750Z load
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:28:04.805Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:05.486Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:06.142Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:06.299Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:06.451Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:06.604Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:06.749Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:06.893Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:07.031Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:07.164Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:08.452Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:09.395Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"ARON RUDANG MAYANGKota BalikpapanBerandaTentang KamiPengurusProgramBeritaGaleriDonasiKeuanganBergabung Bersama KamiBerandaTentang KamiPengurusProgramBeritaGaleriDonasiKeuanganBergabung Bersama Kami Kembali ke Daftar BeritaSosial 1 Oktober 2025Kunjungan sakitBagikanAron rudang mayang baru melakukan kunjungan sakit untuk menjenguk teman kita Aron yang beberapa hari yang lalu telah menjalankan tindakan operasi. Kunjungan ini sebagai bentuk kami Aron selalu memberikan dukungan kepada teman kita yang sedang sakit."}
+
+## 2026-10-12 05:28:09.792Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita"}
+
+## 2026-10-12 05:28:09.793Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 05:28:14.219Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:15.653Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:16.324Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:17.403Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:18.188Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 05:28:18.190Z navigate
+- url: http://localhost:3000/berita/c516ba81-f7e6-433e-8b3b-229a1b00e9fc
+- via: pushState
+
+## 2026-10-12 05:28:21.839Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:22.452Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:23.126Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:23.346Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:28:23.898Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:28:52.886Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:28:53.070Z navigate
+- url: http://localhost:3000/
+- via: replaceState
+
+## 2026-10-12 05:29:02.927Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:29:04.695Z click
+- element: {"tag":"h1","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Warisan Karo, Semangat Modern, Satu Keluarga."}
+
+## 2026-10-12 05:29:04.881Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:29:11.328Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya "}
+
+## 2026-10-12 05:29:11.415Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 05:29:11.454Z navigate
+- url: http://localhost:3000/berita
+- via: replaceState
+
+## 2026-10-12 05:29:15.193Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:16.003Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:17.001Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:19.155Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:19.907Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:21.948Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:23.218Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:24.603Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:26.505Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:30.273Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:31.089Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 05:29:31.090Z navigate
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- via: pushState
+
+## 2026-10-12 05:29:34.087Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:34.953Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:35.934Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:36.574Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:37.321Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:38.026Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:38.245Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:41.391Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:45.025Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:29:48.721Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 05:29:50.038Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 05:36:56.460Z load
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:14:21.630Z load
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:15:42.581Z load
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:15:47.215Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:15:50.748Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:15:51.301Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:15:52.113Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:15:52.817Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:15:54.569Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:15:55.316Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita"}
+
+## 2026-10-12 07:15:55.318Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 07:15:59.631Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:01.768Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:02.618Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:05.522Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:06.437Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:09.035Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:09.993Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:15.542Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:16.551Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:23.100Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:23.955Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:25.536Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:26.453Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:27.451Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:27.802Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:27.976Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:28.191Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:29.267Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:30.002Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 07:16:30.005Z navigate
+- url: http://localhost:3000/berita/059498e0-3df6-4b0b-ad7f-06e57d13c972
+- via: pushState
+
+## 2026-10-12 07:16:33.018Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:37.383Z navigate
+- url: http://localhost:3000/berita
+- via: popstate
+
+## 2026-10-12 07:16:41.108Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:45.932Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:46.685Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:49.587Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:50.334Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:52.486Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:16:53.535Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:16:59.738Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:17:00.356Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:17:01.746Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:17:01.922Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:17:02.101Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:17:02.276Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:17:02.443Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:17:02.609Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:17:02.827Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:17:03.834Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 07:17:03.835Z navigate
+- url: http://localhost:3000/berita/c516ba81-f7e6-433e-8b3b-229a1b00e9fc
+- via: pushState
+
+## 2026-10-12 07:17:06.949Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:17:10.737Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:17:11.135Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:17:12.143Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:17:12.310Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:17:12.541Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:01.639Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:04.201Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:06.591Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Kembali ke Daftar Berita"}
+
+## 2026-10-12 07:26:06.592Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 07:26:09.198Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:10.059Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:10.621Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:11.206Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:14.009Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:14.844Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:15.976Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:18.503Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:19.137Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:21.822Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:22.656Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:24.251Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:25.537Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 07:26:25.538Z navigate
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- via: pushState
+
+## 2026-10-12 07:26:28.275Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:29.006Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:31.573Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" Kembali ke Daftar Berita"}
+
+## 2026-10-12 07:26:31.574Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 07:26:35.181Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:38.624Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:39.222Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:39.998Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:40.573Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:46.306Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:48.273Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:26:57.487Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:26:58.622Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:27:08.782Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":" WhatsApp"}
+
+## 2026-10-12 07:27:34.721Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:27:36.920Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:27:37.939Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:27:38.634Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:27:40.420Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:27:41.192Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:27:43.626Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:27:44.352Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:28:13.829Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:28:19.870Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:28:20.801Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:28:22.481Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:28:23.121Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:28:24.360Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:28:25.021Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:28:26.222Z click
+- element: {"tag":"button","role":null,"ariaLabel":null,"name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Baca Selengkapnya"}
+
+## 2026-10-12 07:28:26.223Z navigate
+- url: http://localhost:3000/berita/75b94dba-598c-422a-bafd-d4f2236538b6
+- via: pushState
+
+## 2026-10-12 07:28:28.937Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:28:29.690Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:28:50.652Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita"}
+
+## 2026-10-12 07:28:50.654Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 07:28:53.313Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:28:54.116Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:28:54.657Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:28:56.890Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:28:58.188Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:29:01.801Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:29:05.970Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:29:06.768Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:29:08.300Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:30:39.796Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:30:42.589Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:30:44.107Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:30:44.330Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:31:16.901Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:31:19.937Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:31:21.120Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:31:21.822Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:31:21.976Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:31:22.134Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:31:22.289Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:32:34.558Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:32:36.368Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:32:39.435Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:32:40.221Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:32:57.450Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:32:58.605Z load
+- url: http://localhost:3000/
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:33:04.874Z click
+- element: {"tag":"a","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Berita"}
+
+## 2026-10-12 07:33:04.876Z navigate
+- url: http://localhost:3000/berita
+- via: pushState
+
+## 2026-10-12 07:33:08.150Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:33:08.781Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:33:10.757Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:33:11.534Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:35:29.702Z load
+- url: http://localhost:3000/berita
+- title: Aron Rudang Mayang - Perkumpulan Orang, Pemuda, & Komunitas Karo di Balikpapan
+
+## 2026-10-12 07:35:33.872Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:35:34.843Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:35:35.639Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:35:38.897Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:35:39.630Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:35:40.148Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:35:40.308Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:35:40.472Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:35:40.623Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:35:40.853Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:35:44.962Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+
+## 2026-10-12 07:35:45.798Z click
+- element: {"tag":"button","role":null,"ariaLabel":"Bagikan","name":null,"type":"button","id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":"Bagikan"}
+
+## 2026-10-12 07:35:47.399Z click
+- element: {"tag":"div","role":null,"ariaLabel":null,"name":null,"type":null,"id":null,"placeholder":null,"label":null,"value":null,"valueLength":0,"text":""}
+

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { ArrowLeft, Calendar, Clock, MapPin, ExternalLink, Timer } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
@@ -15,7 +15,6 @@ function CountdownTimer({ targetDate }) {
         const interval = setInterval(() => {
             const now = new Date().getTime();
             const difference = target - now;
-
             if (difference <= 0) {
                 setIsExpired(true);
                 clearInterval(interval);
@@ -27,7 +26,6 @@ function CountdownTimer({ targetDate }) {
                 setTimeLeft({ days, hours, minutes, seconds });
             }
         }, 1000);
-
         return () => clearInterval(interval);
     }, [targetDate]);
 
@@ -45,15 +43,25 @@ function CountdownTimer({ targetDate }) {
 
 export default function AgendaDetail() {
     const { id } = useParams();
+    const navigate = useNavigate();
     const [agenda, setAgenda] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         if (id) {
-            supabase.from('agendas').select('*').eq('id', id).single().then(({ data }) => {
-                setAgenda(data);
-                setLoading(false);
-            });
+            supabase
+                .from('agendas')
+                .select('*')
+                .eq('id', id)
+                .single()
+                .then(({ data, error }) => {
+                    if (error) {
+                        console.error('Error fetching agenda:', error);
+                    } else {
+                        setAgenda(data);
+                    }
+                    setLoading(false);
+                });
         }
     }, [id]);
 
@@ -68,7 +76,15 @@ export default function AgendaDetail() {
     if (!agenda) {
         return (
             <div className="min-h-screen bg-karo-ivory flex items-center justify-center">
-                <p className="text-gray-500">Agenda tidak ditemukan.</p>
+                <div className="text-center">
+                    <p className="text-gray-500 mb-4">Agenda tidak ditemukan.</p>
+                    <button
+                        onClick={() => navigate('/berita')}
+                        className="text-karo-gold hover:underline"
+                    >
+                        Kembali ke Agenda
+                    </button>
+                </div>
             </div>
         );
     }
@@ -81,31 +97,52 @@ export default function AgendaDetail() {
             <Navbar />
 
             <main className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto">
-                <Link to="/berita" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-karo-gold mb-8 transition-colors">
+                <button
+                    onClick={() => navigate('/berita')}
+                    className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-karo-gold mb-8 transition-colors"
+                >
                     <ArrowLeft className="h-4 w-4" /> Kembali ke Daftar Agenda
-                </Link>
+                </button>
 
                 <div className="bg-white rounded-3xl shadow-xl border border-karo-gold/30 p-8 sm:p-12 space-y-6">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-karo-maroon/10 px-3 py-1 text-xs font-bold text-karo-maroon">
-                        <Calendar className="h-3.5 w-3.5" /> {agenda.date}
-                    </span>
 
-                    <h1 className="font-display text-3xl sm:text-4xl font-bold text-karo-charcoal">{agenda.title}</h1>
+                    {/* BAGIAN HEADER: Judul di Kiri, Share di Kanan */}
+                    <div className="flex items-start justify-between gap-4">
+                        <div className="flex-1">
+                            <span className="inline-flex items-center gap-1.5 rounded-full bg-karo-maroon/10 px-3 py-1 text-xs font-bold text-karo-maroon">
+                                <Calendar className="h-3.5 w-3.5" /> {agenda.date}
+                            </span>
+                            <h1 className="font-display text-3xl sm:text-4xl font-bold text-karo-charcoal mt-4">
+                                {agenda.title}
+                            </h1>
+                        </div>
 
-                    <ShareButtons title={agenda.title} url={`/agenda/${agenda.id}`} />
+                        {/* TOMBOL SHARE DI KANAN ATAS */}
+                        <div className="shrink-0">
+                            <ShareButtons title={agenda.title} url={`/agenda/${agenda.id}`} />
+                        </div>
+                    </div>
 
                     <div className="space-y-4 text-sm text-gray-700 border-t border-b border-gray-100 py-6">
                         {agenda.time && (
-                            <p className="flex items-center gap-3"><Clock className="h-5 w-5 text-amber-600" /> {agenda.time}</p>
+                            <p className="flex items-center gap-3">
+                                <Clock className="h-5 w-5 text-amber-600" /> {agenda.time}
+                            </p>
                         )}
                         {agenda.location && (
-                            <p className="flex items-center gap-3"><MapPin className="h-5 w-5 text-amber-600" /> {agenda.location}</p>
+                            <p className="flex items-center gap-3">
+                                <MapPin className="h-5 w-5 text-amber-600" /> {agenda.location}
+                            </p>
                         )}
-                        {agenda.target_datetime && <CountdownTimer targetDate={agenda.target_datetime} />}
+                        {agenda.target_datetime && (
+                            <CountdownTimer targetDate={agenda.target_datetime} />
+                        )}
                     </div>
 
                     {agenda.description && (
-                        <p className="text-gray-700 leading-relaxed whitespace-pre-line">{agenda.description}</p>
+                        <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+                            {agenda.description}
+                        </p>
                     )}
 
                     {agenda.location_url && (
