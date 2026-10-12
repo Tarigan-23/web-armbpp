@@ -89,12 +89,10 @@ export default function BeritaPage() {
                             <div className="mt-16 grid gap-8 lg:grid-cols-2">
                                 {featured && (
                                     <Reveal>
-                                        {/* PERHATIAN: overflow-hidden DIHAPUS dari sini agar dropdown tidak terpotong */}
                                         <article
                                             className="group relative h-full min-h-[420px] rounded-3xl shadow-xl shadow-karo-black/10 cursor-pointer"
                                             onClick={() => navigate(`/berita/${featured.id}`)}
                                         >
-                                            {/* Pembungkus gambar: overflow-hidden DAN rounded-3xl dipindah ke sini */}
                                             <div className="absolute inset-0 rounded-3xl overflow-hidden">
                                                 <img
                                                     src={featured.image_url}
@@ -113,7 +111,7 @@ export default function BeritaPage() {
                                                     {featured.title}
                                                 </h3>
                                                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-karo-ivory/75 line-clamp-3">{featured.excerpt}</p>
-                                                <div className="mt-6 flex items-center gap-4">
+                                                <div className="mt-6 flex items-center justify-between gap-4">
                                                     <button
                                                         type="button"
                                                         onClick={(e) => {
@@ -127,7 +125,7 @@ export default function BeritaPage() {
                                                         <ArrowRight className="h-4 w-4" />
                                                     </button>
                                                     <div onClick={(e) => e.stopPropagation()}>
-                                                        <ShareButtons title={featured.title} url={`/berita/${featured.id}`} />
+                                                        <ShareButtons title={featured.title} url={`${window.location.origin}/berita/${featured.id}`} />
                                                     </div>
                                                 </div>
                                             </div>
@@ -147,16 +145,21 @@ export default function BeritaPage() {
                                                     alt={item.title}
                                                     className="aspect-[3/2] w-full rounded-2xl object-cover sm:aspect-auto sm:h-auto sm:w-44 sm:shrink-0"
                                                 />
-                                                <div className="flex flex-col justify-center py-1">
-                                                    <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.2em]">
-                                                        <span className="text-karo-red">{item.category}</span>
-                                                        <span className="text-muted-foreground">{item.date}</span>
+                                                <div className="flex flex-col justify-center py-1 w-full">
+                                                    <div className="flex items-center justify-between gap-3 text-[11px] font-semibold uppercase tracking-[0.2em]">
+                                                        <div className="flex items-center gap-3">
+                                                            <span className="text-karo-red">{item.category}</span>
+                                                            <span className="text-muted-foreground">{item.date}</span>
+                                                        </div>
+                                                        <div onClick={(e) => e.stopPropagation()}>
+                                                            <ShareButtons title={item.title} url={`${window.location.origin}/berita/${item.id}`} />
+                                                        </div>
                                                     </div>
                                                     <h3 className="mt-3 font-display text-lg font-bold leading-snug text-karo-charcoal group-hover:text-karo-red">
                                                         {item.title}
                                                     </h3>
                                                     <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{item.excerpt}</p>
-                                                    <div className="mt-3 flex items-center gap-3">
+                                                    <div className="mt-3 flex items-center">
                                                         <button
                                                             type="button"
                                                             onClick={(e) => {
@@ -168,9 +171,6 @@ export default function BeritaPage() {
                                                             <BookOpen className="h-3.5 w-3.5" />
                                                             Baca Selengkapnya
                                                         </button>
-                                                        <div onClick={(e) => e.stopPropagation()}>
-                                                            <ShareButtons title={item.title} url={`/berita/${item.id}`} />
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </article>
@@ -200,10 +200,14 @@ export default function BeritaPage() {
                                                 onClick={() => navigate(`/agenda/${agenda.id}`)}
                                             >
                                                 <div className="space-y-4">
-                                                    <div className="flex justify-between items-center">
+                                                    {/* TOMBOL SHARE DIPINDAH KE ATAS (SEJAJAR DENGAN BADGE TANGGAL) */}
+                                                    <div className="flex justify-between items-center gap-2">
                                                         <span className="inline-flex items-center gap-1.5 rounded-full bg-karo-maroon/10 px-3 py-1 text-xs font-bold text-karo-maroon">
                                                             <Calendar className="h-3.5 w-3.5" /> {agenda.date}
                                                         </span>
+                                                        <div onClick={(e) => e.stopPropagation()}>
+                                                            <ShareButtons title={agenda.title} url={`${window.location.origin}/agenda/${agenda.id}`} />
+                                                        </div>
                                                     </div>
                                                     <h4 className="font-display text-lg font-bold text-karo-charcoal group-hover:text-karo-maroon transition-colors">
                                                         {agenda.title}
@@ -228,10 +232,6 @@ export default function BeritaPage() {
                                                             <ExternalLink className="h-3.5 w-3.5" /> Buka ShareLoc Google Maps
                                                         </a>
                                                     )}
-
-                                                    <div className="pt-2" onClick={(e) => e.stopPropagation()}>
-                                                        <ShareButtons title={agenda.title} url={`/agenda/${agenda.id}`} />
-                                                    </div>
                                                 </div>
                                             </div>
                                         </Reveal>

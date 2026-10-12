@@ -80,7 +80,7 @@ export default function AgendaDetail() {
                     <p className="text-gray-500 mb-4">Agenda tidak ditemukan.</p>
                     <button
                         onClick={() => navigate('/berita')}
-                        className="text-karo-gold hover:underline"
+                        className="text-karo-gold hover:underline font-medium"
                     >
                         Kembali ke Agenda
                     </button>
@@ -88,6 +88,9 @@ export default function AgendaDetail() {
             </div>
         );
     }
+
+    // Pastikan URL full untuk share (misal menggunakan window.location.origin)
+    const shareUrl = typeof window !== 'undefined' ? `${window.location.origin}/agenda/${agenda.id}` : `/agenda/${agenda.id}`;
 
     return (
         <div className="min-h-screen bg-karo-ivory font-sans text-foreground antialiased">
@@ -104,34 +107,35 @@ export default function AgendaDetail() {
                     <ArrowLeft className="h-4 w-4" /> Kembali ke Daftar Agenda
                 </button>
 
+                {/* Hapus overflow-hidden dari card utama agar dropdown ShareButtons tidak terpotong */}
                 <div className="bg-white rounded-3xl shadow-xl border border-karo-gold/30 p-8 sm:p-12 space-y-6">
 
-                    {/* BAGIAN HEADER: Judul di Kiri, Share di Kanan */}
-                    <div className="flex items-start justify-between gap-4">
-                        <div className="flex-1">
+                    {/* Header dengan Judul dan Share Button di Kanan (Flexbox Responsive) */}
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+                        <div className="flex-1 space-y-3">
                             <span className="inline-flex items-center gap-1.5 rounded-full bg-karo-maroon/10 px-3 py-1 text-xs font-bold text-karo-maroon">
                                 <Calendar className="h-3.5 w-3.5" /> {agenda.date}
                             </span>
-                            <h1 className="font-display text-3xl sm:text-4xl font-bold text-karo-charcoal mt-4">
+                            <h1 className="font-display text-3xl sm:text-4xl font-bold text-karo-charcoal leading-tight">
                                 {agenda.title}
                             </h1>
                         </div>
 
-                        {/* TOMBOL SHARE DI KANAN ATAS */}
-                        <div className="shrink-0">
-                            <ShareButtons title={agenda.title} url={`/agenda/${agenda.id}`} />
+                        {/* Tombol Share di Kanan Atas (Desktop) / Normal (Mobile) */}
+                        <div className="sm:shrink-0 flex justify-start sm:justify-end pt-1">
+                            <ShareButtons title={agenda.title} url={shareUrl} />
                         </div>
                     </div>
 
                     <div className="space-y-4 text-sm text-gray-700 border-t border-b border-gray-100 py-6">
                         {agenda.time && (
                             <p className="flex items-center gap-3">
-                                <Clock className="h-5 w-5 text-amber-600" /> {agenda.time}
+                                <Clock className="h-5 w-5 text-amber-600 shrink-0" /> {agenda.time}
                             </p>
                         )}
                         {agenda.location && (
                             <p className="flex items-center gap-3">
-                                <MapPin className="h-5 w-5 text-amber-600" /> {agenda.location}
+                                <MapPin className="h-5 w-5 text-amber-600 shrink-0" /> {agenda.location}
                             </p>
                         )}
                         {agenda.target_datetime && (
