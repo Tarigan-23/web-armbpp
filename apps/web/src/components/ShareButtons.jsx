@@ -38,7 +38,11 @@ export default function ShareButtons({ title, url }) {
     return (
         <div className="relative">
             <button
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setIsOpen(!isOpen);
+                }}
                 className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground hover:text-karo-gold transition-colors"
                 aria-label="Bagikan"
             >
@@ -48,8 +52,10 @@ export default function ShareButtons({ title, url }) {
 
             {isOpen && (
                 <>
-                    <div className="fixed inset-0 z-10" onClick={() => setIsOpen(false)} />
-                    <div className="absolute right-0 z-20 mt-2 w-48 rounded-xl border border-border bg-white p-2 shadow-xl">
+                    {/* Overlay dengan z-index tinggi */}
+                    <div className="fixed inset-0 z-50" onClick={() => setIsOpen(false)} />
+                    {/* Dropdown dengan z-index sangat tinggi */}
+                    <div className="absolute right-0 z-[60] mt-2 w-48 rounded-xl border border-border bg-white p-2 shadow-2xl">
                         <p className="px-2 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-gray-400">
                             Bagikan ke
                         </p>

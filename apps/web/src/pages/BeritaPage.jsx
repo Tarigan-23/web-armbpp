@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import { Calendar, MapPin, Clock, ExternalLink, Timer } from 'lucide-react';
+import { Calendar, MapPin, Clock, ExternalLink, Timer, ArrowRight, BookOpen } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import Reveal from '@/components/Reveal';
 import Navbar from '@/components/Navbar';
@@ -108,9 +108,20 @@ export default function BeritaPage() {
                                                 <h3 className="mt-4 font-display text-2xl font-bold leading-snug text-karo-ivory sm:text-3xl">
                                                     {featured.title}
                                                 </h3>
-                                                <p className="mt-3 max-w-xl text-sm leading-relaxed text-karo-ivory/75">{featured.excerpt}</p>
-                                                <div className="mt-4" onClick={(e) => e.preventDefault()}>
-                                                    <ShareButtons title={featured.title} url={`/berita/${featured.id}`} />
+                                                <p className="mt-3 max-w-xl text-sm leading-relaxed text-karo-ivory/75 line-clamp-3">{featured.excerpt}</p>
+                                                <div className="mt-6 flex items-center gap-4">
+                                                    <Link
+                                                        to={`/berita/${featured.id}`}
+                                                        className="inline-flex items-center gap-2 text-sm font-semibold text-karo-gold hover:text-karo-gold/80 transition-colors"
+                                                        onClick={(e) => e.stopPropagation()}
+                                                    >
+                                                        <BookOpen className="h-4 w-4" />
+                                                        Baca Selengkapnya
+                                                        <ArrowRight className="h-4 w-4" />
+                                                    </Link>
+                                                    <div onClick={(e) => e.stopPropagation()}>
+                                                        <ShareButtons title={featured.title} url={`/berita/${featured.id}`} />
+                                                    </div>
                                                 </div>
                                             </div>
                                         </article>
@@ -135,8 +146,19 @@ export default function BeritaPage() {
                                                     <h3 className="mt-3 font-display text-lg font-bold leading-snug text-karo-charcoal group-hover:text-karo-red">
                                                         {item.title}
                                                     </h3>
-                                                    <div className="mt-3" onClick={(e) => e.preventDefault()}>
-                                                        <ShareButtons title={item.title} url={`/berita/${item.id}`} />
+                                                    <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{item.excerpt}</p>
+                                                    <div className="mt-3 flex items-center gap-3">
+                                                        <Link
+                                                            to={`/berita/${item.id}`}
+                                                            className="inline-flex items-center gap-1.5 text-xs font-semibold text-karo-gold hover:text-karo-gold/80 transition-colors"
+                                                            onClick={(e) => e.stopPropagation()}
+                                                        >
+                                                            <BookOpen className="h-3.5 w-3.5" />
+                                                            Baca Selengkapnya
+                                                        </Link>
+                                                        <div onClick={(e) => e.stopPropagation()}>
+                                                            <ShareButtons title={item.title} url={`/berita/${item.id}`} />
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </article>
@@ -173,7 +195,7 @@ export default function BeritaPage() {
                                                     <h4 className="font-display text-lg font-bold text-karo-charcoal group-hover:text-karo-maroon transition-colors">
                                                         {agenda.title}
                                                     </h4>
-                                                    <p className="text-xs leading-relaxed text-muted-foreground">{agenda.description}</p>
+                                                    <p className="text-xs leading-relaxed text-muted-foreground line-clamp-3">{agenda.description}</p>
 
                                                     {agenda.target_datetime && <CountdownTimer targetDate={agenda.target_datetime} />}
                                                 </div>
